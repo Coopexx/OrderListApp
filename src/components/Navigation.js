@@ -1,11 +1,13 @@
-import { click } from '@testing-library/user-event/dist/click';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import styles from './Navigation.module.css';
 
 const Navigation = (props) => {
     const [textfield, setTextfield] = useState('');
     const [filter, setFilter] = useState('');
+    const [allItemsClicked, setAllItemsClicked] = useState(false);
+    const [toOrderClicked, setToOrderClicked] = useState(false);
+    const [orderedClicked, setOrderedClicked] = useState(false);
 
     const showTextfield = () => {
         if (textfield) {
@@ -24,22 +26,62 @@ const Navigation = (props) => {
         props.filterHandler(event.target.value);
     };
 
-    const changeModeHandler = () => {
-        props.toggleViewHandler();
+    const resetAll = () => {
+        setAllItemsClicked(false);
+        setToOrderClicked(false);
+        setOrderedClicked(false);
+    };
+
+    const changeModeHandler = (type) => {
+        if (type === 'allItems') {
+            resetAll();
+            props.modeHandler('allItems');
+            setAllItemsClicked(true);
+        }
+        if (type === 'toOrder') {
+            resetAll();
+            props.modeHandler('toOrder');
+            setToOrderClicked(true);
+        }
+        if (type === 'ordered') {
+            resetAll();
+            props.modeHandler('ordered');
+            setOrderedClicked(true);
+        }
         setFilter('');
         setTextfield('');
     };
+    useEffect(() => {
+        setAllItemsClicked(true);
+    }, []);
 
     return (
         <div className={styles.background}>
             <div className={styles.column}>
-                <label className={styles.switch}>
-                    <input type="checkbox" onClick={changeModeHandler} />
-                    <span className={`${styles.slider} + ${styles.round}`}>
-                        <span className={styles.orders}>Orders</span>
-                        <span className={styles.all}>All</span>
-                    </span>
-                </label>
+                <p
+                    onClick={() => {
+                        changeModeHandler('allItems');
+                    }}
+                    className={`${allItemsClicked ? styles.active : null}`}
+                >
+                    ALL ITEMS
+                </p>
+                <p
+                    onClick={() => {
+                        changeModeHandler('toOrder');
+                    }}
+                    className={`${toOrderClicked ? styles.active : null}`}
+                >
+                    TO ORDER
+                </p>
+                <p
+                    onClick={() => {
+                        changeModeHandler('ordered');
+                    }}
+                    className={`${orderedClicked ? styles.active : null}`}
+                >
+                    ORDERED
+                </p>
             </div>
             <div className={styles.filterDiv}>
                 {textfield && (

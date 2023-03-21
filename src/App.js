@@ -6,16 +6,18 @@ import Description from './components/Description';
 import styles from './App.module.css';
 
 function App() {
-    const [list, setList] = useState({});
-    const [filteredList, setFilteredList] = useState({});
+    const [allItems, setAllItems] = useState({}); //allItems
+    const [toOrder, setToOrder] = useState({}); //toOrder
+    const [ordered, setOrdered] = useState({});
     const [renderedList, setRenderedList] = useState({});
     const [listLoaded, setListLoaded] = useState(false);
-    const [mode, setMode] = useState(false); //true = Orders, false = All
-    const [showWindow, setShowWindow] = useState(true);
+    const [mode, setMode] = useState('');
 
     const url = 'http://127.0.0.1:3000/api/v1/items';
 
-    const removeEmptyAmounts = (data, type) => {
+    //historyFiltered
+
+    const renderToOrder = (data) => {
         let orders = data.filter((dataObj) => {
             if (dataObj.amount > 0) {
                 return true;
@@ -23,18 +25,19 @@ function App() {
                 return false;
             }
         });
-        let flaggedOrders = orders.map((order) => {
-            return { ...order, flag: true };
-        });
-        setFilteredList(flaggedOrders);
-        if (type === 'patch') {
-            setRenderedList(data);
-        } else if (type === 'delete') {
-            setRenderedList(flaggedOrders);
-        } else {
-            setRenderedList(flaggedOrders);
-        }
+        setToOrder(orders);
         setListLoaded(true);
+    };
+
+    const renderOrdered = (data) => {
+        const history = data.filter((dataObj) => {
+            if (dataObj.history.length > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        setOrdered(history);
     };
 
     function compare(a, b) {
@@ -47,13 +50,13 @@ function App() {
         return 0;
     }
 
-    const sortData = (dataObj) => {
+    const alphanumericSorting = (dataObj) => {
         dataObj.sort(compare);
         return dataObj;
     };
 
     //DATA IMPORT
-    async function fetchItemsHandler(type) {
+    async function fetchItemsHandler() {
         const response = await fetch(url);
         const rawData = await response.json();
         const data = rawData.map((dataObj) => {
@@ -65,150 +68,26 @@ function App() {
                 history: dataObj.history,
             };
         });
-        sortData(data);
-        setList(data);
-        removeEmptyAmounts(data, type);
+        alphanumericSorting(data);
+        setAllItems(data);
+        renderToOrder(data);
+        renderOrdered(data);
+        setRenderedList(data);
     }
 
-    //FILTER
-    const filterHandler = (searchString) => {
-        if (mode) {
-            let filtered = list.filter((data) => {
-                if (
-                    data.name
-                        .toLowerCase()
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
-                }
-                if (
-                    data.code
-                        .toLowerCase()
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-            setRenderedList(filtered);
-        } else {
-            let filtered = filteredList.filter((data) => {
-                if (
-                    data.name
-                        .toLowerCase()
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
-                }
-                if (
-                    data.code
-                        .toLowerCase()
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-            setRenderedList(filtered);
+    const modeHandler = (mode) => {
+        if (mode === 'allItems') {
+            console.log(allItems);
+            setRenderedList(allItems);
         }
-    };
-
-    //HANDLER
-    const toggleHistoryHandler = () => {
-        setShowWindow(!showWindow);
-    };
-
-    //SWITCH BUTTON VIEW
-    const toggleViewHandler = () => {
-        if (mode === true) {
-            setMode(false);
-            setRenderedList(filteredList);
-        } else {
-            setMode(true);
-            setRenderedList(list);
+        if (mode === 'toOrder') {
+            console.log(toOrder);
+            setRenderedList(toOrder);
         }
-    };
-
-    //SERVER REQUESTS
-    //UPDATE dbAmount + itemAmount
-    const addAmountHandler = async (dataObj) => {
-        try {
-            const response = await fetch(url, {
-                method: 'PATCH',
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(dataObj),
-            });
-            const content = await response.json();
-            //Include in notification upper right corner
-            // console.log(content);
-            fetchItemsHandler('patch');
-        } catch (err) {
-            console.log(err);
+        if (mode === 'ordered') {
+            console.log(ordered);
+            setRenderedList(ordered);
         }
-    };
-
-    const removeAmountHandler = async (dataObj) => {
-        try {
-            const response = await fetch(url, {
-                method: 'DELETE',
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(dataObj),
-            });
-            const content = await response.json();
-            //Include in notification upper right corner
-            // console.log(content);
-            fetchItemsHandler('delete');
-        } catch (err) {
-            console.log(err);
-        }
-    };
-
-    const Window = () => {
-        return (
-            <div className={styles.window}>
-                <Navigation
-                    filterHandler={filterHandler}
-                    toggleViewHandler={toggleViewHandler}
-                />
-                <Description />
-                <div className={styles.itemContainer}>
-                    {listLoaded &&
-                        renderedList.map((data, i) => (
-                            <Item
-                                data={renderedList[i]}
-                                key={data.id}
-                                add={addAmountHandler}
-                                remove={removeAmountHandler}
-                                flagged={data.flag}
-                                isWindow={true}
-                            />
-                        ))}
-                </div>
-            </div>
-        );
-    };
-
-    const History = () => {
-        return (
-            <div className={styles.historyDiv}>
-                {listLoaded &&
-                    renderedList.map((data, i) => (
-                        <Item
-                            data={renderedList[i]}
-                            key={data.id}
-                            isWindow={false}
-                        />
-                    ))}
-            </div>
-        );
     };
 
     useEffect(() => {
@@ -217,33 +96,22 @@ function App() {
 
     return (
         <div className={styles.background}>
-            {showWindow ? (
-                <div className={styles.window}>
-                    <Navigation
-                        filterHandler={filterHandler}
-                        toggleViewHandler={toggleViewHandler}
-                    />
-                    <Description />
-                    <div className={styles.itemContainer}>
-                        {listLoaded &&
-                            renderedList.map((data, i) => (
-                                <Item
-                                    data={renderedList[i]}
-                                    key={data.id}
-                                    add={addAmountHandler}
-                                    remove={removeAmountHandler}
-                                    flagged={data.flag}
-                                    isWindow={true}
-                                />
-                            ))}
-                    </div>
+            <div className={styles.window}>
+                <Navigation modeHandler={modeHandler} />
+                <Description />
+                <div className={styles.itemContainer}>
+                    {listLoaded &&
+                        renderedList.map((data, i) => (
+                            <Item
+                                data={renderedList[i]}
+                                key={data.id}
+
+                                // add={addAmountHandler}
+                                // remove={removeAmountHandler}
+                            />
+                        ))}
                 </div>
-            ) : (
-                <History />
-            )}
-            <button className={styles.history} onClick={toggleHistoryHandler}>
-                History
-            </button>
+            </div>
         </div>
     );
 }

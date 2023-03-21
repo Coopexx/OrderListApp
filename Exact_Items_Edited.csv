@@ -1,924 +1,924 @@
-code;name;amount;history
-CH044-01;"Mitomycin C; 5mg";0;0
-CH044-02;"Mitomycin C; 500 µg; Serva";0;0
-CH045-00;2-Mercaptobenzothiazole 97%;0;0
-CH078-00;"Cinnamyl alcohol; Sigma #108197-5G";0;0
-CH079-00;"Calcium chloride; Sigma #C5670-100G";0;0
-CH103-00;Methanol;0;0
-CH103-01;Schwefelsäure;0;0
-CH136-00;Glycerol;0;0
-CH136-01;D-(+)-Glucose;0;0
-CH136-02;Sucrose;0;0
-CH137-00;SDS Solution (20%);0;0
-KR001-01;Ethanol 96% / vergällt (5 L);0;0
-KR002-00;Mikrobac Forte;0;0
-KR002-01;Wasserbad-Schutzmittel RDS® Wasserbadstabil, 100ml;0;0
-KR003-01;Ribonuclease A (25 mg);0;0
-KR004-01;BCA-Assay (1 L);0;0
-KR005-02;Nano-Glo® Luciferase Assay System (10x10ml);0;0
-KR005-03;Nano-Glo Dual-Luciferase Assay (10 ml);0;0
-KR005-04;ONE-Glo Luciferase Assay (10 ml);0;0
-KR005-05;ONE-Glo Luciferase Assay (100 ml);0;0
-KR005-06;Steady-Glo Luciferase Assay (100ml);0;0
-KR005-08;ONE-Glo™ EX Luciferase Assay (100 ml);0;0
-KR005-09;Caspase-Glo® 9 Assay Systems (2,5ml);0;0
-KR005-10;Caspase-Glo® 9 Assay Systems (10ml);0;0
-KR005-11;Glucose Uptake-Glo Assay (10 ml);0;0
-KR006-00;Fluoroshield with DAPI (20 ml);0;0
-KR006-01;Leukotriene C4 / LTC4 (25 µg);0;0
-KR006-02;Quest Fluo-8(TM), AM;0;0
-KR007-01;peqGREEN, DNA-/RNA Farbstoff;0;0
-KR007-02;GELGREEN NUCLEIC ACID GEL STAIN IN WATER 0,5 ml;0;0
-KR009-01;Stain Buffer / FBS (500 ml);0;0
-KR009-02;Iso Flow, Mantelstromflüssigkeit;0;0
-KR009-03;CLENZ - Cleaning Agent (5 L);0;0
-KR012-01;NucleoSpin Tissue, Mini kit for DNA from cells and tissue;0;0
-KR012-02;QIAamp DNA Mini Kit (250 rxn);0;0
-KR012-03;BeadReady™ Kit;0;0
-KR013-01;100 bp DNA Ladder;0;0
-KR013-02;BenchTop 100bp DNA Ladder 300μl;0;0
-KR014-02;LYSO-ID Red detection kit (500 rxn);0;0
-KR016-01;SYTOX Green Nucleic Acid Stain;0;0
-KR016-02;Calcein AM, 1 mg;0;0
-KR016-03;Calcein AM, ≥96% (HPLC),  5 mg, Sigma #17783-5MG;0;0
-KR016-04;Calcein AM, ≥96% (HPLC), 20x 50μg, Sigma #56496;0;0
-KR016-05;Calcein, AM 10mg;0;0
-KR017-01;D(+)-Galactose (500 g);0;0
-KR017-02;D(+)-Glucose solution (100 ml);0;0
-KR021-00;QUANTI-Blue;0;0
-KR025-00;Hydrogen peroxide (500 ml);0;0
-KR029-00;DL-Propranolol-hydrochlorid (5 g);0;0
-KR029-01;N,N-Dimethylformamide - DMF (100 mg);0;0
-KR030-00;Enalaprilat, Sigma #43301-25MG;0;0
-KR031-00;(+/-)-VERAPAMIL HYDROCHLORIDE, =99%, Sigma# V4629-1G;0;0
-KR032-00;ANTIPYRINE CRYSTALLINE, Sigma #A5882-25G;0;0
-KR033-00;(±)-Talinolol, 1 mg;0;0
-KR037-01;VenorGeM OneStep (250 rxn);0;0
-KR038-00;MB Taq Polymerase - 5U/µl (100 Units);0;0
-KR041-00;Ionomycin, Sigma# I0634-1MG;0;0
-KR041-01;myo-Inositol;0;0
-KR041-02;Folic acid;0;0
-KR042-00;Collagen Type I;0;0
-KR042-01;Poly-L-Lysine - 10 mg/ml;0;0
-KR042-02;Poly-D-Lysine - 0.1 mg/ml;0;0
-KR043-00;Z-VAD-FMK1 mg;0;0
-KR044-00;Y-27632 . dihydrochloride 5 mg;0;0
-KR044-01;Y-27632 . dihydrochloride 1 mg;0;0
-KR044-02;Y-27632 . dihydrochloride 5 mg;0;0
-KR045-01;DL-α-Tocopherol (high purity) 1 g;0;0
-KR045-02;"α-Tocopherol; Sigma # 258024-5G";0;0
-KR046-00;Phorbol 12-myristate 13-acetate, Sigma #P8139-1MG;0;0
-KR047-01;Lipofectamine™ 2000 Transfection Reagent (1,5 mL);0;0
-KR047-02;Lipofectamine™ 2000 Transfection Reagent (15,0 mL);0;0
-KR047-03;FectoPRO™ (1 mL);0;0
-KR047-04;FectoPRO™ (10 mL);0;0
-KR047-05;Polyethylenimine L-PEI 100mg;0;0
-KR047-06;Lipofectamine™ 3000 Transfektionsreagenz 1.5 mL;0;0
-KR051-00;Insulin - human (10 mg/ml);0;0
-KR051-01;Insulin - bovine (10 mg/ml);0;0
-KR051-02;Transferrin, holo - human (50 mg);0;0
-KR051-05;Transferrin, apo - human (100 mg);0;0
-KR051-07;Fetuin - bovine (250 mg);0;0
-KR051-08;L-Asparagin;0;0
-KR051-09;L-Arginin;0;0
-KR051-10;Cisplatin (25mg);0;0
-KR051-11;Ascorbic Acid;0;0
-KR051-12;Heparin Sodium Salt;0;0
-KR051-13;Uridin;0;0
-KR051-14;D-Mannitol;0;0
-KR051-15;Colchicine (100 mg);0;0
-KR051-16;Fibronectin-Humanplasma;0;0
-KR053-00;"p-Phenylenediamine 50G; Sigma #P6001-50G";0;0
-KR054-00;"1-Chloro-2,4-dinitrobenzene 10G; Sigma# 237329-10G";0;0
-KR055-00;Isopropanol  (2,5 L);0;0
-KR058-00;"1α,25-Dihydroxyvitamin D3; Sigma# D1530-10UG";0;0
-KR062-01;IL-2 - human (1E6 IU);0;0
-KR062-02;IL-2 - human (1 mg);0;0
-KR062-03;IL-5 - human (10 µg);0;0
-KR062-04;IL-5 human (100 µg);0;0
-KR062-05;IL-10 - human (10 µg);0;0
-KR062-06;IL-36β - human (10 µg);0;0
-KR062-07;GM-CSF - human (20 µg);0;0
-KR062-08;TNF-α, recombinant human (10 µg);0;0
-KR062-09;TNF-α, recombinant human (50 µg);0;0
-KR062-10;IL-3 - murine (250 µg);0;0
-KR062-11;EPO - human (10 µg);0;0
-KR062-12;IL-3 - murine (500 µg);0;0
-KR062-13;M-CSF - human (10 µg);0;0
-KR062-14;IL-3 - murine (10 µg);0;0
-KR062-15;M-CSF - human (25 µg);0;0
-KR062-16;IL-3 - murine (50 µg);0;0
-KR062-17;TNF-α, recombinant human (5 µg);0;0
-KR062-18;Human GM-CSF Recombinant Protein 10 µg;0;0
-KR062-19;Human IL-2 IS premium grade 1000 µg;0;0
-KR062-20;Human IL-2 IS premium grade 200 µg;0;0
-KR062-21;Erythropoietin, recombinant, for Bioassay;0;0
-KR062-22;Human EPO (Erythropoietin) Recombinant Protein 10µg;0;0
-KR062-23;Human Recombinant EPO 10 µg;0;0
-KR062-24;TNF-α, recombinant human (20 µg);0;0
-KR062-25;Human IL-2 IS premium grade 10 µg;0;0
-KR062-26;WST-1 Zellproliferations-Kit (ready-to-use) 1 X 25 ml;0;0
-KR062-27;IFN-β, recombinant human (20 µg);0;0
-KR062-28;Recombinant Human TPO;0;0
-KR062-29;Recombinant Murine IL-2 5µg;0;0
-KR062-30;Recombinant Murine IL-15 10µg;0;0
-KR062-31;Recombinant Murine IL-10 10µg;0;0
-KR062-32;"Recombinant Human 4-1BB; #2295-4L-025 25 ug";0;0
-KR062-33;Recombinant Human IFN-γ 20µg - 300-02;0;0
-KR063-07;IL-13 (human);0;0
-KR063-08;IL-4 (human);0;0
-KR063-09;IL-23 (human), 2 µg;0;0
-KR063-10;IL-6 (human);0;0
-KR063-11;Recombinant Human IL-12 p70 (CHO derived) 2µg;0;0
-KR063-12;IL-23 (human), 10 µg;0;0
-KR064-00;Lactic acid (1 kg);0;0
-KR065-00;LPS (1 mg);0;0
-KR065-01;HKSA;0;0
-KR065-05;TAE-Buffer (50x);0;0
-KR066-00;EGF (human);0;0
-KR066-01;Calciumacetat Hydrat;0;0
-KR066-02;GLP-1, recombinant human, 10µg;0;0
-KR068-00;Prostaglandin E1;0;0
-KR068-02;human IL-6 ELISA Kit (10x 96-assay);0;0
-KR068-05;Human CYP2A6 (Cytochrome P450 2A6) ELISA Kit;0;0
-KR068-06;Human TNF alpha Uncoated ELISA (10x 96-assay);0;0
-KR068-07;Human TNF alpha Uncoated ELISA (20x 96-assay);0;0
-KR068-08;human IL-6 ELISA Kit (20x 96-assay);0;0
-KR068-09;IL-8 Human Uncoated ELISA Kit;0;0
-KR068-10;Human TNF-alpha ELISA Kit (Colorimetric);0;0
-KR068-11;CellEvent™ Senescence Green Flow Cytometry Assay Kit;0;0
-KR068-12;Human Leptin ELISA Kit;0;0
-KR068-13;Human Adiponectin ELISA Kit;0;0
-KR073-01;Flow Check Kit - Fluorospheres (3x 10 ml);0;0
-KR074-01;XTT sodium salt;0;0
-KR078-00;Picrylsulfonic acid solution (1 ml);0;0
-KR080-00;Sertraline hydrochloride (10 mg);0;0
-KR081-00;Cyclosporin A  (25 mg);0;0
-KR081-01;"Dispase II; Sigma# D4693-1G";0;0
-KR081-06;"Dispase II; Sigma# 04942078001";0;0
-KR082-01;G-CSF (2nd Int. WHO Standard);0;0
-KR082-02;Recombinant Human G-CSF;0;0
-KR082-09;Ro106-9920 (1 mg);0;0
-KR082-10;SEAP Assay - chemiluminescent;0;0
-KR082-11;TCDD  in Nanone (0,2 ml);0;0
-KR082-12;TCDD in DMSO (0.2 ml);0;0
-KR083-00;FcR Blocking Reagent (2 ml);0;0
-KR083-01;cOmplete™ Proteasehemmer-Cocktail;0;0
-KR083-02;Pan T Cell Isolation Kit, human;0;0
-KR083-03;LS Separation columns;0;0
-KR084-00;Nocodazole (2 mg);0;0
-KR085-00;Resazurin sodium salt;0;0
-KR085-01;Propidium Iodide (10 mg);0;0
-KR085-02;Resorufin ethyl ether (1 mg);0;0
-KR085-03;Dicoumarol (5 mg);0;0
-KR085-04;Resorcinol;0;0
-KR085-05;4-Allylanisol;0;0
-KR085-06;Calciumchlorid Dihydrat;0;0
-KR085-07;Magnesium Chloride hexa-hydrate;0;0
-KR085-08;Oil Red O solution;0;0
-KR085-09;Sodium selenite;0;0
-KR085-10;1-Chlor-2,4-dinitro-benzol;0;0
-KR085-11;Methyldibromglutaronitril;0;0
-KR085-12;(R)-(+)-Limonen;0;0
-KR085-13;Digitonin;0;0
-KR085-14;Coelenterazines-h;0;0
-KR085-15;Adenosin-5′-triphosphat Dinatriumsalz -Lösung ATP;0;0
-KR085-16;Orexin A human, rat, mouse;0;0
-KR085-17;Orexin B human;0;0
-KR085-18;Nile Red;0;0
-KR085-19;Adenosin-5′-triphosphat Dinatriumsalz Hydrat (ATP);0;0
-KR085-20;Resazurin sodium salt (10g);0;0
-KR085-21;"D-(+)-Trehalose Dihydrat 10 G; Sigma T0167-10G";0;0
-KR085-22;Adenosin-5′-triphosphat Magnesiumsalz (Mg-ATP);0;0
-KR085-23;Caesiumhydroxid solution;0;0
-KR085-24;"D-(+)-Trehalose Dihydrat 25 G; Sigma T0167-25G";0;0
-KR086-00;Lactic Acid solution (100 mg);0;0
-KR088-00;"Mo IgG1/FITC, Isotype Reag; Agilent# X092701-2";0;0
-KR090-00;Endotoxin-Referenz-Standard (USP);0;0
-KR090-01;Endotoxin-Referenz-Standard;0;0
-KR090-02;Etanercept;0;0
-KR090-03;Polyvinylpyrrolidon;0;0
-KR090-04;Ectoine;0;0
-KR091-00;Methylenblau;0;0
-KR096-00;Staurosporine;0;0
-KR096-01;Relaxin-1 - human (25 µg);0;0
-KR103-00;S9 from liver;0;0
-KR104-00;Cytochalasin B;0;0
-KR105-00;DAPI (1 mg);0;0
-KR110-00;(S)-(+)-Mandelic acid (25 g);0;0
-KR111-01;Trypan Blue solution (100 ml);0;0
-KR114-00;Cyclophosphamide monohydrate (1 g);0;0
-KR115-01;Sphingosine 1-phosphate (1 mg);0;0
-KR115-02;Nickelsulfat (100 g);0;0
-KR115-03;Dexamethason (25 mg);0;0
-KR115-04;IBMX (100 mg);0;0
-KR115-05;Rosiglitazone;0;0
-KR115-06;Cholesterin (1 g);0;0
-KR115-07;L-α-Phosphatidylcholin (25 g);0;0
-KR115-08;Actinomycin D;0;0
-KR115-09;Flagellin from Salmonella typhimurium;0;0
-KR115-10;Maleinsäure-diethylester (100 g);0;0
-KR115-11;Infliximab CRS;0;0
-KR115-12;IBMX (250 mg);0;0
-KR115-13;Aphidicolin (1 mg);0;0
-KR115-14;"Aphidicolin - CAS 38966-21-1 - Calbiochem; 178273-1MG";0;0
-KR115-15;Sphingosine 1-phosphate ready made solution;0;0
-KR118-01;"SepsiTest-UMD CE IVD; 1x48 React. Molzym #U-010-048";0;0
-KR118-02;"SepsiTest-UMD CE IVD; 1x24 React. Molzym #U-010-024";0;0
-KR122-02;AppliChem  Agarose Basic, 250 g;0;0
-KR122-03;Tryptic Soy Broth (500 g);0;0
-KR122-04;Thioglycollate medium (500 g);0;0
-KR122-05;Albumin human (100 mg);0;0
-KR122-06;Bovine Serum Albumin (50 g);0;0
-KR122-07;BSA Fraction V (30%-solution);0;0
-KR122-08;LB-Agar (Luria/Miller), granuliert;0;0
-KR122-09;Albumin, Rind, Fraktion V, Protease-freilyophil. 5 g;0;0
-KR122-10;Albumin, Rind, Fraktion V, Protease-frei, niedriger IgG 100g;0;0
-KR122-11;Human Serum Albumin (20%ig, 100 ml);0;0
-KR122-12;Abklatschplatten;0;0
-KR122-13;Sedimentations- und Wasserprobenplatten;0;0
-KR127-01;Poly(dA:dT)/LyoVec (100 µg);0;0
-KR127-02;Pam3CSK4 (1 mg);0;0
-KR128-00;LTA - Lipoteichonsäure (5 mg);0;0
-KR130-00;cAMP-Gi kit (1000 assay);0;0
-KR130-01;cAMP-Gs kit (1000 assays);0;0
-KR130-02;IP-One Gq kit (1000 assays);0;0
-KR131-00;Multiplex PCR 5X Master Mix;0;0
-KR133-01;"Bio-Glo™ Luciferase Assay System 10ml; G7941";0;0
-KR135-00;GSH/GSSG-Glo Assay (10 ml);0;0
-KR137-00;Triton X-100 (250 ml);0;0
-KR137-01;ROTI Star Buffer - pH 7 (500 ml);0;0
-KR137-02;ROTI Star Buffer - pH 4 (500 ml);0;0
-KR137-03;ROTI Star Buffer - pH 10 (500 ml);0;0
-KR137-04;Tween20;0;0
-KR139-00;Dimethylformamid (100 ml);0;0
-KR140-00;Somastatin 1mg;0;0
-KR140-01;CellTiter-Blue Cell Viability Assay (20 ml);0;0
-KR140-02;CellTiter-Glo® 3D Cell Viability Assay (10ml);0;0
-KR140-03;CellTiter-Glo® Luminescent Cell Viability Assay 10ml;0;0
-KR140-04;CellTiter-Glo® 2.0 Cell Viability Assay;0;0
-KR140-05;"alamarBlue™ Cell Viability Reagent 25 mL; # DAL1025";0;0
-KR140-06;"PrestoBlue™ Cell Viability Reagent; 25 mL; # A13261";0;0
-KR140-07;CellTiter-Glo® 3D Cell Viability Assay 100ml;0;0
-KR141-00;HIV-1 p24 ELISA Kit, 96 wells;0;0
-KR142-00;Biotin;0;0
-KR143-00;D-Pantothensäure Hemicalciumsalz;0;0
-KR144-01;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs00605917_m1;0;0
-KR144-02;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs01005622_m1;0;0
-KR144-03;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs01115513_m1;0;0
-KR144-04;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs01115513_m1;0;0
-KR144-05;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs00171584_m1;0;0
-KR145-00;3-Isobutyl-1-methylxanthin, Sigma I5879-100MG;0;0
-KR146-01;The Guava® easyCheck™ Kit – 100 Tests;0;0
-KR146-02;The Guava® Instrument Cleaning Fluid (ICF) – 100 mL;0;0
-KR146-03;Guava Cell Cycle Reagent (100 Tests);0;0
-KR147-00;Granulozyten-Makrophagen-Kolonie-stimulierender Faktor human;0;0
-KR148-00;Granulocyte Macrophage Colony Stimulating Factor;0;0
-KR149-00;Natriumhypochlorit-Lösung;0;0
-KR150-00;BIOFLOAT™ FLEX Beschichtungslösung 60mL;0;0
-KR151-00;Doxorubicin (hydrochloride) 50 mg;0;0
-KR152-00;Natriumbutyrat;0;0
-KR153-00;Harnsäure - Uric acid;0;0
-KR154-01;Nω-Methyl-L-arginin -acetat (Salz) 5MG;0;0
-KR154-02;Nω-Methyl-L-arginin -acetat (Salz) 25 MG;0;0
-KR155-00;Humanes gastroinhibitorisches Peptid;0;0
-KR156-00;β-Estradiol 100 mg;0;0
-KR157-00;"Sericin Bombyx mori (silkworm); Sigma #S5201-5G";0;0
-KR158-01;Nitric Oxide Assay Kit (Flow Cytometry - Red) (ab219934);0;0
-KR158-02;Cell Meter(TM) Fluorimetric Intracellular Nitric oxide (NO);0;0
-KR159-01;Glucagon-Like Peptide I Amide Fragment 7-36 human;0;0
-KR159-02;Glucagon 1 MG;0;0
-KR160-00;Phenylmethansulfonylfluorid;0;0
-KR161-00;RIPA-Puffer;0;0
-KR162-00;OxiSelect™ Intracellular Nitric Oxide (NO) Assay Kit;0;0
-LA002-00;"MCL Probenkopf; Teilenummer# 6807297";0;0
-LA003-00;"Sheath Filter; Artikel #6912942";0;0
-LA004-00;IX-HOS HALTER F.OBJEKTTRAEGER;0;0
-LA005-00;Olympus PLCN100XO-1-7 Objektiv mit 100-facher Vergrößerung;0;0
-LA006-00;"CryoMed Sensor; Thermo #4000385";0;0
-LA007-00;neo-Lab-Magnetrührer ohne Heizung, 3 l Rührvolumen;0;0
-LA007-01;Magnetrührstäbchen, hantelförmig, 35 mm;0;0
-LA007-02;Magnetrührstäbchen, zylindrisch, mit Mittelring, 40 mm;0;0
-LA007-03;Magnetrührstäbchen, zylindrisch, mit Mittelring, 35 mm;0;0
-LA007-04;Magnetrührstäbchen, zylindrisch, 25 mm;0;0
-LA008-00;Horizontale Elektrophoresesysteme, shiroGEL, Midi Plus;0;0
-LA008-01;UV-transparentes Geltablett für shiroGEL Mini 10;0;0
-LA008-02;Kamm für shiroGEL 15cm-Tray, 35 Taschen, 1.5mm Stärke;0;0
-LA009-00;Regaloptionen & Zubehör für Klimakammern und Inkubatoren;0;0
-LA010-00;Dremel 4250 Rotationswerkzeug 175 W;0;0
-LG01-01;Mikrobiologische Sicherheitswerkbank, Klasse II, MSC-Advanta;0;0
-LG01-02;Untergestell mit fester Höhe, 750 mm Arbeitshöhe, für 1,8-m;0;0
-LG01-04;Heralus Comms;0;0
-LG02-00;"Sunlab® Minizentrifuge SU1550, mit fixer; neoLab #D-8550";0;0
-LG03-00;"neoLab Vortex Schüttler; neoLab #7-2020";0;0
-LG04-00;"Orange Scientific elektrische Pipettierhilfe; geneo#8181-500";0;0
-LG05-00;Rollei Powerflex 350 WiFi - Kamera;0;0
-LG06-00;InLine 48009 Tisch-Stativ;0;0
-LG07-00;Cellometer Auto 2000 Automatic Cell Viability Counter system;0;0
-LG08-00;Bandelin Sonorex RK 100 H;0;0
-LG09-01;Hilfsmikroskop Carl Zeiss;0;0
-LG09-02;Drehknopf m. Strich sw/ws 23x4mm Carl Zeiss;0;0
-LG09-03;Deckel ABS/sw m. Strich für Knopf 23mm Carl Zeiss;0;0
-LG09-04;Stand25 Poti47k, kopl. Carl Zeiss;0;0
-LG09-05;"Bresser MikroCamII 9MP 4K 1""";0;0
-LG09-06;Bresser Reduzierlinse 1x variabel;0;0
-LG10-00;EL-USB-TC-Temperaturlogger;0;0
-LG10-01;IKT 20/040 Mantel-Thermoelement mit Miniaturstecker;0;0
-LG10-02;Temperatur-Logger Libero CE;0;0
-LG10-04;Temperatur-Logger Libero CD Single Use;0;0
-LG10-22;Temperatur-Fühler für Libero CE;0;0
-LG10-33;Temperatur-Fühler für Libero CE Dry Ice;0;0
-LG11-00;Kompakt Waagen EMB-Serie, 0,1 g, 3000 g, EMB 3000-1;0;0
-LG11-01;Zubehör Netzgerät für Kompakt Waagen EMB-Serie;0;0
-LG12-00;Instrument Trial Fee;0;0
-LM001-00;Farbband für Etikettendrucker Resin SP 110 x 300 OUT;0;0
-LM001-01;Farbband für CAB Etikettendrucker, R71, 38mm x 360m;0;0
-LM002-00;Laboretiketten (klein) Folienetikett e-3032, 30 x 15 mm;0;0
-LM002-01;Laboretiketten (mittel) Folienetikett e-3032, 70 x 33 mm;0;0
-LM002-03;"Laboretiketten ""acCELLerate"" für CAB-Druckautomat, 20.000";0;0
-LM002-04;Etiketten 20X68 E-2298 1R 76/2000 OUT acCELLerate Logo;0;0
-LM003-01;Dismozon Plus (50 Beutel) 16g Beutel;0;0
-LM003-02;Dismozon Plus (100 Beutel) 16g Beutel;0;0
-LM005-00;"Einmalhandschuh Nitril (M) ; Box/100St.";0;0
-LM005-01;"Einmalhandschuh Nitril (S) ; Box/100St.";0;0
-LM005-02;"Einmalhandschuh Nitril (L) ; Box/100St.";0;0
-LM005-03;"Einmalhandschuh Nitril (XS) ; Box/100St.";0;0
-LM005-04;Latex Gloves, M, Powder free;0;0
-LM005-06;Einmalhandschuhe Semperguard® Nitrile Xenon, Gr. M;0;0
-LM005-07;"Einmalhandschuh RotiProtect Nitril evo (M) ; Box/100St.";0;0
-LM005-08;"Einmalhandschuh RotiProtect Nitril eco (M) ; Box/100St.";0;0
-LM005-09;Armstulpen, PP/PE, weiß, 400mm;0;0
-LM005-10;Laboratory coats, PP, XL, weiß;0;0
-LM005-11;Cryo-Gloves®, MAXL (XL, blau, 345-390cm);0;0
-LM005-12;Armstulpen, PP/PE, weiß, 500mm;0;0
-LM005-13;Einmalhandschuhe SHOWA 7540, Größe: L;0;0
-LM005-14;Cryo-Gloves®, Gr. M, blau, ~350 mm;0;0
-LM005-15;Laboratory coats, PP, XL, grün;0;0
-LM005-16;"Einmalhandschuh Nitril (L), hellblau ; Box/100St.";0;0
-LM005-17;Cryo-Gloves Unterarmlang MAXLWP wasserdicht;0;0
-LM006-00;Einweg-Spritzen, steril, 3 ml (100 Stk./Pack.);0;0
-LM006-01;Einweg-Spritzen, steril, 20 ml (50 Stk./Pack.);0;0
-LM006-02;Einweg-Injektionskanülen FINE-JECT, hellgrau;0;0
-LM006-03;Einweg-SterilFILTER Filtropur S (0.2 µm);0;0
-LM006-04;Einweg Injektionskanülen 40x0,9mm, gelb;0;0
-LM006-05;Einweg Injektionskanülen 40x0,8mm, grün;0;0
-LM006-06;Einweg-Spritzen, steril, 5 ml (100 Stk./Pack.);0;0
-LM007-01;0,2ml-PCR-Multiply-µStripPro 8er Kette;0;0
-LM007-02;Thermowell™ GOLD 0.2 mL PCR Tubes;0;0
-LM007-03;PCR Tubes, 0.2 ml;0;0
-LM008-01;Eppis (1,5 ml), amber;0;0
-LM009-00;Handcreme Stokolan Classic 100ml;0;0
-LM010-00;KimWipe (100 Tücher/Box);0;0
-LM010-01;Spezial-Wischtuch, weiß, 40x38 cm;0;0
-LM010-02;WYPALL L10 Extra Paper Wipe, Rolle 380 mm breit;0;0
-LM010-03;WYPALL L20 Paper Wipe, Rolle 380 mm breit;0;0
-LM010-04;WYPALL L10 EXTRA+ Paper Wipe, Rolle 325 mm breit;0;0
-LM010-05;Versi-Dry™ Oberflächenschutz;0;0
-LM011-00;Lab-Marker, VE=10 Labormarker schwarz;0;0
-LM011-01;Lab-Marker, VE=10 Labormarker blau;0;0
-LM011-02;Labormarker Securline Set;0;0
-LM013-02;Pipettenspitze in TipStacks, 2 - 200 µl, StackPack;0;0
-LM013-06;Biosphere FILTER-Tips, 2 - 200 µl;0;0
-LM013-08;Biosphere FILTER-Tips, 50 - 1.250 µl, lang;0;0
-LM013-09;Rainin Pipettenspitzen, Tips RT-LTS-A-300µl-/L/S-768/8;0;0
-LM013-10;Rainin Pipettenspitzen, Tips RT-LTS-A-300µl-/F/L-768/8;0;0
-LM013-11;Rainin Pipettenspitzen, Tips RT-LTS-A-1200µl-/L/S-768/8;0;0
-LM013-12;Rainin Pipettenspitzen, Tips RT-LTS-A-1200µl-/F/L-768/8;0;0
-LM013-13;Rainin Pipettenspitzen, Tips GPS-LTS-A-250µl-/L/S-960/10;0;0
-LM013-14;Rainin Pipettenspitzen, LTS-Tips GPS-L1000SLR-768/8;0;0
-LM013-15;Rainin Pipettenspitzen HRC UNV 1000μL F 768C/8 (Filter Tips);0;0
-LM013-16;Rainin Pipettenspitzen GPS UNV 250μL 960A/10, SpaceSaver;0;0
-LM013-17;Rainin Pipettenspitzen, Tips GPS-LTS-300µl-S-768/8;0;0
-LM013-18;Biosphere FILTER-Tips, 10 - 100 µl;0;0
-LM013-19;Rainin Pipettenspitzen RT UNV 250μL 960A/10;0;0
-LM013-21;Biosphere LowRet. FILTER-Tips, 30-300 µl;0;0
-LM013-22;Biosphere LowRet. FILTER-Tips, 30-300 µl - SingleREFILL;0;0
-LM013-23;Biosphere LowRet. FILTER-Tips, 10 - 100 µl;0;0
-LM013-24;Biosphere plus Filter-Tips, 30-300 µl;0;0
-LM013-25;PCR Preformance Tips, 50 - 1.250 µl, StackPack;0;0
-LM013-26;Biosphere LowRet. FILTER-Tips, 10 - 100 µl - SingleREFILL;0;0
-LM013-27;Rainin Pipettenspitzen GPS UNV 1000μl LS 768A/8;0;0
-LM013-28;Biosphere Tips, 50 - 1.250 µl, lang;0;0
-LM013-29;Biosphere FILTER-Tips, 50 - 1.250 µl, SingleRefill;0;0
-LM013-30;Biosphere FILTER-Tips, 2 - 20 µl;0;0
-LM013-31;Biosphere FILTER-Tips, 50 - 1.250 µl, Box;0;0
-LM015-00;"Überziehschuhe blau; VE=100 St.";0;0
-LM018-01;Trockeneis Platten 150 x150 x 30 mm;0;0
-LM019-00;Vernichtungsbeutel 600 x 780 mm;0;0
-LM019-01;Vernichtungsbeutel 200 x 300 mm;0;0
-LM019-02;Multi-Safe vario 2000 Abwurfbehälter;0;0
-LM020-01;2,5 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0
-LM020-02;10 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0
-LM020-03;50 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0
-LM020-04;0,5 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0
-LM020-05;12,5 ml Fisherbrand™ Dispensertips, steril;0;0
-LM020-06;X100 PDTips II, 0.1ml, BIOCERT, einzeln verpackt;0;0
-LM020-07;X100 PDTips II, 12.5ml, BIOCERT, einzeln verpackt;0;0
-LM020-08;X25 PDTips II, 50ml, BIOCERT, einzeln verpackt;0;0
-LM020-1;Reagenzien-Reservoir, 8-Kanal, steril;0;0
-LM020-2;Reagenzien-Reservoir, 60ml, steril;0;0
-LM020-3;Reagenzien-Reservoir für 8/12-Kanalpipetten, unsteril;0;0
-LM020-4;Reagenzien-Reservoir für 8/12-Kanalpipetten, steril;0;0
-LM021-00;O-Ring-Set für Xplorer 50-1.200 µl;0;0
-LM021-01;O-Ring-Set für Xplorer 5-100 µl;0;0
-LM021-02;Eppendorf® Locking Clip;0;0
-LM022-00;Baktolin Pure Waschlotion, 5 L;0;0
-LM022-01;Baktolin Pure Waschlotion, 500 mL;0;0
-LM024-01;Röhre für Flowcytometer FC500, Sarstedt #55.1579;0;0
-LM024-02;Schraubröhre, 13 ml mit Deckel, Rundboden, steril;0;0
-LM024-03;BRAND® semi-micro cuvette;0;0
-LM025-00;Sterilium Desinfektionsmittel für die Hände, 5L-Kanister;0;0
-LM025-01;Sterilium Desinfektionsmittel für die Hände, 500 ml;0;0
-LM025-02;Händedesinfektionsmittel nach WHO-Formulierung, 5 L Kanister;0;0
-LM025-03;Bacillol AF, Flächendesinfektionsmittel, 1000 mL;0;0
-LM025-04;Mycoplasma Off™, 1000ml Sprühflasche;0;0
-LM027-00;SafeSeal Reagiergefäße 1,5 ml;0;0
-LM027-01;SafeSeal Reagiergefäße 2,0 ml;0;0
-LM027-02;Biosphere SafeSeal Reagiergefäße 1,5 ml, DNA-frei;0;0
-LM027-03;SafeSeal Reagiergefäße 2,0 ml, blau;0;0
-LM028-00;Reagiergefäße 1,5 ml;0;0
-LM029-00;Eppendorf Tubes 5.0 ml (200 Tubes);0;0
-LM032-00;neodisher FA, Dr. Weigert, 10 L;0;0
-LM032-01;neodisher Z, Dr. Weigert, 5 L;0;0
-LM034-00;Aspirationspipette;0;0
-LM035-00;Nalgene™ Economy Spülflaschen aus LDPE;0;0
-LM035-01;"Sprühflasche ""Turn 'n' Spray"", 1 L";0;0
-LM035-02;Thermo Scientific™ Nalgene™ quadratische PETG-Medienflaschen;0;0
-LM036-00;Label-Station für Tough®-Artikel;0;0
-LM036-01;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Gold;0;0
-LM036-02;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Weiß;0;0
-LM036-03;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Blau;0;0
-LM036-05;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Orange;0;0
-LM036-06;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Grün;0;0
-LM036-07;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Lila;0;0
-LM036-08;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Hell-braun;0;0
-LM036-09;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Pink;0;0
-LM036-10;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Rot;0;0
-LM036-11;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Silber;0;0
-LM037-00;CASY Clean 500 ml;0;0
-LM038-00;Casy Cups;0;0
-LM039-00;Casy Ton, 10 Liter/Kanister;0;0
-LM041-01;Serologische Pipette 10 ml;0;0
-LM041-02;Serologische Pipette 25 ml;0;0
-LM041-03;Serologische Pipette 2 ml;0;0
-LM041-04;Serologische Pipette 50 ml;0;0
-LM041-05;Serologische Pipette 5 ml;0;0
-LM041-06;Serologische Pipette 1 ml;0;0
-LM042-01;Centrifugation Tube (15 ml);0;0
-LM042-02;Centrifugation Tube (50 ml);0;0
-LM042-03;Centrifugation Tube (500 ml);0;0
-LM042-04;Schraubgefäß 120 ml mit Deckel, steril;0;0
-LM042-05;Gosselin gerader Polypropylenbehälter, 125 mL, steril;0;0
-LM042-06;Centrifugation Tube (250 ml);0;0
-LM042-07;Rack für Centrifugation Tube (175-250 ml);0;0
-LM042-08;Rack für Centrifugation Tube (für 10x 50 ml);0;0
-LM042-09;Rack für Centrifugation Tube (für 20x 50 ml);0;0
-LM042-10;Centrifugation Tube (175 ml), single use, sterile;0;0
-LM042-11;Centrifugation Tube (175 ml), autoklavierbar;0;0
-LM042-12;Centrifugation Tube (225 ml);0;0
-LM042-13;SepMate™-50 (IVD) (50 ml);0;0
-LM042-14;Rack für Centrifugation Tube (500 ml);0;0
-LM042-15;Centrifugation Tube (50 ml), braun;0;0
-LM042-16;Centrifugation Tube (15 ml), braun;0;0
-LM042-17;Kryoröhrchengestell;0;0
-LM042-18;Fisherbrand™ Schwimmständer aus Schaum;0;0
-LM042-19;"CoolCell grün; #432008";0;0
-LM042-20;FluidX 48-format Rack with Lid;0;0
-LM042-21;Rack für Reaktionsgefäße 1,5-2,0 ml, PP, 5x16 Plätze, grün;0;0
-LM042-22;Rack für Reaktionsgefäße 1,5-2,0 ml, PP, 5x16 Plätze, orange;0;0
-LM042-23;Rack für Reaktionsgefäße 1,5-2,0 ml, PP, 5x16 Plätze, gelb;0;0
-LM042-24;Multi-Tube Rack, grey;0;0
-LM042-25;Gestelle für Reaktionsgefäße, VWR®, grün;0;0
-LM042-26;Gestelle für Reaktionsgefäße, VWR®, gelb;0;0
-LM043-00;Rundfilter für Hirschmann-Pipetus VWR #612-1982;0;0
-LM043-01;Rundfilter für Brand Accu-Jet;0;0
-LM043-03;In-Line Filter, Whatman™ VACU-GUARD™;0;0
-LM046-00;Filtrationsauffanggefäße (250 ml);0;0
-LM046-01;Filtrationsauffanggefäße (500 ml);0;0
-LM046-02;Filtrationsauffanggefäße (1000 ml);0;0
-LM047-00;Via Check Control Microspheres (20ml);0;0
-LM050-00;Filtropur V25, Vakuumfiltrationseinheit;0;0
-LM050-01;Vacuumfiltrationseinheit, 0.2µm, 250ml;0;0
-LM051-00;Aluminiumfolie im Rollenspender, VWR 291-0047;0;0
-LM052-00;PP-Ballonflaschen 10 l VWR #216-1703;0;0
-LM053-00;Einweg-Spritze, 50 ml, Luer-Steck, steril;0;0
-LM053-01;Einweg-Spritze, 50 ml, Luer-Lock, steril;0;0
-LM054-00;Filtropur BT 50 FlaschenaufsatzFILTER;0;0
-LM054-01;Vacuumfiltrationseinheit, 0.2µm, 500ml;0;0
-LM055-00;Filterkerze für Autoklaven VX150;0;0
-LM055-01;HEPA-Ersatzfilter für Forma-Inkubatoren Series 3100;0;0
-LM058-01;Instrumentenschalen mit Knopfdeckel 200×100×30 mm;0;0
-LM059-01;Wägepapier (Weighing paper);0;0
-LM060-01;RM-A (cut);0;0
-LM060-02;RM-B (cut);0;0
-LM060-03;RM-C (cut);0;0
-LM061-00;Petrischale (92 x 16 mm);0;0
-LM061-01;Kontaktschale, PS, 65/15 mm, mit Nocken;0;0
-LM062-01;Schraubverschluß rot für Mikro-Schraubröhren;0;0
-LM062-02;Schraubverschluß gelb für Mikro-Schraubröhren;0;0
-LM062-03;Schraubverschluß grün für Mikro-Schraubröhren;0;0
-LM063-01;"Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3417";0;0
-LM063-02;"Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3410";0;0
-LM063-03;"Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3409";0;0
-LM064-01;"Reaktionsgefäß mit Schraubverschluss; VWR# 525-0644";0;0
-LM064-02;"Reaktionsgefäß mit Schraubverschluss; VWR# 525-0652";0;0
-LM064-03;"Reaktionsgefäß NEOLAB; VWR# NEOL7-4590";0;0
-LM064-04;Reaktionsgefäß ohne Schraubverschluss;0;0
-LM065-00;SD100 Cellometer Zählkammern mit Schutzfolie, 600 Analysen;0;0
-LM065-01;Hämacytometer Cover Glass (f. Neubauerkammer);0;0
-LM065-02;Cellometer ViaStain AOPI Färbelösung;0;0
-LM065-03;Neubauer Zählkammer;0;0
-LM065-04;SD100 Cellometer Zählkammern mit Schutzfolie, 150 Analysen;0;0
-LM065-05;PD300 Cellometer Zählkammern mit Schutzfolie, 100 Stück;0;0
-LM066-00;SafeSeal Reagiergefäß 0,5 ml;0;0
-LM067-00;OSRAM HBO 50W-AC 39V L1;0;0
-LM068-00;Zähler / Handzähler;0;0
-LM069-00;"Pasteur-Pipette, GESTOPFT; VWR #612-1798";0;0
-LM070-00;"KASTEN FÜR MICRO-OBJEKTTRÄGER 100PL BLAU; VWR# 631-0736";0;0
-LM071-00;Nunc-Immuno MicroWell 96 well solid plates;0;0
-LM071-01;96-well Polypropylene Cluster Tubes;0;0
-LM072-00;Einmal-Skalpelle, Cutfix, 10St./VE, #23;0;0
-LM072-01;Einmal-Skalpelle, Cutfix, 10St./VE, #10;0;0
-LM072-02;Einmal-Skalpelle, Cutfix, 10St./VE, #11;0;0
-LM073-00;Einmalspritze, Luer-Lock, 3 ml, steril;0;0
-LM074-00;"Pinzetten mit Führungsstift; Carl Roth #LT35.1";0;0
-LM074-01;Pinzette m.silikonbeschichteten Spitzen,115mm, für 1mg-5g;0;0
-LM074-02;Pinzette m.silikonbeschichteten Spitzen,160mm, für 1-200g;0;0
-LM074-03;Bürste, mittel, 115 mm;0;0
-LM074-04;Kalibriergewicht, Klasse E2, 200 mg;0;0
-LM074-05;Kalibriergewicht, Klasse E2, 20 g, polierter Edelstahl;0;0
-LM074-06;Kalibriergewicht, Klasse E2, 100 g, polierter Edelstahl;0;0
-LM074-07;Pinzette gerade spitz, 105 mm;0;0
-LM074-08;Pinzette gebogen spitz, 130 mm;0;0
-LM074-09;Spezialschere KNOWLES, spitz, geknöpft;0;0
-LM074-10;Spezialschere SPENCER;0;0
-LM074-11;Spezialschere LISTER abgewinkelt;0;0
-LM074-12;Pinzette gerade stumpf, 160 mm;0;0
-LM074-13;Pinzette gerade stumpf, 200 mm;0;0
-LM075-00;6CH Large Tubing Cartridge with Resin Nozzle (5UL-2000UL);0;0
-LM076-00;"Objektträgerbox; Carl Roth #K534.1 rot";0;0
-LM076-01;PARAFILM® M, 100 mm, 38 m;0;0
-LM076-02;Objektträger Kanten geschliffen 45°, mit Mattrand;0;0
-LM076-03;Pasteurpipetten mit Faltenbalg graduiert, 5 ml, 195 mm;0;0
-LM077-00;Sicherheitsventil Za G1/4-RC3/8;0;0
-LM078-00;"Deckgläser; Ø 20 mm; VE 1000";0;0
-LM078-01;"Deckgläser; Ø 15 mm; VE 1000";0;0
-LM078-02;"Deckgläser; Ø 10 mm; VE 1000";0;0
-LM079-00;Membranfilter, 0,45 µm, PTFE, steril EPPENDORF, VE 5,;0;0
-LM080-00;"Batterie, Lithium-Polymer, für PIPETBOY acu 2; VWR";0;0
-LM080-01;Lithium-Ionen-Akku f. Multipette, Eppendorf;0;0
-LM080-02;Akkufachdeckel für PIPETBOY acu 2;0;0
-LM080-03;PIPETBOY acu 2;0;0
-LM080-04;HandyStep touch, DE-M;0;0
-LM080-05;Ladeständer für HandyStep touch & HandyStep touch S;0;0
-LM080-06;Dispensette S, Digital,110ml, m. RDV;0;0
-LM081-00;Laborflaschen, rund, braun, mit Gewinde, DURAN VE=10;0;0
-LM083-00;CRF Kammersensor mini;0;0
-LM085-02;Weithalsflaschen mit PP-Schraubverschluss, mit Griffmulde;0;0
-LM085-03;Ersatz-Vakuumflasche, 4000 mL, ohne Schlauchanschlüsse;0;0
-LM085-04;Ersatz-Vakuumflasche, 4000 mL, mit Schlauchanschlüssen;0;0
-LM086-01;Autoklavenband schmal;0;0
-LM086-02;Autoklavenband schmal, große Rolle;0;0
-LM087-00;Baumwollhandschuhe;0;0
-LM087-01;Strickhandschuhe;0;0
-LM088-00;Klebefolien - Reinigungsmatten 60-lagig, 457 x 1143 mm;0;0
-LM088-02;Klebefolien - Reinigungsmatten 30-lagig, 457 x 1143 mm;0;0
-LM089-00;Gummi-Adapter (klein) für Pasteurpipetten/VacuBoy;0;0
-LM090-00;Pipettenadapter, Silikon, hält die Pipette im Nasenstück;0;0
-LM091-00;VHCpro Absaughandgriff, Fa. Vacuubrand;0;0
-LM091-01;VACUBOY Handoperator-Set, Mehrkanal;0;0
-LM091-02;O-Ring 2.57X1.78MM FKM 60 SHORE AU;0;0
-LM092-00;Pouring ring, blue, PP, GL 45, VE 10 St.;0;0
-LM093-00;Mikrofeinfilter für Miele Geschirrspüler G7883CD;0;0
-LM094-00;Cherry Switches Mikroschalter DB3C-A1RC 250 V/AC 0.1 A;0;0
-LM095-00;Hakenpinzette, ~12 cm, gerade mit Haken;0;0
-LM096-00;Philips 5761 30W 6V G4 medical lighting [Energieklasse n/a];0;0
-LM096-01;Halogenbirne mit Sockel, 6V / 30W;0;0
-LM097-01;Lager-Box Curver Essentials 26l (transparent);0;0
-LM097-02;Lager-Box Curver Essentials 45l (transparent);0;0
-LM097-03;Lager-Box Curver Essentials 16l (transparent);0;0
-LM097-04;Lager-Box Curver Essentials 20l (transparent);0;0
-LM097-05;Lager-Box 18L, KIS Moover Pro S, blickdicht m. Deckel;0;0
-LM097-06;keeeper (OKT) bruno Eurobox XXL, 54l (transparent);0;0
-LM097-07;keeeper (OKT) bruno Eurobox XL, 28l (transparent);0;0
-LM097-08;Sicherheitsbehälter ROTILABO®;0;0
-LM098-01;Corning Matrigel Basement Membrane Matrix, LDEV-free, 5 mL;0;0
-LM098-02;Corning Matrigel Basement Membrane Matrix, LDEV-free 10 mL;0;0
-LM099-00;CLA Barcodes (STR-Analyse);0;0
-LM100-00;"ASCO Magnetventil; #325037-LT";0;0
-LM101-01;Mikro-Schraubröhren, 0,5 ml, braun;0;0
-LM102-00;Drigalskispatel;0;0
-LM43-04;Rundfilter, für Integra-PipetBOY (Art.-Nr. 153016);0;0
-ME001-00;RPMI 1640, with HEPES, stable Gln., NaHC, phenol red;0;0
-ME00100-00;4′,6-Diamidino-2-phenyl-indol -dihydrochlorid 5 MG;0;0
-ME001-01;RPMI 1640, with L-Gln, NaHC, phenol red,  w/o L-Tryptophan;0;0
-ME001-02;RPMI 1640, with NaHC, w/o L-Gln, phenol red;0;0
-ME001-03;RPMI 1640, with NaHC, phenol red, w/o L-Gln;0;0
-ME001-04;RPMI 1640, with L-Gln, NaHC, phenol red;0;0
-ME001-06;RPMI 1640, with GlutaMAX, phenol red, NaHC, w/o HEPES;0;0
-ME001-07;RPMI 1640 (ATCC modification);0;0
-ME001-08;RPMI 1640 Advanced;0;0
-ME001-09;RPMI 1640 with HEPES, L-Gln., NaHC, phenol red;0;0
-ME002-01;Alpha MEM, w/o nucleosides;0;0
-ME002-02;Alpha MEM, with nucleosides;0;0
-ME002-03;Alpha MEM, with nucleosides, w/o phenolred;0;0
-ME003-01;Ham's F12, w/o L-Gln, phenol red;0;0
-ME003-02;Ham's F12, with phenol red, w/o L-Gln;0;0
-ME003-03;Ham's F12, with L-Gln, phenol red;0;0
-ME003-05;Ham's F12 (Kaighn's modification);0;0
-ME004-01;DMEM (high glucose), w/o L-Gln, phenol red;0;0
-ME004-02;DMEM (high glucose), with phenol red, w/o L-Gln, NaPy;0;0
-ME004-03;DMEM (low glucose), w/o phenol red, NaPy;0;0
-ME004-04;DMEM (low glucose), with phenol red, NaPy;0;0
-ME004-09;DMEM (high glucose), with L-Gln, phenol red, NaPy;0;0
-ME004-10;DMEM (high glucose), with L-Gln, phenol red, NaPy;0;0
-ME004-11;DMEM (high glucose), with L-Gln, phenol red, NaPy;0;0
-ME004-12;DMEM (high glucose) with GlutaMAX, phenol red, NaPy;0;0
-ME004-13;DMEM (high glucose) with GlutaMAX, phenol red, NaPy;0;0
-ME004-14;DMEM (high glucose), with phenol red, L-Gln, low NaHCO3;0;0
-ME004-16;DMEM (no glucose), with L-Gln, phenol red, w/o NaPy;0;0
-ME004-17;DMEM (high glucose), with L-Gln, phenol red, w/o NaPy;0;0
-ME004-18;DMEM (high glucose) with GlutaMAX, phenol red, no NaPy;0;0
-ME005-04;DMEM/F12, with HEPES, NaHC, L-Gln, w/o phenol red;0;0
-ME005-05;DMEM/F12, with HEPES, NaHC, w/o L-Gln, phenol red;0;0
-ME005-10;DMEM/F12, with HEPES, NaHC, phenol red, w/o L-Gln;0;0
-ME005-14;DMEM/F12, with NaHC, phenol red, w/o HEPES, L-Gln;0;0
-ME005-15;DMEM/F12, with NaPy, phenol red, w/o L-Gln, HEPES;0;0
-ME005-16;DMEM/F12, with stable Gln, NaPy, phenol red, w/o HEPES;0;0
-ME005-17;DMEM/F12, with Gln, NaPy, phenol red, HEPES;0;0
-ME006-02;IMDM (high glucose), with HEPES, NaPy, w/o phenol red;0;0
-ME006-03;IMDM (high glucose), with HEPES, NaPy, phenol red;0;0
-ME006-04;IMDM (high glucose), with HEPES, NaPy, phenol red;0;0
-ME006-05;IMDM (ATCC modification), 1.5 g/L NaHCO3;0;0
-ME007-00;MEM Eagle, with EBSS, with L-Gln, 1.5 g/L NaHC;0;0
-ME007-01;MEM Eagle, with EBSS, w/o L-Gln, 2.2 g/L NaHC;0;0
-ME007-02;MEM Eagle, with EBSS, with L-Gln, 2.2 g/L NaHC;0;0
-ME007-03;"MEM Eagle, with EBSS, w/o L-Gln, phenolred; 2.2 g/L NaHC";0;0
-ME007-04;EMEM (ATCC-modification);0;0
-ME008-00;Leibovitz-Medium L15;0;0
-ME008-01;William's Medium E, with NaHC, w/o L-Gln, phenol red;0;0
-ME008-02;McCoy's 5A;0;0
-ME008-03;MCDB 131, with NaHC (1,176 g/L), w/o L-Gln;0;0
-ME008-05;Claycomb Medium;0;0
-ME008-06;MCDB 153 Medium (with trace elements);0;0
-ME009-01;Opti-MEM I (reduced serum medium);0;0
-ME009-02;Expi293™ Expression Medium;0;0
-ME009-03;ProCHO™ 5 Protein-free CHO Medium;0;0
-ME009-04;Panserin 293A;0;0
-ME009-10;FreeStyle 293 Expression Medium;0;0
-ME009-12;FreeStyle CHO Expression Medium;0;0
-ME009-20;EX-CELL ACF CHO Medium;0;0
-ME009-21;CD CHO Medium;0;0
-ME009-22;EX-CELL CHO DHFR Medium;0;0
-ME009-23;ClonaCell-HY Medium E;0;0
-ME009-24;Lymphocyte Separation Medium, Density 1.077 g/ml;0;0
-ME009-25;CD FortiCHO™-Medium;0;0
-ME009-26;CD 293 Medium;0;0
-ME010-01;Endothelial Cell Growth Medium;0;0
-ME011-01;Immunzell Medium (serum free);0;0
-ME011-03;LGM-3 (Lymphocyte Growth Medium);0;0
-ME012-00;Epithelial Cell Medium;0;0
-ME012-01;Pantum 386 Complete Medium for Epithelial Cells, with L-Gln;0;0
-ME012-02;Airway Epithelial Cell Basal Medium;0;0
-ME012-03;Bronchial Epithelial Cell Growth Kit;0;0
-ME014-01;KBM-Gold Basal Medium;0;0
-ME014-02;KGM-Gold BulletKit;0;0
-ME014-03;KGM Gold SingleQuots Supplements and Growth Factors;0;0
-ME014-04;Keratinozyten-SFM (1x);0;0
-ME016-01;Cryopan I (serum-free freezing medium), 50 ml;0;0
-ME016-02;Cryoprotective Freezing Medium;0;0
-ME016-03;CryoSOfree (DMSO-free freezing medium);0;0
-ME016-04;CryoStor CS10;0;0
-ME016-05;Recovery™ Cell Culture Freezing Medium;0;0
-ME016-06;CryoStor CS5;0;0
-ME016-07;CELLBANKER 2, 100 ml;0;0
-ME016-08;Cryopan I (serum-free freezing medium), 100 ml;0;0
-ME016-09;Cryopan I (serum-free freezing medium), 500 ml;0;0
-ME016-10;CELLBANKER 2, 20 ml;0;0
-ME016-11;Bambanker, 120 ml;0;0
-ME016-12;CELLBANKER 1 (20ml);0;0
-ME020-01;Sodium Pyruvate (100 mM);0;0
-ME020-02;Sodium bicarbonate solution (7.5%);0;0
-ME020-03;HEPES Buffer Solution (1 M);0;0
-ME022-00;L-Glutamine Solution (200 mM);0;0
-ME022-01;GlutaMAX;0;0
-ME022-02;Stable Glutamine (100x);0;0
-ME023-00;MEM NEAA (100x);0;0
-ME024-00;Pluronic F-68 (10%);0;0
-ME025-01;ß-Mercaptoethanol (50 mM);0;0
-ME026-00;DMSO (Dimethyl sulfoxide);0;0
-ME026-08;DPBS 1 L;0;0
-ME027-01;Hydrocortisone (1mg/ml);0;0
-ME027-02;ITS solution II (100x);0;0
-ME027-03;ITS solution I (100x);0;0
-ME027-04;T3 (tri-iodo-thyronine sodium salt);0;0
-ME027-05;HT Supplement (100X);0;0
-ME027-06;GS Supplement (50X);0;0
-ME027-07;MSX;0;0
-ME027-08;Anti-Clumping-Agent;0;0
-ME027-09;Fibronectin, bovine;0;0
-ME027-10;Gelatin Solution (AF Protein);0;0
-ME027-11;T3 / 3,3′,5-Triiod-L-thyronin Natriumsalz;0;0
-ME027-12;Dextransulfat Natriumsalz;0;0
-ME029-01;Penicillin / Streptomycin;0;0
-ME029-02;Gentamicin (50 mg/ml);0;0
-ME029-03;Tetracycline hydrochloride (fest);0;0
-ME029-04;(±)-Norepinephrin -(+)-bitartratsalz;0;0
-ME029-05;"Tetracyclin -hydrochlorid; Sigma #T3383-25G";0;0
-ME032-01;Accutase, 100 ml;0;0
-ME032-02;Accutase, 500 ml;0;0
-ME032-03;AccuMax, 100 ml;0;0
-ME032-04;AccuMax, 500 ml;0;0
-ME033-01;TrypLE Express (5 L);0;0
-ME033-02;TrypLE Express (500 ml);0;0
-ME033-03;TrypLE Express (500 ml), with phenolred;0;0
-ME035-00;Trypsin-EDTA (0,25%), 100 ml;0;0
-ME035-01;Trypsin-EDTA (0,25%), 500 ml;0;0
-ME035-02;Trypsin-EDTA (0.05%), 100 ml, phenolred;0;0
-ME035-03;Trypsin-EDTA (0.05%), phenolred;0;0
-ME038-00;Cell Dissociation Buffer;0;0
-ME039-00;Defined Trypsin Inhibitor;0;0
-ME040-01;G418 Sulfate Solution (50 mg/ml);0;0
-ME040-02;G418 Sulfate Solution (100 mg/ml);0;0
-ME040-03;G418 Sulfate;0;0
-ME042-00;Puromycin (10 mg/ml), 10x 1mL;0;0
-ME042-01;Puromycin (10 mg/ml), 20 mL;0;0
-ME043-01;Blasticidine (10 mg/ml);0;0
-ME045-05;Hygromycin B;0;0
-ME045-06;Hygromycin B (50 mg/ml);0;0
-ME046-00;Zeocin;0;0
-ME047-01;HEK-Blue Selection (250x);0;0
-ME061-01;DPBS;0;0
-ME061-02;DPBS;0;0
-ME061-03;DPBS (+MgCl2, +CaCl2);0;0
-ME062-00;PBS;0;0
-ME062-01;PBS/EDTA (1% EDTA in PBS);0;0
-ME063-011;HBSS (Hank's Balanced Salt Solution);0;0
-ME064-01;Sterile Water (cell culture grade);0;0
-ME069-02;Hydrocortisone, ethanol-soluble, Sigma #H0135-1MG;0;0
-ME076-05;"ITS solution II (100x); PAN #P07-03200; 5 mL";0;0
-ME080-01;FBS qualified;0;0
-ME080-02;FBS qualified-heat inactivated (h.i.);0;0
-ME081-02;FBS-heat inactivated (h.i.);0;0
-ME082-00;FBS Low Endotoxin;0;0
-ME082-02;FBS Superior;0;0
-ME082-03;FBS Premium (Std);0;0
-ME082-04;FBS Hyclone (New Zealand);0;0
-ME082-05;FBS Hyclone (characterized, heat inactivated);0;0
-ME082-06;FBS Hyclone (charcoal treated, heat inactivated, irradiated);0;0
-ME083-02;FBS (EU approved, South America);0;0
-ME083-03;FBS Good (EU approved);0;0
-ME084-01;FBS (US Origin);0;0
-ME084-02;FBS (USDA approved, heat inactivated);0;0
-ME084-03;FBS (USDA approved);0;0
-ME084-04;FBS (gamma irradiated);0;0
-ME084-05;FBS (Brazil);0;0
-ME085-01;FBS (tetracyclin-free);0;0
-ME085-02;FBS (dialysed);0;0
-ME085-05;FBS (ultra low IgG);0;0
-ME085-06;FBS (HL-1 qualified);0;0
-ME089-01;Horse Serum;0;0
-ME095-01;Medium 199, low NaHCO3;0;0
-ME095-02;Medium 199, high NaHCO3;0;0
-ME096-01;Skeletal Muscle Cell Growth Medium - Basal Medium 500 ml;0;0
-ME096-02;Skeletal Muscle Cell Growth Medium SupplementMix;0;0
-ME097-00;NbActiv4 (For Primary Neuron Cultures) 500 ml;0;0
-ME097-01;T-Cell Culture Supplement with ConA;0;0
-ME098-01;M3 base medium;0;0
-ME099-00;EmbryoMax 0,1 % Gelatinelösung 500 ML;0;0
-ME100-00;CTS Synth-a-Freeze Medium 50ml;0;0
-ME258-05;NFM-G2;0;0
-VV01-01;"Styroporbox EPS-Box (klein); LBH 350*350*370; #11066G";0;0
-VV01-02;"Styroporbox EPS-Box (GROSS); LBH 520*360*335; #13630-G";0;0
-VV01-03;"Styroporbox EPS-Box (Kit); LBH  265 x 265 x 245 mm; #10423-0";0;0
-VV01-04;FreezeTherm 14 (M2.2) // 356 x 356 x 369mm;0;0
-VV01-05;FreezeTherm 29;0;0
-VV01-06;E89 PUR Container 533x356x445;0;0
-VV01-07;E186 PUR Box 591x489x489;0;0
-VV02-01;Enghalsflasche (4 ml, braun) 12 Stk./Pack.;0;0
-VV02-02;Enghalsflasche (8 ml, braun) 12 Stk./Pack.;0;0
-VV02-03;Enghalsflasche (15 ml, braun) 12 Stk./Pack.;0;0
-VV02-04;Enghalsflasche (8 ml, natur) 72 Stk./Pack.;0;0
-VV02-05;Enghalsflasche (15 ml, natur) 12 Stk./Pack.;0;0
-VV02-06;Enghalsflasche (60 ml, natur) 1000 Stk./Pack.;0;0
-VV02-07;Enghalsflasche (15 ml, natur) 2000 Stk./Pack.;0;0
-VV02-08;"Schraubgewindeflaschen ND10; 1,5mL";0;0
-VV02-09;"Mikroeinsätze für weite Öffnung; 0,2,mL";0;0
-VV02-10;Nalgene™ Pipettenflaschen mit Dosierspitze;0;0
-VV06-00;Schrumpfschlauch Verschlusskappen;0;0
-VV11-00;Lupo-Beutel mit Haftklebeverschluss 120 x 180 mm,;0;0
-VV12-00;PP-Beutel mit Haftklebeverschluss 150 x 250 mm, Labor;0;0
-VV13-00;Kryobox, Karton, weiß beschichtet. 50mm hoch;0;0
-VV13-01;Kryobox-Rastereinsätze 10 x 10;0;0
-VV13-02;Kryobox, Karton, weiß beschichtet. 130mm hoch;0;0
-VV13-03;Kryobox-Rastereinsätze 4 x 4;0;0
-VV13-04;Kryobox-Rastereinsätze 5 x 5;0;0
-VV14-00;Vakuumbeutel goffriert;0;0
-VV15-00;Trockeneis Pellets;0;0
-VV16-00;Vakuumverpackung Mattglasbirne weiß, 12x18cm, 100 Stück;0;0
-VV17-01;"FlashLink® USB PDF -80°C; #40535 (5Days)";0;0
-VV17-02;"FlashLink® USB PDF -80°C; #40536 (15Days)";0;0
-VV17-03;"FlashLink® USB-reusable -80°C; #40570";0;0
-VV18-01;Faltkarton / fefco 0201  - 530mm x 368mm x 343mm;0;0
-VV19-01;"Kryoboxen VWR 75×75×50 mm; RATI5160035";0;0
-VV19-02;Rastereinsätze VWR 69×69×35 mm, # RATI5160036;0;0
-VV19-03;Mini-Kryoboxen für CryoTubes (5x 1-2 mL);0;0
-VV19-04;Kryoboxen, KeepIT-25™, rot;0;0
-VV19-05;Mini-Kryoboxen für CryoTubes (10x 1-2 mL);0;0
-VV20-00;Gefahrgutaufkleber Klasse 9 verschiedene gefährliche Stoffe;0;0
-VV21-00;Positionierungsetikett für Tiltwatch Kippindikator;0;0
-VV22-00;Kippindikator Tiltwatch®;0;0
-VV23-00;"Etikettenspender; Rajapack #AG818";0;0
-VV24-00;Schweißgerät Easy Packer und Easy Magnet Packer #APM200H;0;0
-VV25-00;Zubehör Easy Packer und Easy Magnet Packer #WT200H;0;0
-VV26-00;"Etiketten 20 x 68 mm; CILS";0;0
-VV27-00;Temperatur-/Feuchte-Logger;0;0
-VV28-00;Daten-Logger VWR #620-1818, 2X1 St.;0;0
-VV29-00;Cloud-Lizenz Advanced f.36 M- 0526 0733 0526 0733;0;0
-VV30-00;Kryobox, PC, 133×133×52 mm, Fächer 10×10, blau;0;0
-VV30-01;Kryobox, PC, 133×133×52 mm, Fächer 10×10, rot;0;0
-VV30-02;Kryobox, PC, 133×133×52 mm, Fächer 10×10, gelb;0;0
-ZG01-02;Zellkulturplatte (12-well, clear);0;0
-ZG01-04;Zellkulturplatte (24-well, clear);0;0
-ZG01-05;Zellkulturplatte (48-well, clear);0;0
-ZG01-06;Zellkulturplatte (96-well, clear);0;0
-ZG02-01;Zellkulturplatte (24-well, Suspension);0;0
-ZG02-05;Zellkulturplatte (96-well, white);0;0
-ZG02-09;Zellkulturplatte (96-well, white, clear bottom);0;0
-ZG02-10;Transwell (12 Inserts, 0.4 μm pore / 24-well);0;0
-ZG02-11;Transwell polycarbonate membrane insert (24-well);0;0
-ZG02-12;Zellkulturplatte (96-well) weiß, transparenter Boden, Fisher;0;0
-ZG02-13;96-Well CytoOne® Platte, unbehandelt;0;0
-ZG02-14;Thermo Scientific 96 Well White/Clear Bottom Plate,TC Surfaa;0;0
-ZG02-15;96-well Flat Clear Bottom White Polystyrene TC-treated;0;0
-ZG02-16;Lipidure-Coat Low Adhesion Plate A-V96 (conical Plate);0;0
-ZG02-17;Zellkulturplatte, 96 Well, Oberfläche: Suspension, konisch;0;0
-ZG02-18;96-Well CytoOne® Platte, TC-behandelt;0;0
-ZG026-01;Cell Strainer (100µm, yellow);0;0
-ZG03-01;CellSTACK, 2 Layer;0;0
-ZG03-02;CellSTACK, 5 layer;0;0
-ZG03-03;CellSTACK, 10 Layer;0;0
-ZG03-04;Easy Fill Cell Factory, 10 Layer (6);0;0
-ZG03-05;CELLDISC, 8 LAGEN, 2000 CM²;0;0
-ZG03-06;CELLDISC, 12 LAGEN, 3000 CM²;0;0
-ZG03-07;CELLDISC, 16 LAGEN, 4000 CM²;0;0
-ZG03-08;Universal CellSTACK™ Verschlusskappen;0;0
-ZG03-09;CellSTACK, 40 Layer;0;0
-ZG03-10;CellSTACK, 10 Layer (2 St./Cs);0;0
-ZG03-11;CellSTACK CELLBIND, 10 Layer, Bulk of 6 VE;0;0
-ZG03-12;Easy Fill Cell Factory, 10 Layer (2);0;0
-ZG04-01;Zellkulturflaschen (T25);0;0
-ZG04-02;Zellkulturflaschen (T75);0;0
-ZG04-03;Zellkulturflaschen (T175);0;0
-ZG04-04;Suspensionsflaschen (T175);0;0
-ZG04-05;CellBIND (T75);0;0
-ZG04-06;CellBIND (T175);0;0
-ZG04-07;Zellkulturflaschen (T75), ultra low binding;0;0
-ZG04-08;Suspensionslaschen (T25);0;0
-ZG04-09;Suspensionslaschen (T75);0;0
-ZG045-01;Cryovials Nunc  (1,8 ml);0;0
-ZG045-02;Cryovials (1 ml);0;0
-ZG045-03;Cryovials Fisherbrand  (1,8 ml);0;0
-ZG045-05;Cryovials Greiner (2ml, barcoded);0;0
-ZG045-06;Cryovials Greiner (2 ml);0;0
-ZG045-07;Cryovials Greiner (1 ml, barcoded);0;0
-ZG045-08;Cryovials Greiner (2 ml), farbige Deckel;0;0
-ZG045-09;Cryovials Greiner (2ml, barcoded), farbge Deckel;0;0
-ZG045-11;Cryovials Sarstedt (2,0 ml) CryoPure;0;0
-ZG049-01;Spin Reaktor (450 ml);0;0
-ZG049-02;Spin Reaktor (50 ml);0;0
-ZG049-03;DISPOSABLE SPINNER FLASK, 3L, GL45 CAPS, S, IND, 1/4;0;0
-ZG049-04;DISPOSABLE SPINNER FLASK, 1L, GL45 CAPS, S, IND, 1/6;0;0
-ZG049-05;SPINNER FLASK, 500ML, DISPOSABLE, PS, S, IND, 1/12;0;0
-ZG049-06;FLASK SPIN 100MM 2SA 1000ML;0;0
-ZG049-07;FLASK SPIN 100MM 2SA 3000ML;0;0
-ZG049-08;FLASK SPIN 100MM 2SA 500ML;0;0
-ZG05-01;Hyperflask M CellBIND (4);0;0
-ZG05-02;Hyperflask M CellBIND (24);0;0
-ZG05-03;Hyperflask CellBIND (4);0;0
-ZG05-04;Hyperflask CellBIND (24);0;0
-ZG05-05;Hyperflask M (4);0;0
-ZG05-06;HYPERStack - 12 Layer, untreated;0;0
-ZG05-07;HYPERStack - 36 Layer, untreated;0;0
-ZG06-00;Multi Flasks, 5 layer (875 cm2);0;0
-ZG08-02;Easy Fill Cell Factory, 4 Layer;0;0
-ZG08-03;Easy Fill Cell Factory, 2 Layer;0;0
-ZG11-00;Culture Dish, square (500 cm2);0;0
-ZG11-01;Erlenmeyer Flask (500 ml);0;0
-ZG11-02;Culture Dish, round (100 cm2);0;0
-ZG12-01;384-well Platte, weiß, flat bottom, TC, sterile;0;0
-ZG12-02;384-well Platte, clear, flat bottom, TC, sterile;0;0
-ZG12-03;Breathable Sealing Tape, Sterile;0;0
-ZG13-00;Zellschaber 39cm;0;0
-ZG14-01;Zellkulturflasche, Cell+ (T25);0;0
-ZG14-02;Zellkulturflasche, Cell+ (T75);0;0
-ZG14-03;Zellkulturflasche, Cell+ (T175);0;0
-ZG14-04;Zellkulturplatte, Cell+ (6-well);0;0
-ZG14-05;Zellkulturplatte, Cell+ (12-well);0;0
-ZG14-06;Zellkulturplatte, Cell+ (24-well);0;0
-ZG14-07;Zellkulturplatte, Cell+ (48-well);0;0
-ZG14-08;Zellkulturplatte, Cell+ (96-well);0;0
-ZG15-01;Nunc™ EasYFlask™ Zellkulturkolben, 25 cm2;0;0
-ZG15-02;Nunc™ EasYFlask™ Zellkulturkolben, 75 cm2;0;0
-ZG15-03;Nunc™ EasYFlask™ Zellkulturkolben, 175 cm2;0;0
-ZG16-01;ibidi 3-well Chamber;0;0
+code;name;amount;hTimestamp;hAmount
+CH044-01;"Mitomycin C; 5mg";0;0;0
+CH044-02;"Mitomycin C; 500 µg; Serva";0;0;0
+CH045-00;2-Mercaptobenzothiazole 97%;0;0;0
+CH078-00;"Cinnamyl alcohol; Sigma #108197-5G";0;0;0
+CH079-00;"Calcium chloride; Sigma #C5670-100G";0;0;0
+CH103-00;Methanol;0;0;0
+CH103-01;Schwefelsäure;0;0;0
+CH136-00;Glycerol;0;0;0
+CH136-01;D-(+)-Glucose;0;0;0
+CH136-02;Sucrose;0;0;0
+CH137-00;SDS Solution (20%);0;0;0
+KR001-01;Ethanol 96% / vergällt (5 L);0;0;0
+KR002-00;Mikrobac Forte;0;0;0
+KR002-01;Wasserbad-Schutzmittel RDS® Wasserbadstabil, 100ml;0;0;0
+KR003-01;Ribonuclease A (25 mg);0;0;0
+KR004-01;BCA-Assay (1 L);0;0;0
+KR005-02;Nano-Glo® Luciferase Assay System (10x10ml);0;0;0
+KR005-03;Nano-Glo Dual-Luciferase Assay (10 ml);0;0;0
+KR005-04;ONE-Glo Luciferase Assay (10 ml);0;0;0
+KR005-05;ONE-Glo Luciferase Assay (100 ml);0;0;0
+KR005-06;Steady-Glo Luciferase Assay (100ml);0;0;0
+KR005-08;ONE-Glo™ EX Luciferase Assay (100 ml);0;0;0
+KR005-09;Caspase-Glo® 9 Assay Systems (2,5ml);0;0;0
+KR005-10;Caspase-Glo® 9 Assay Systems (10ml);0;0;0
+KR005-11;Glucose Uptake-Glo Assay (10 ml);0;0;0
+KR006-00;Fluoroshield with DAPI (20 ml);0;0;0
+KR006-01;Leukotriene C4 / LTC4 (25 µg);0;0;0
+KR006-02;Quest Fluo-8(TM), AM;0;0;0
+KR007-01;peqGREEN, DNA-/RNA Farbstoff;0;0;0
+KR007-02;GELGREEN NUCLEIC ACID GEL STAIN IN WATER 0,5 ml;0;0;0
+KR009-01;Stain Buffer / FBS (500 ml);0;0;0
+KR009-02;Iso Flow, Mantelstromflüssigkeit;0;0;0
+KR009-03;CLENZ - Cleaning Agent (5 L);0;0;0
+KR012-01;NucleoSpin Tissue, Mini kit for DNA from cells and tissue;0;0;0
+KR012-02;QIAamp DNA Mini Kit (250 rxn);0;0;0
+KR012-03;BeadReady™ Kit;0;0;0
+KR013-01;100 bp DNA Ladder;0;0;0
+KR013-02;BenchTop 100bp DNA Ladder 300μl;0;0;0
+KR014-02;LYSO-ID Red detection kit (500 rxn);0;0;0
+KR016-01;SYTOX Green Nucleic Acid Stain;0;0;0
+KR016-02;Calcein AM, 1 mg;0;0;0
+KR016-03;Calcein AM, ≥96% (HPLC),  5 mg, Sigma #17783-5MG;0;0;0
+KR016-04;Calcein AM, ≥96% (HPLC), 20x 50μg, Sigma #56496;0;0;0
+KR016-05;Calcein, AM 10mg;0;0;0
+KR017-01;D(+)-Galactose (500 g);0;0;0
+KR017-02;D(+)-Glucose solution (100 ml);0;0;0
+KR021-00;QUANTI-Blue;0;0;0
+KR025-00;Hydrogen peroxide (500 ml);0;0;0
+KR029-00;DL-Propranolol-hydrochlorid (5 g);0;0;0
+KR029-01;N,N-Dimethylformamide - DMF (100 mg);0;0;0
+KR030-00;Enalaprilat, Sigma #43301-25MG;0;0;0
+KR031-00;(+/-)-VERAPAMIL HYDROCHLORIDE, =99%, Sigma# V4629-1G;0;0;0
+KR032-00;ANTIPYRINE CRYSTALLINE, Sigma #A5882-25G;0;0;0
+KR033-00;(±)-Talinolol, 1 mg;0;0;0
+KR037-01;VenorGeM OneStep (250 rxn);0;0;0
+KR038-00;MB Taq Polymerase - 5U/µl (100 Units);0;0;0
+KR041-00;Ionomycin, Sigma# I0634-1MG;0;0;0
+KR041-01;myo-Inositol;0;0;0
+KR041-02;Folic acid;0;0;0
+KR042-00;Collagen Type I;0;0;0
+KR042-01;Poly-L-Lysine - 10 mg/ml;0;0;0
+KR042-02;Poly-D-Lysine - 0.1 mg/ml;0;0;0
+KR043-00;Z-VAD-FMK1 mg;0;0;0
+KR044-00;Y-27632 . dihydrochloride 5 mg;0;0;0
+KR044-01;Y-27632 . dihydrochloride 1 mg;0;0;0
+KR044-02;Y-27632 . dihydrochloride 5 mg;0;0;0
+KR045-01;DL-α-Tocopherol (high purity) 1 g;0;0;0
+KR045-02;"α-Tocopherol; Sigma # 258024-5G";0;0;0
+KR046-00;Phorbol 12-myristate 13-acetate, Sigma #P8139-1MG;0;0;0
+KR047-01;Lipofectamine™ 2000 Transfection Reagent (1,5 mL);0;0;0
+KR047-02;Lipofectamine™ 2000 Transfection Reagent (15,0 mL);0;0;0
+KR047-03;FectoPRO™ (1 mL);0;0;0
+KR047-04;FectoPRO™ (10 mL);0;0;0
+KR047-05;Polyethylenimine L-PEI 100mg;0;0;0
+KR047-06;Lipofectamine™ 3000 Transfektionsreagenz 1.5 mL;0;0;0
+KR051-00;Insulin - human (10 mg/ml);0;0;0
+KR051-01;Insulin - bovine (10 mg/ml);0;0;0
+KR051-02;Transferrin, holo - human (50 mg);0;0;0
+KR051-05;Transferrin, apo - human (100 mg);0;0;0
+KR051-07;Fetuin - bovine (250 mg);0;0;0
+KR051-08;L-Asparagin;0;0;0
+KR051-09;L-Arginin;0;0;0
+KR051-10;Cisplatin (25mg);0;0;0
+KR051-11;Ascorbic Acid;0;0;0
+KR051-12;Heparin Sodium Salt;0;0;0
+KR051-13;Uridin;0;0;0
+KR051-14;D-Mannitol;0;0;0
+KR051-15;Colchicine (100 mg);0;0;0
+KR051-16;Fibronectin-Humanplasma;0;0;0
+KR053-00;"p-Phenylenediamine 50G; Sigma #P6001-50G";0;0;0
+KR054-00;"1-Chloro-2,4-dinitrobenzene 10G; Sigma# 237329-10G";0;0;0
+KR055-00;Isopropanol  (2,5 L);0;0;0
+KR058-00;"1α,25-Dihydroxyvitamin D3; Sigma# D1530-10UG";0;0;0
+KR062-01;IL-2 - human (1E6 IU);0;0;0
+KR062-02;IL-2 - human (1 mg);0;0;0
+KR062-03;IL-5 - human (10 µg);0;0;0
+KR062-04;IL-5 human (100 µg);0;0;0
+KR062-05;IL-10 - human (10 µg);0;0;0
+KR062-06;IL-36β - human (10 µg);0;0;0
+KR062-07;GM-CSF - human (20 µg);0;0;0
+KR062-08;TNF-α, recombinant human (10 µg);0;0;0
+KR062-09;TNF-α, recombinant human (50 µg);0;0;0
+KR062-10;IL-3 - murine (250 µg);0;0;0
+KR062-11;EPO - human (10 µg);0;0;0
+KR062-12;IL-3 - murine (500 µg);0;0;0
+KR062-13;M-CSF - human (10 µg);0;0;0
+KR062-14;IL-3 - murine (10 µg);0;0;0
+KR062-15;M-CSF - human (25 µg);0;0;0
+KR062-16;IL-3 - murine (50 µg);0;0;0
+KR062-17;TNF-α, recombinant human (5 µg);0;0;0
+KR062-18;Human GM-CSF Recombinant Protein 10 µg;0;0;0
+KR062-19;Human IL-2 IS premium grade 1000 µg;0;0;0
+KR062-20;Human IL-2 IS premium grade 200 µg;0;0;0
+KR062-21;Erythropoietin, recombinant, for Bioassay;0;0;0
+KR062-22;Human EPO (Erythropoietin) Recombinant Protein 10µg;0;0;0
+KR062-23;Human Recombinant EPO 10 µg;0;0;0
+KR062-24;TNF-α, recombinant human (20 µg);0;0;0
+KR062-25;Human IL-2 IS premium grade 10 µg;0;0;0
+KR062-26;WST-1 Zellproliferations-Kit (ready-to-use) 1 X 25 ml;0;0;0
+KR062-27;IFN-β, recombinant human (20 µg);0;0;0
+KR062-28;Recombinant Human TPO;0;0;0
+KR062-29;Recombinant Murine IL-2 5µg;0;0;0
+KR062-30;Recombinant Murine IL-15 10µg;0;0;0
+KR062-31;Recombinant Murine IL-10 10µg;0;0;0
+KR062-32;"Recombinant Human 4-1BB; #2295-4L-025 25 ug";0;0;0
+KR062-33;Recombinant Human IFN-γ 20µg - 300-02;0;0;0
+KR063-07;IL-13 (human);0;0;0
+KR063-08;IL-4 (human);0;0;0
+KR063-09;IL-23 (human), 2 µg;0;0;0
+KR063-10;IL-6 (human);0;0;0
+KR063-11;Recombinant Human IL-12 p70 (CHO derived) 2µg;0;0;0
+KR063-12;IL-23 (human), 10 µg;0;0;0
+KR064-00;Lactic acid (1 kg);0;0;0
+KR065-00;LPS (1 mg);0;0;0
+KR065-01;HKSA;0;0;0
+KR065-05;TAE-Buffer (50x);0;0;0
+KR066-00;EGF (human);0;0;0
+KR066-01;Calciumacetat Hydrat;0;0;0
+KR066-02;GLP-1, recombinant human, 10µg;0;0;0
+KR068-00;Prostaglandin E1;0;0;0
+KR068-02;human IL-6 ELISA Kit (10x 96-assay);0;0;0
+KR068-05;Human CYP2A6 (Cytochrome P450 2A6) ELISA Kit;0;0;0
+KR068-06;Human TNF alpha Uncoated ELISA (10x 96-assay);0;0;0
+KR068-07;Human TNF alpha Uncoated ELISA (20x 96-assay);0;0;0
+KR068-08;human IL-6 ELISA Kit (20x 96-assay);0;0;0
+KR068-09;IL-8 Human Uncoated ELISA Kit;0;0;0
+KR068-10;Human TNF-alpha ELISA Kit (Colorimetric);0;0;0
+KR068-11;CellEvent™ Senescence Green Flow Cytometry Assay Kit;0;0;0
+KR068-12;Human Leptin ELISA Kit;0;0;0
+KR068-13;Human Adiponectin ELISA Kit;0;0;0
+KR073-01;Flow Check Kit - Fluorospheres (3x 10 ml);0;0;0
+KR074-01;XTT sodium salt;0;0;0
+KR078-00;Picrylsulfonic acid solution (1 ml);0;0;0
+KR080-00;Sertraline hydrochloride (10 mg);0;0;0
+KR081-00;Cyclosporin A  (25 mg);0;0;0
+KR081-01;"Dispase II; Sigma# D4693-1G";0;0;0
+KR081-06;"Dispase II; Sigma# 04942078001";0;0;0
+KR082-01;G-CSF (2nd Int. WHO Standard);0;0;0
+KR082-02;Recombinant Human G-CSF;0;0;0
+KR082-09;Ro106-9920 (1 mg);0;0;0
+KR082-10;SEAP Assay - chemiluminescent;0;0;0
+KR082-11;TCDD  in Nanone (0,2 ml);0;0;0
+KR082-12;TCDD in DMSO (0.2 ml);0;0;0
+KR083-00;FcR Blocking Reagent (2 ml);0;0;0
+KR083-01;cOmplete™ Proteasehemmer-Cocktail;0;0;0
+KR083-02;Pan T Cell Isolation Kit, human;0;0;0
+KR083-03;LS Separation columns;0;0;0
+KR084-00;Nocodazole (2 mg);0;0;0
+KR085-00;Resazurin sodium salt;0;0;0
+KR085-01;Propidium Iodide (10 mg);0;0;0
+KR085-02;Resorufin ethyl ether (1 mg);0;0;0
+KR085-03;Dicoumarol (5 mg);0;0;0
+KR085-04;Resorcinol;0;0;0
+KR085-05;4-Allylanisol;0;0;0
+KR085-06;Calciumchlorid Dihydrat;0;0;0
+KR085-07;Magnesium Chloride hexa-hydrate;0;0;0
+KR085-08;Oil Red O solution;0;0;0
+KR085-09;Sodium selenite;0;0;0
+KR085-10;1-Chlor-2,4-dinitro-benzol;0;0;0
+KR085-11;Methyldibromglutaronitril;0;0;0
+KR085-12;(R)-(+)-Limonen;0;0;0
+KR085-13;Digitonin;0;0;0
+KR085-14;Coelenterazines-h;0;0;0
+KR085-15;Adenosin-5′-triphosphat Dinatriumsalz -Lösung ATP;0;0;0
+KR085-16;Orexin A human, rat, mouse;0;0;0
+KR085-17;Orexin B human;0;0;0
+KR085-18;Nile Red;0;0;0
+KR085-19;Adenosin-5′-triphosphat Dinatriumsalz Hydrat (ATP);0;0;0
+KR085-20;Resazurin sodium salt (10g);0;0;0
+KR085-21;"D-(+)-Trehalose Dihydrat 10 G; Sigma T0167-10G";0;0;0
+KR085-22;Adenosin-5′-triphosphat Magnesiumsalz (Mg-ATP);0;0;0
+KR085-23;Caesiumhydroxid solution;0;0;0
+KR085-24;"D-(+)-Trehalose Dihydrat 25 G; Sigma T0167-25G";0;0;0
+KR086-00;Lactic Acid solution (100 mg);0;0;0
+KR088-00;"Mo IgG1/FITC, Isotype Reag; Agilent# X092701-2";0;0;0
+KR090-00;Endotoxin-Referenz-Standard (USP);0;0;0
+KR090-01;Endotoxin-Referenz-Standard;0;0;0
+KR090-02;Etanercept;0;0;0
+KR090-03;Polyvinylpyrrolidon;0;0;0
+KR090-04;Ectoine;0;0;0
+KR091-00;Methylenblau;0;0;0
+KR096-00;Staurosporine;0;0;0
+KR096-01;Relaxin-1 - human (25 µg);0;0;0
+KR103-00;S9 from liver;0;0;0
+KR104-00;Cytochalasin B;0;0;0
+KR105-00;DAPI (1 mg);0;0;0
+KR110-00;(S)-(+)-Mandelic acid (25 g);0;0;0
+KR111-01;Trypan Blue solution (100 ml);0;0;0
+KR114-00;Cyclophosphamide monohydrate (1 g);0;0;0
+KR115-01;Sphingosine 1-phosphate (1 mg);0;0;0
+KR115-02;Nickelsulfat (100 g);0;0;0
+KR115-03;Dexamethason (25 mg);0;0;0
+KR115-04;IBMX (100 mg);0;0;0
+KR115-05;Rosiglitazone;0;0;0
+KR115-06;Cholesterin (1 g);0;0;0
+KR115-07;L-α-Phosphatidylcholin (25 g);0;0;0
+KR115-08;Actinomycin D;0;0;0
+KR115-09;Flagellin from Salmonella typhimurium;0;0;0
+KR115-10;Maleinsäure-diethylester (100 g);0;0;0
+KR115-11;Infliximab CRS;0;0;0
+KR115-12;IBMX (250 mg);0;0;0
+KR115-13;Aphidicolin (1 mg);0;0;0
+KR115-14;"Aphidicolin - CAS 38966-21-1 - Calbiochem; 178273-1MG";0;0;0
+KR115-15;Sphingosine 1-phosphate ready made solution;0;0;0
+KR118-01;"SepsiTest-UMD CE IVD; 1x48 React. Molzym #U-010-048";0;0;0
+KR118-02;"SepsiTest-UMD CE IVD; 1x24 React. Molzym #U-010-024";0;0;0
+KR122-02;AppliChem  Agarose Basic, 250 g;0;0;0
+KR122-03;Tryptic Soy Broth (500 g);0;0;0
+KR122-04;Thioglycollate medium (500 g);0;0;0
+KR122-05;Albumin human (100 mg);0;0;0
+KR122-06;Bovine Serum Albumin (50 g);0;0;0
+KR122-07;BSA Fraction V (30%-solution);0;0;0
+KR122-08;LB-Agar (Luria/Miller), granuliert;0;0;0
+KR122-09;Albumin, Rind, Fraktion V, Protease-freilyophil. 5 g;0;0;0
+KR122-10;Albumin, Rind, Fraktion V, Protease-frei, niedriger IgG 100g;0;0;0
+KR122-11;Human Serum Albumin (20%ig, 100 ml);0;0;0
+KR122-12;Abklatschplatten;0;0;0
+KR122-13;Sedimentations- und Wasserprobenplatten;0;0;0
+KR127-01;Poly(dA:dT)/LyoVec (100 µg);0;0;0
+KR127-02;Pam3CSK4 (1 mg);0;0;0
+KR128-00;LTA - Lipoteichonsäure (5 mg);0;0;0
+KR130-00;cAMP-Gi kit (1000 assay);0;0;0
+KR130-01;cAMP-Gs kit (1000 assays);0;0;0
+KR130-02;IP-One Gq kit (1000 assays);0;0;0
+KR131-00;Multiplex PCR 5X Master Mix;0;0;0
+KR133-01;"Bio-Glo™ Luciferase Assay System 10ml; G7941";0;0;0
+KR135-00;GSH/GSSG-Glo Assay (10 ml);0;0;0
+KR137-00;Triton X-100 (250 ml);0;0;0
+KR137-01;ROTI Star Buffer - pH 7 (500 ml);0;0;0
+KR137-02;ROTI Star Buffer - pH 4 (500 ml);0;0;0
+KR137-03;ROTI Star Buffer - pH 10 (500 ml);0;0;0
+KR137-04;Tween20;0;0;0
+KR139-00;Dimethylformamid (100 ml);0;0;0
+KR140-00;Somastatin 1mg;0;0;0
+KR140-01;CellTiter-Blue Cell Viability Assay (20 ml);0;0;0
+KR140-02;CellTiter-Glo® 3D Cell Viability Assay (10ml);0;0;0
+KR140-03;CellTiter-Glo® Luminescent Cell Viability Assay 10ml;0;0;0
+KR140-04;CellTiter-Glo® 2.0 Cell Viability Assay;0;0;0
+KR140-05;"alamarBlue™ Cell Viability Reagent 25 mL; # DAL1025";0;0;0
+KR140-06;"PrestoBlue™ Cell Viability Reagent; 25 mL; # A13261";0;0;0
+KR140-07;CellTiter-Glo® 3D Cell Viability Assay 100ml;0;0;0
+KR141-00;HIV-1 p24 ELISA Kit, 96 wells;0;0;0
+KR142-00;Biotin;0;0;0
+KR143-00;D-Pantothensäure Hemicalciumsalz;0;0;0
+KR144-01;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs00605917_m1;0;0;0
+KR144-02;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs01005622_m1;0;0;0
+KR144-03;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs01115513_m1;0;0;0
+KR144-04;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs01115513_m1;0;0;0
+KR144-05;TaqMan™ Gene Expression Assay (FAM) Assay ID: Hs00171584_m1;0;0;0
+KR145-00;3-Isobutyl-1-methylxanthin, Sigma I5879-100MG;0;0;0
+KR146-01;The Guava® easyCheck™ Kit – 100 Tests;0;0;0
+KR146-02;The Guava® Instrument Cleaning Fluid (ICF) – 100 mL;0;0;0
+KR146-03;Guava Cell Cycle Reagent (100 Tests);0;0;0
+KR147-00;Granulozyten-Makrophagen-Kolonie-stimulierender Faktor human;0;0;0
+KR148-00;Granulocyte Macrophage Colony Stimulating Factor;0;0;0
+KR149-00;Natriumhypochlorit-Lösung;0;0;0
+KR150-00;BIOFLOAT™ FLEX Beschichtungslösung 60mL;0;0;0
+KR151-00;Doxorubicin (hydrochloride) 50 mg;0;0;0
+KR152-00;Natriumbutyrat;0;0;0
+KR153-00;Harnsäure - Uric acid;0;0;0
+KR154-01;Nω-Methyl-L-arginin -acetat (Salz) 5MG;0;0;0
+KR154-02;Nω-Methyl-L-arginin -acetat (Salz) 25 MG;0;0;0
+KR155-00;Humanes gastroinhibitorisches Peptid;0;0;0
+KR156-00;β-Estradiol 100 mg;0;0;0
+KR157-00;"Sericin Bombyx mori (silkworm); Sigma #S5201-5G";0;0;0
+KR158-01;Nitric Oxide Assay Kit (Flow Cytometry - Red) (ab219934);0;0;0
+KR158-02;Cell Meter(TM) Fluorimetric Intracellular Nitric oxide (NO);0;0;0
+KR159-01;Glucagon-Like Peptide I Amide Fragment 7-36 human;0;0;0
+KR159-02;Glucagon 1 MG;0;0;0
+KR160-00;Phenylmethansulfonylfluorid;0;0;0
+KR161-00;RIPA-Puffer;0;0;0
+KR162-00;OxiSelect™ Intracellular Nitric Oxide (NO) Assay Kit;0;0;0
+LA002-00;"MCL Probenkopf; Teilenummer# 6807297";0;0;0
+LA003-00;"Sheath Filter; Artikel #6912942";0;0;0
+LA004-00;IX-HOS HALTER F.OBJEKTTRAEGER;0;0;0
+LA005-00;Olympus PLCN100XO-1-7 Objektiv mit 100-facher Vergrößerung;0;0;0
+LA006-00;"CryoMed Sensor; Thermo #4000385";0;0;0
+LA007-00;neo-Lab-Magnetrührer ohne Heizung, 3 l Rührvolumen;0;0;0
+LA007-01;Magnetrührstäbchen, hantelförmig, 35 mm;0;0;0
+LA007-02;Magnetrührstäbchen, zylindrisch, mit Mittelring, 40 mm;0;0;0
+LA007-03;Magnetrührstäbchen, zylindrisch, mit Mittelring, 35 mm;0;0;0
+LA007-04;Magnetrührstäbchen, zylindrisch, 25 mm;0;0;0
+LA008-00;Horizontale Elektrophoresesysteme, shiroGEL, Midi Plus;0;0;0
+LA008-01;UV-transparentes Geltablett für shiroGEL Mini 10;0;0;0
+LA008-02;Kamm für shiroGEL 15cm-Tray, 35 Taschen, 1.5mm Stärke;0;0;0
+LA009-00;Regaloptionen & Zubehör für Klimakammern und Inkubatoren;0;0;0
+LA010-00;Dremel 4250 Rotationswerkzeug 175 W;0;0;0
+LG01-01;Mikrobiologische Sicherheitswerkbank, Klasse II, MSC-Advanta;0;0;0
+LG01-02;Untergestell mit fester Höhe, 750 mm Arbeitshöhe, für 1,8-m;0;0;0
+LG01-04;Heralus Comms;0;0;0
+LG02-00;"Sunlab® Minizentrifuge SU1550, mit fixer; neoLab #D-8550";0;0;0
+LG03-00;"neoLab Vortex Schüttler; neoLab #7-2020";0;0;0
+LG04-00;"Orange Scientific elektrische Pipettierhilfe; geneo#8181-500";0;0;0
+LG05-00;Rollei Powerflex 350 WiFi - Kamera;0;0;0
+LG06-00;InLine 48009 Tisch-Stativ;0;0;0
+LG07-00;Cellometer Auto 2000 Automatic Cell Viability Counter system;0;0;0
+LG08-00;Bandelin Sonorex RK 100 H;0;0;0
+LG09-01;Hilfsmikroskop Carl Zeiss;0;0;0
+LG09-02;Drehknopf m. Strich sw/ws 23x4mm Carl Zeiss;0;0;0
+LG09-03;Deckel ABS/sw m. Strich für Knopf 23mm Carl Zeiss;0;0;0
+LG09-04;Stand25 Poti47k, kopl. Carl Zeiss;0;0;0
+LG09-05;"Bresser MikroCamII 9MP 4K 1""";0;0;0
+LG09-06;Bresser Reduzierlinse 1x variabel;0;0;0
+LG10-00;EL-USB-TC-Temperaturlogger;0;0;0
+LG10-01;IKT 20/040 Mantel-Thermoelement mit Miniaturstecker;0;0;0
+LG10-02;Temperatur-Logger Libero CE;0;0;0
+LG10-04;Temperatur-Logger Libero CD Single Use;0;0;0
+LG10-22;Temperatur-Fühler für Libero CE;0;0;0
+LG10-33;Temperatur-Fühler für Libero CE Dry Ice;0;0;0
+LG11-00;Kompakt Waagen EMB-Serie, 0,1 g, 3000 g, EMB 3000-1;0;0;0
+LG11-01;Zubehör Netzgerät für Kompakt Waagen EMB-Serie;0;0;0
+LG12-00;Instrument Trial Fee;0;0;0
+LM001-00;Farbband für Etikettendrucker Resin SP 110 x 300 OUT;0;0;0
+LM001-01;Farbband für CAB Etikettendrucker, R71, 38mm x 360m;0;0;0
+LM002-00;Laboretiketten (klein) Folienetikett e-3032, 30 x 15 mm;0;0;0
+LM002-01;Laboretiketten (mittel) Folienetikett e-3032, 70 x 33 mm;0;0;0
+LM002-03;"Laboretiketten ""acCELLerate"" für CAB-Druckautomat, 20.000";0;0;0
+LM002-04;Etiketten 20X68 E-2298 1R 76/2000 OUT acCELLerate Logo;0;0;0
+LM003-01;Dismozon Plus (50 Beutel) 16g Beutel;0;0;0
+LM003-02;Dismozon Plus (100 Beutel) 16g Beutel;0;0;0
+LM005-00;"Einmalhandschuh Nitril (M) ; Box/100St.";0;0;0
+LM005-01;"Einmalhandschuh Nitril (S) ; Box/100St.";0;0;0
+LM005-02;"Einmalhandschuh Nitril (L) ; Box/100St.";0;0;0
+LM005-03;"Einmalhandschuh Nitril (XS) ; Box/100St.";0;0;0
+LM005-04;Latex Gloves, M, Powder free;0;0;0
+LM005-06;Einmalhandschuhe Semperguard® Nitrile Xenon, Gr. M;0;0;0
+LM005-07;"Einmalhandschuh RotiProtect Nitril evo (M) ; Box/100St.";0;0;0
+LM005-08;"Einmalhandschuh RotiProtect Nitril eco (M) ; Box/100St.";0;0;0
+LM005-09;Armstulpen, PP/PE, weiß, 400mm;0;0;0
+LM005-10;Laboratory coats, PP, XL, weiß;0;0;0
+LM005-11;Cryo-Gloves®, MAXL (XL, blau, 345-390cm);0;0;0
+LM005-12;Armstulpen, PP/PE, weiß, 500mm;0;0;0
+LM005-13;Einmalhandschuhe SHOWA 7540, Größe: L;0;0;0
+LM005-14;Cryo-Gloves®, Gr. M, blau, ~350 mm;0;0;0
+LM005-15;Laboratory coats, PP, XL, grün;0;0;0
+LM005-16;"Einmalhandschuh Nitril (L), hellblau ; Box/100St.";0;0;0
+LM005-17;Cryo-Gloves Unterarmlang MAXLWP wasserdicht;0;0;0
+LM006-00;Einweg-Spritzen, steril, 3 ml (100 Stk./Pack.);0;0;0
+LM006-01;Einweg-Spritzen, steril, 20 ml (50 Stk./Pack.);0;0;0
+LM006-02;Einweg-Injektionskanülen FINE-JECT, hellgrau;0;0;0
+LM006-03;Einweg-SterilFILTER Filtropur S (0.2 µm);0;0;0
+LM006-04;Einweg Injektionskanülen 40x0,9mm, gelb;0;0;0
+LM006-05;Einweg Injektionskanülen 40x0,8mm, grün;0;0;0
+LM006-06;Einweg-Spritzen, steril, 5 ml (100 Stk./Pack.);0;0;0
+LM007-01;0,2ml-PCR-Multiply-µStripPro 8er Kette;0;0;0
+LM007-02;Thermowell™ GOLD 0.2 mL PCR Tubes;0;0;0
+LM007-03;PCR Tubes, 0.2 ml;0;0;0
+LM008-01;Eppis (1,5 ml), amber;0;0;0
+LM009-00;Handcreme Stokolan Classic 100ml;0;0;0
+LM010-00;KimWipe (100 Tücher/Box);0;0;0
+LM010-01;Spezial-Wischtuch, weiß, 40x38 cm;0;0;0
+LM010-02;WYPALL L10 Extra Paper Wipe, Rolle 380 mm breit;0;0;0
+LM010-03;WYPALL L20 Paper Wipe, Rolle 380 mm breit;0;0;0
+LM010-04;WYPALL L10 EXTRA+ Paper Wipe, Rolle 325 mm breit;0;0;0
+LM010-05;Versi-Dry™ Oberflächenschutz;0;0;0
+LM011-00;Lab-Marker, VE=10 Labormarker schwarz;0;0;0
+LM011-01;Lab-Marker, VE=10 Labormarker blau;0;0;0
+LM011-02;Labormarker Securline Set;0;0;0
+LM013-02;Pipettenspitze in TipStacks, 2 - 200 µl, StackPack;0;0;0
+LM013-06;Biosphere FILTER-Tips, 2 - 200 µl;0;0;0
+LM013-08;Biosphere FILTER-Tips, 50 - 1.250 µl, lang;0;0;0
+LM013-09;Rainin Pipettenspitzen, Tips RT-LTS-A-300µl-/L/S-768/8;0;0;0
+LM013-10;Rainin Pipettenspitzen, Tips RT-LTS-A-300µl-/F/L-768/8;0;0;0
+LM013-11;Rainin Pipettenspitzen, Tips RT-LTS-A-1200µl-/L/S-768/8;0;0;0
+LM013-12;Rainin Pipettenspitzen, Tips RT-LTS-A-1200µl-/F/L-768/8;0;0;0
+LM013-13;Rainin Pipettenspitzen, Tips GPS-LTS-A-250µl-/L/S-960/10;0;0;0
+LM013-14;Rainin Pipettenspitzen, LTS-Tips GPS-L1000SLR-768/8;0;0;0
+LM013-15;Rainin Pipettenspitzen HRC UNV 1000μL F 768C/8 (Filter Tips);0;0;0
+LM013-16;Rainin Pipettenspitzen GPS UNV 250μL 960A/10, SpaceSaver;0;0;0
+LM013-17;Rainin Pipettenspitzen, Tips GPS-LTS-300µl-S-768/8;0;0;0
+LM013-18;Biosphere FILTER-Tips, 10 - 100 µl;0;0;0
+LM013-19;Rainin Pipettenspitzen RT UNV 250μL 960A/10;0;0;0
+LM013-21;Biosphere LowRet. FILTER-Tips, 30-300 µl;0;0;0
+LM013-22;Biosphere LowRet. FILTER-Tips, 30-300 µl - SingleREFILL;0;0;0
+LM013-23;Biosphere LowRet. FILTER-Tips, 10 - 100 µl;0;0;0
+LM013-24;Biosphere plus Filter-Tips, 30-300 µl;0;0;0
+LM013-25;PCR Preformance Tips, 50 - 1.250 µl, StackPack;0;0;0
+LM013-26;Biosphere LowRet. FILTER-Tips, 10 - 100 µl - SingleREFILL;0;0;0
+LM013-27;Rainin Pipettenspitzen GPS UNV 1000μl LS 768A/8;0;0;0
+LM013-28;Biosphere Tips, 50 - 1.250 µl, lang;0;0;0
+LM013-29;Biosphere FILTER-Tips, 50 - 1.250 µl, SingleRefill;0;0;0
+LM013-30;Biosphere FILTER-Tips, 2 - 20 µl;0;0;0
+LM013-31;Biosphere FILTER-Tips, 50 - 1.250 µl, Box;0;0;0
+LM015-00;"Überziehschuhe blau; VE=100 St.";0;0;0
+LM018-01;Trockeneis Platten 150 x150 x 30 mm;0;0;0
+LM019-00;Vernichtungsbeutel 600 x 780 mm;0;0;0
+LM019-01;Vernichtungsbeutel 200 x 300 mm;0;0;0
+LM019-02;Multi-Safe vario 2000 Abwurfbehälter;0;0;0
+LM020-01;2,5 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0;0
+LM020-02;10 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0;0
+LM020-03;50 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0;0
+LM020-04;0,5 ml Combitips advanced®, Biopur, einzeln steril verpackt;0;0;0
+LM020-05;12,5 ml Fisherbrand™ Dispensertips, steril;0;0;0
+LM020-06;X100 PDTips II, 0.1ml, BIOCERT, einzeln verpackt;0;0;0
+LM020-07;X100 PDTips II, 12.5ml, BIOCERT, einzeln verpackt;0;0;0
+LM020-08;X25 PDTips II, 50ml, BIOCERT, einzeln verpackt;0;0;0
+LM020-1;Reagenzien-Reservoir, 8-Kanal, steril;0;0;0
+LM020-2;Reagenzien-Reservoir, 60ml, steril;0;0;0
+LM020-3;Reagenzien-Reservoir für 8/12-Kanalpipetten, unsteril;0;0;0
+LM020-4;Reagenzien-Reservoir für 8/12-Kanalpipetten, steril;0;0;0
+LM021-00;O-Ring-Set für Xplorer 50-1.200 µl;0;0;0
+LM021-01;O-Ring-Set für Xplorer 5-100 µl;0;0;0
+LM021-02;Eppendorf® Locking Clip;0;0;0
+LM022-00;Baktolin Pure Waschlotion, 5 L;0;0;0
+LM022-01;Baktolin Pure Waschlotion, 500 mL;0;0;0
+LM024-01;Röhre für Flowcytometer FC500, Sarstedt #55.1579;0;0;0
+LM024-02;Schraubröhre, 13 ml mit Deckel, Rundboden, steril;0;0;0
+LM024-03;BRAND® semi-micro cuvette;0;0;0
+LM025-00;Sterilium Desinfektionsmittel für die Hände, 5L-Kanister;0;0;0
+LM025-01;Sterilium Desinfektionsmittel für die Hände, 500 ml;0;0;0
+LM025-02;Händedesinfektionsmittel nach WHO-Formulierung, 5 L Kanister;0;0;0
+LM025-03;Bacillol AF, Flächendesinfektionsmittel, 1000 mL;0;0;0
+LM025-04;Mycoplasma Off™, 1000ml Sprühflasche;0;0;0
+LM027-00;SafeSeal Reagiergefäße 1,5 ml;0;0;0
+LM027-01;SafeSeal Reagiergefäße 2,0 ml;0;0;0
+LM027-02;Biosphere SafeSeal Reagiergefäße 1,5 ml, DNA-frei;0;0;0
+LM027-03;SafeSeal Reagiergefäße 2,0 ml, blau;0;0;0
+LM028-00;Reagiergefäße 1,5 ml;0;0;0
+LM029-00;Eppendorf Tubes 5.0 ml (200 Tubes);0;0;0
+LM032-00;neodisher FA, Dr. Weigert, 10 L;0;0;0
+LM032-01;neodisher Z, Dr. Weigert, 5 L;0;0;0
+LM034-00;Aspirationspipette;0;0;0
+LM035-00;Nalgene™ Economy Spülflaschen aus LDPE;0;0;0
+LM035-01;"Sprühflasche ""Turn 'n' Spray"", 1 L";0;0;0
+LM035-02;Thermo Scientific™ Nalgene™ quadratische PETG-Medienflaschen;0;0;0
+LM036-00;Label-Station für Tough®-Artikel;0;0;0
+LM036-01;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Gold;0;0;0
+LM036-02;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Weiß;0;0;0
+LM036-03;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Blau;0;0;0
+LM036-05;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Orange;0;0;0
+LM036-06;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Grün;0;0;0
+LM036-07;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Lila;0;0;0
+LM036-08;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Hell-braun;0;0;0
+LM036-09;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Pink;0;0;0
+LM036-10;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Rot;0;0;0
+LM036-11;Tough-Spots® - 196 bis + 80 °C, 13 mm Ø, Silber;0;0;0
+LM037-00;CASY Clean 500 ml;0;0;0
+LM038-00;Casy Cups;0;0;0
+LM039-00;Casy Ton, 10 Liter/Kanister;0;0;0
+LM041-01;Serologische Pipette 10 ml;0;0;0
+LM041-02;Serologische Pipette 25 ml;0;0;0
+LM041-03;Serologische Pipette 2 ml;0;0;0
+LM041-04;Serologische Pipette 50 ml;0;0;0
+LM041-05;Serologische Pipette 5 ml;0;0;0
+LM041-06;Serologische Pipette 1 ml;0;0;0
+LM042-01;Centrifugation Tube (15 ml);0;0;0
+LM042-02;Centrifugation Tube (50 ml);0;0;0
+LM042-03;Centrifugation Tube (500 ml);0;0;0
+LM042-04;Schraubgefäß 120 ml mit Deckel, steril;0;0;0
+LM042-05;Gosselin gerader Polypropylenbehälter, 125 mL, steril;0;0;0
+LM042-06;Centrifugation Tube (250 ml);0;0;0
+LM042-07;Rack für Centrifugation Tube (175-250 ml);0;0;0
+LM042-08;Rack für Centrifugation Tube (für 10x 50 ml);0;0;0
+LM042-09;Rack für Centrifugation Tube (für 20x 50 ml);0;0;0
+LM042-10;Centrifugation Tube (175 ml), single use, sterile;0;0;0
+LM042-11;Centrifugation Tube (175 ml), autoklavierbar;0;0;0
+LM042-12;Centrifugation Tube (225 ml);0;0;0
+LM042-13;SepMate™-50 (IVD) (50 ml);0;0;0
+LM042-14;Rack für Centrifugation Tube (500 ml);0;0;0
+LM042-15;Centrifugation Tube (50 ml), braun;0;0;0
+LM042-16;Centrifugation Tube (15 ml), braun;0;0;0
+LM042-17;Kryoröhrchengestell;0;0;0
+LM042-18;Fisherbrand™ Schwimmständer aus Schaum;0;0;0
+LM042-19;"CoolCell grün; #432008";0;0;0
+LM042-20;FluidX 48-format Rack with Lid;0;0;0
+LM042-21;Rack für Reaktionsgefäße 1,5-2,0 ml, PP, 5x16 Plätze, grün;0;0;0
+LM042-22;Rack für Reaktionsgefäße 1,5-2,0 ml, PP, 5x16 Plätze, orange;0;0;0
+LM042-23;Rack für Reaktionsgefäße 1,5-2,0 ml, PP, 5x16 Plätze, gelb;0;0;0
+LM042-24;Multi-Tube Rack, grey;0;0;0
+LM042-25;Gestelle für Reaktionsgefäße, VWR®, grün;0;0;0
+LM042-26;Gestelle für Reaktionsgefäße, VWR®, gelb;0;0;0
+LM043-00;Rundfilter für Hirschmann-Pipetus VWR #612-1982;0;0;0
+LM043-01;Rundfilter für Brand Accu-Jet;0;0;0
+LM043-03;In-Line Filter, Whatman™ VACU-GUARD™;0;0;0
+LM046-00;Filtrationsauffanggefäße (250 ml);0;0;0
+LM046-01;Filtrationsauffanggefäße (500 ml);0;0;0
+LM046-02;Filtrationsauffanggefäße (1000 ml);0;0;0
+LM047-00;Via Check Control Microspheres (20ml);0;0;0
+LM050-00;Filtropur V25, Vakuumfiltrationseinheit;0;0;0
+LM050-01;Vacuumfiltrationseinheit, 0.2µm, 250ml;0;0;0
+LM051-00;Aluminiumfolie im Rollenspender, VWR 291-0047;0;0;0
+LM052-00;PP-Ballonflaschen 10 l VWR #216-1703;0;0;0
+LM053-00;Einweg-Spritze, 50 ml, Luer-Steck, steril;0;0;0
+LM053-01;Einweg-Spritze, 50 ml, Luer-Lock, steril;0;0;0
+LM054-00;Filtropur BT 50 FlaschenaufsatzFILTER;0;0;0
+LM054-01;Vacuumfiltrationseinheit, 0.2µm, 500ml;0;0;0
+LM055-00;Filterkerze für Autoklaven VX150;0;0;0
+LM055-01;HEPA-Ersatzfilter für Forma-Inkubatoren Series 3100;0;0;0
+LM058-01;Instrumentenschalen mit Knopfdeckel 200×100×30 mm;0;0;0
+LM059-01;Wägepapier (Weighing paper);0;0;0
+LM060-01;RM-A (cut);0;0;0
+LM060-02;RM-B (cut);0;0;0
+LM060-03;RM-C (cut);0;0;0
+LM061-00;Petrischale (92 x 16 mm);0;0;0
+LM061-01;Kontaktschale, PS, 65/15 mm, mit Nocken;0;0;0
+LM062-01;Schraubverschluß rot für Mikro-Schraubröhren;0;0;0
+LM062-02;Schraubverschluß gelb für Mikro-Schraubröhren;0;0;0
+LM062-03;Schraubverschluß grün für Mikro-Schraubröhren;0;0;0
+LM063-01;"Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3417";0;0;0
+LM063-02;"Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3410";0;0;0
+LM063-03;"Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3409";0;0;0
+LM064-01;"Reaktionsgefäß mit Schraubverschluss; VWR# 525-0644";0;0;0
+LM064-02;"Reaktionsgefäß mit Schraubverschluss; VWR# 525-0652";0;0;0
+LM064-03;"Reaktionsgefäß NEOLAB; VWR# NEOL7-4590";0;0;0
+LM064-04;Reaktionsgefäß ohne Schraubverschluss;0;0;0
+LM065-00;SD100 Cellometer Zählkammern mit Schutzfolie, 600 Analysen;0;0;0
+LM065-01;Hämacytometer Cover Glass (f. Neubauerkammer);0;0;0
+LM065-02;Cellometer ViaStain AOPI Färbelösung;0;0;0
+LM065-03;Neubauer Zählkammer;0;0;0
+LM065-04;SD100 Cellometer Zählkammern mit Schutzfolie, 150 Analysen;0;0;0
+LM065-05;PD300 Cellometer Zählkammern mit Schutzfolie, 100 Stück;0;0;0
+LM066-00;SafeSeal Reagiergefäß 0,5 ml;0;0;0
+LM067-00;OSRAM HBO 50W-AC 39V L1;0;0;0
+LM068-00;Zähler / Handzähler;0;0;0
+LM069-00;"Pasteur-Pipette, GESTOPFT; VWR #612-1798";0;0;0
+LM070-00;"KASTEN FÜR MICRO-OBJEKTTRÄGER 100PL BLAU; VWR# 631-0736";0;0;0
+LM071-00;Nunc-Immuno MicroWell 96 well solid plates;0;0;0
+LM071-01;96-well Polypropylene Cluster Tubes;0;0;0
+LM072-00;Einmal-Skalpelle, Cutfix, 10St./VE, #23;0;0;0
+LM072-01;Einmal-Skalpelle, Cutfix, 10St./VE, #10;0;0;0
+LM072-02;Einmal-Skalpelle, Cutfix, 10St./VE, #11;0;0;0
+LM073-00;Einmalspritze, Luer-Lock, 3 ml, steril;0;0;0
+LM074-00;"Pinzetten mit Führungsstift; Carl Roth #LT35.1";0;0;0
+LM074-01;Pinzette m.silikonbeschichteten Spitzen,115mm, für 1mg-5g;0;0;0
+LM074-02;Pinzette m.silikonbeschichteten Spitzen,160mm, für 1-200g;0;0;0
+LM074-03;Bürste, mittel, 115 mm;0;0;0
+LM074-04;Kalibriergewicht, Klasse E2, 200 mg;0;0;0
+LM074-05;Kalibriergewicht, Klasse E2, 20 g, polierter Edelstahl;0;0;0
+LM074-06;Kalibriergewicht, Klasse E2, 100 g, polierter Edelstahl;0;0;0
+LM074-07;Pinzette gerade spitz, 105 mm;0;0;0
+LM074-08;Pinzette gebogen spitz, 130 mm;0;0;0
+LM074-09;Spezialschere KNOWLES, spitz, geknöpft;0;0;0
+LM074-10;Spezialschere SPENCER;0;0;0
+LM074-11;Spezialschere LISTER abgewinkelt;0;0;0
+LM074-12;Pinzette gerade stumpf, 160 mm;0;0;0
+LM074-13;Pinzette gerade stumpf, 200 mm;0;0;0
+LM075-00;6CH Large Tubing Cartridge with Resin Nozzle (5UL-2000UL);0;0;0
+LM076-00;"Objektträgerbox; Carl Roth #K534.1 rot";0;0;0
+LM076-01;PARAFILM® M, 100 mm, 38 m;0;0;0
+LM076-02;Objektträger Kanten geschliffen 45°, mit Mattrand;0;0;0
+LM076-03;Pasteurpipetten mit Faltenbalg graduiert, 5 ml, 195 mm;0;0;0
+LM077-00;Sicherheitsventil Za G1/4-RC3/8;0;0;0
+LM078-00;"Deckgläser; Ø 20 mm; VE 1000";0;0;0
+LM078-01;"Deckgläser; Ø 15 mm; VE 1000";0;0;0
+LM078-02;"Deckgläser; Ø 10 mm; VE 1000";0;0;0
+LM079-00;Membranfilter, 0,45 µm, PTFE, steril EPPENDORF, VE 5,;0;0;0
+LM080-00;"Batterie, Lithium-Polymer, für PIPETBOY acu 2; VWR";0;0;0
+LM080-01;Lithium-Ionen-Akku f. Multipette, Eppendorf;0;0;0
+LM080-02;Akkufachdeckel für PIPETBOY acu 2;0;0;0
+LM080-03;PIPETBOY acu 2;0;0;0
+LM080-04;HandyStep touch, DE-M;0;0;0
+LM080-05;Ladeständer für HandyStep touch & HandyStep touch S;0;0;0
+LM080-06;Dispensette S, Digital,110ml, m. RDV;0;0;0
+LM081-00;Laborflaschen, rund, braun, mit Gewinde, DURAN VE=10;0;0;0
+LM083-00;CRF Kammersensor mini;0;0;0
+LM085-02;Weithalsflaschen mit PP-Schraubverschluss, mit Griffmulde;0;0;0
+LM085-03;Ersatz-Vakuumflasche, 4000 mL, ohne Schlauchanschlüsse;0;0;0
+LM085-04;Ersatz-Vakuumflasche, 4000 mL, mit Schlauchanschlüssen;0;0;0
+LM086-01;Autoklavenband schmal;0;0;0
+LM086-02;Autoklavenband schmal, große Rolle;0;0;0
+LM087-00;Baumwollhandschuhe;0;0;0
+LM087-01;Strickhandschuhe;0;0;0
+LM088-00;Klebefolien - Reinigungsmatten 60-lagig, 457 x 1143 mm;0;0;0
+LM088-02;Klebefolien - Reinigungsmatten 30-lagig, 457 x 1143 mm;0;0;0
+LM089-00;Gummi-Adapter (klein) für Pasteurpipetten/VacuBoy;0;0;0
+LM090-00;Pipettenadapter, Silikon, hält die Pipette im Nasenstück;0;0;0
+LM091-00;VHCpro Absaughandgriff, Fa. Vacuubrand;0;0;0
+LM091-01;VACUBOY Handoperator-Set, Mehrkanal;0;0;0
+LM091-02;O-Ring 2.57X1.78MM FKM 60 SHORE AU;0;0;0
+LM092-00;Pouring ring, blue, PP, GL 45, VE 10 St.;0;0;0
+LM093-00;Mikrofeinfilter für Miele Geschirrspüler G7883CD;0;0;0
+LM094-00;Cherry Switches Mikroschalter DB3C-A1RC 250 V/AC 0.1 A;0;0;0
+LM095-00;Hakenpinzette, ~12 cm, gerade mit Haken;0;0;0
+LM096-00;Philips 5761 30W 6V G4 medical lighting [Energieklasse n/a];0;0;0
+LM096-01;Halogenbirne mit Sockel, 6V / 30W;0;0;0
+LM097-01;Lager-Box Curver Essentials 26l (transparent);0;0;0
+LM097-02;Lager-Box Curver Essentials 45l (transparent);0;0;0
+LM097-03;Lager-Box Curver Essentials 16l (transparent);0;0;0
+LM097-04;Lager-Box Curver Essentials 20l (transparent);0;0;0
+LM097-05;Lager-Box 18L, KIS Moover Pro S, blickdicht m. Deckel;0;0;0
+LM097-06;keeeper (OKT) bruno Eurobox XXL, 54l (transparent);0;0;0
+LM097-07;keeeper (OKT) bruno Eurobox XL, 28l (transparent);0;0;0
+LM097-08;Sicherheitsbehälter ROTILABO®;0;0;0
+LM098-01;Corning Matrigel Basement Membrane Matrix, LDEV-free, 5 mL;0;0;0
+LM098-02;Corning Matrigel Basement Membrane Matrix, LDEV-free 10 mL;0;0;0
+LM099-00;CLA Barcodes (STR-Analyse);0;0;0
+LM100-00;"ASCO Magnetventil; #325037-LT";0;0;0
+LM101-01;Mikro-Schraubröhren, 0,5 ml, braun;0;0;0
+LM102-00;Drigalskispatel;0;0;0
+LM43-04;Rundfilter, für Integra-PipetBOY (Art.-Nr. 153016);0;0;0
+ME001-00;RPMI 1640, with HEPES, stable Gln., NaHC, phenol red;0;0;0
+ME00100-00;4′,6-Diamidino-2-phenyl-indol -dihydrochlorid 5 MG;0;0;0
+ME001-01;RPMI 1640, with L-Gln, NaHC, phenol red,  w/o L-Tryptophan;0;0;0
+ME001-02;RPMI 1640, with NaHC, w/o L-Gln, phenol red;0;0;0
+ME001-03;RPMI 1640, with NaHC, phenol red, w/o L-Gln;0;0;0
+ME001-04;RPMI 1640, with L-Gln, NaHC, phenol red;0;0;0
+ME001-06;RPMI 1640, with GlutaMAX, phenol red, NaHC, w/o HEPES;0;0;0
+ME001-07;RPMI 1640 (ATCC modification);0;0;0
+ME001-08;RPMI 1640 Advanced;0;0;0
+ME001-09;RPMI 1640 with HEPES, L-Gln., NaHC, phenol red;0;0;0
+ME002-01;Alpha MEM, w/o nucleosides;0;0;0
+ME002-02;Alpha MEM, with nucleosides;0;0;0
+ME002-03;Alpha MEM, with nucleosides, w/o phenolred;0;0;0
+ME003-01;Ham's F12, w/o L-Gln, phenol red;0;0;0
+ME003-02;Ham's F12, with phenol red, w/o L-Gln;0;0;0
+ME003-03;Ham's F12, with L-Gln, phenol red;0;0;0
+ME003-05;Ham's F12 (Kaighn's modification);0;0;0
+ME004-01;DMEM (high glucose), w/o L-Gln, phenol red;0;0;0
+ME004-02;DMEM (high glucose), with phenol red, w/o L-Gln, NaPy;0;0;0
+ME004-03;DMEM (low glucose), w/o phenol red, NaPy;0;0;0
+ME004-04;DMEM (low glucose), with phenol red, NaPy;0;0;0
+ME004-09;DMEM (high glucose), with L-Gln, phenol red, NaPy;0;0;0
+ME004-10;DMEM (high glucose), with L-Gln, phenol red, NaPy;0;0;0
+ME004-11;DMEM (high glucose), with L-Gln, phenol red, NaPy;0;0;0
+ME004-12;DMEM (high glucose) with GlutaMAX, phenol red, NaPy;0;0;0
+ME004-13;DMEM (high glucose) with GlutaMAX, phenol red, NaPy;0;0;0
+ME004-14;DMEM (high glucose), with phenol red, L-Gln, low NaHCO3;0;0;0
+ME004-16;DMEM (no glucose), with L-Gln, phenol red, w/o NaPy;0;0;0
+ME004-17;DMEM (high glucose), with L-Gln, phenol red, w/o NaPy;0;0;0
+ME004-18;DMEM (high glucose) with GlutaMAX, phenol red, no NaPy;0;0;0
+ME005-04;DMEM/F12, with HEPES, NaHC, L-Gln, w/o phenol red;0;0;0
+ME005-05;DMEM/F12, with HEPES, NaHC, w/o L-Gln, phenol red;0;0;0
+ME005-10;DMEM/F12, with HEPES, NaHC, phenol red, w/o L-Gln;0;0;0
+ME005-14;DMEM/F12, with NaHC, phenol red, w/o HEPES, L-Gln;0;0;0
+ME005-15;DMEM/F12, with NaPy, phenol red, w/o L-Gln, HEPES;0;0;0
+ME005-16;DMEM/F12, with stable Gln, NaPy, phenol red, w/o HEPES;0;0;0
+ME005-17;DMEM/F12, with Gln, NaPy, phenol red, HEPES;0;0;0
+ME006-02;IMDM (high glucose), with HEPES, NaPy, w/o phenol red;0;0;0
+ME006-03;IMDM (high glucose), with HEPES, NaPy, phenol red;0;0;0
+ME006-04;IMDM (high glucose), with HEPES, NaPy, phenol red;0;0;0
+ME006-05;IMDM (ATCC modification), 1.5 g/L NaHCO3;0;0;0
+ME007-00;MEM Eagle, with EBSS, with L-Gln, 1.5 g/L NaHC;0;0;0
+ME007-01;MEM Eagle, with EBSS, w/o L-Gln, 2.2 g/L NaHC;0;0;0
+ME007-02;MEM Eagle, with EBSS, with L-Gln, 2.2 g/L NaHC;0;0;0
+ME007-03;"MEM Eagle, with EBSS, w/o L-Gln, phenolred; 2.2 g/L NaHC";0;0;0
+ME007-04;EMEM (ATCC-modification);0;0;0
+ME008-00;Leibovitz-Medium L15;0;0;0
+ME008-01;William's Medium E, with NaHC, w/o L-Gln, phenol red;0;0;0
+ME008-02;McCoy's 5A;0;0;0
+ME008-03;MCDB 131, with NaHC (1,176 g/L), w/o L-Gln;0;0;0
+ME008-05;Claycomb Medium;0;0;0
+ME008-06;MCDB 153 Medium (with trace elements);0;0;0
+ME009-01;Opti-MEM I (reduced serum medium);0;0;0
+ME009-02;Expi293™ Expression Medium;0;0;0
+ME009-03;ProCHO™ 5 Protein-free CHO Medium;0;0;0
+ME009-04;Panserin 293A;0;0;0
+ME009-10;FreeStyle 293 Expression Medium;0;0;0
+ME009-12;FreeStyle CHO Expression Medium;0;0;0
+ME009-20;EX-CELL ACF CHO Medium;0;0;0
+ME009-21;CD CHO Medium;0;0;0
+ME009-22;EX-CELL CHO DHFR Medium;0;0;0
+ME009-23;ClonaCell-HY Medium E;0;0;0
+ME009-24;Lymphocyte Separation Medium, Density 1.077 g/ml;0;0;0
+ME009-25;CD FortiCHO™-Medium;0;0;0
+ME009-26;CD 293 Medium;0;0;0
+ME010-01;Endothelial Cell Growth Medium;0;0;0
+ME011-01;Immunzell Medium (serum free);0;0;0
+ME011-03;LGM-3 (Lymphocyte Growth Medium);0;0;0
+ME012-00;Epithelial Cell Medium;0;0;0
+ME012-01;Pantum 386 Complete Medium for Epithelial Cells, with L-Gln;0;0;0
+ME012-02;Airway Epithelial Cell Basal Medium;0;0;0
+ME012-03;Bronchial Epithelial Cell Growth Kit;0;0;0
+ME014-01;KBM-Gold Basal Medium;0;0;0
+ME014-02;KGM-Gold BulletKit;0;0;0
+ME014-03;KGM Gold SingleQuots Supplements and Growth Factors;0;0;0
+ME014-04;Keratinozyten-SFM (1x);0;0;0
+ME016-01;Cryopan I (serum-free freezing medium), 50 ml;0;0;0
+ME016-02;Cryoprotective Freezing Medium;0;0;0
+ME016-03;CryoSOfree (DMSO-free freezing medium);0;0;0
+ME016-04;CryoStor CS10;0;0;0
+ME016-05;Recovery™ Cell Culture Freezing Medium;0;0;0
+ME016-06;CryoStor CS5;0;0;0
+ME016-07;CELLBANKER 2, 100 ml;0;0;0
+ME016-08;Cryopan I (serum-free freezing medium), 100 ml;0;0;0
+ME016-09;Cryopan I (serum-free freezing medium), 500 ml;0;0;0
+ME016-10;CELLBANKER 2, 20 ml;0;0;0
+ME016-11;Bambanker, 120 ml;0;0;0
+ME016-12;CELLBANKER 1 (20ml);0;0;0
+ME020-01;Sodium Pyruvate (100 mM);0;0;0
+ME020-02;Sodium bicarbonate solution (7.5%);0;0;0
+ME020-03;HEPES Buffer Solution (1 M);0;0;0
+ME022-00;L-Glutamine Solution (200 mM);0;0;0
+ME022-01;GlutaMAX;0;0;0
+ME022-02;Stable Glutamine (100x);0;0;0
+ME023-00;MEM NEAA (100x);0;0;0
+ME024-00;Pluronic F-68 (10%);0;0;0
+ME025-01;ß-Mercaptoethanol (50 mM);0;0;0
+ME026-00;DMSO (Dimethyl sulfoxide);0;0;0
+ME026-08;DPBS 1 L;0;0;0
+ME027-01;Hydrocortisone (1mg/ml);0;0;0
+ME027-02;ITS solution II (100x);0;0;0
+ME027-03;ITS solution I (100x);0;0;0
+ME027-04;T3 (tri-iodo-thyronine sodium salt);0;0;0
+ME027-05;HT Supplement (100X);0;0;0
+ME027-06;GS Supplement (50X);0;0;0
+ME027-07;MSX;0;0;0
+ME027-08;Anti-Clumping-Agent;0;0;0
+ME027-09;Fibronectin, bovine;0;0;0
+ME027-10;Gelatin Solution (AF Protein);0;0;0
+ME027-11;T3 / 3,3′,5-Triiod-L-thyronin Natriumsalz;0;0;0
+ME027-12;Dextransulfat Natriumsalz;0;0;0
+ME029-01;Penicillin / Streptomycin;0;0;0
+ME029-02;Gentamicin (50 mg/ml);0;0;0
+ME029-03;Tetracycline hydrochloride (fest);0;0;0
+ME029-04;(±)-Norepinephrin -(+)-bitartratsalz;0;0;0
+ME029-05;"Tetracyclin -hydrochlorid; Sigma #T3383-25G";0;0;0
+ME032-01;Accutase, 100 ml;0;0;0
+ME032-02;Accutase, 500 ml;0;0;0
+ME032-03;AccuMax, 100 ml;0;0;0
+ME032-04;AccuMax, 500 ml;0;0;0
+ME033-01;TrypLE Express (5 L);0;0;0
+ME033-02;TrypLE Express (500 ml);0;0;0
+ME033-03;TrypLE Express (500 ml), with phenolred;0;0;0
+ME035-00;Trypsin-EDTA (0,25%), 100 ml;0;0;0
+ME035-01;Trypsin-EDTA (0,25%), 500 ml;0;0;0
+ME035-02;Trypsin-EDTA (0.05%), 100 ml, phenolred;0;0;0
+ME035-03;Trypsin-EDTA (0.05%), phenolred;0;0;0
+ME038-00;Cell Dissociation Buffer;0;0;0
+ME039-00;Defined Trypsin Inhibitor;0;0;0
+ME040-01;G418 Sulfate Solution (50 mg/ml);0;0;0
+ME040-02;G418 Sulfate Solution (100 mg/ml);0;0;0
+ME040-03;G418 Sulfate;0;0;0
+ME042-00;Puromycin (10 mg/ml), 10x 1mL;0;0;0
+ME042-01;Puromycin (10 mg/ml), 20 mL;0;0;0
+ME043-01;Blasticidine (10 mg/ml);0;0;0
+ME045-05;Hygromycin B;0;0;0
+ME045-06;Hygromycin B (50 mg/ml);0;0;0
+ME046-00;Zeocin;0;0;0
+ME047-01;HEK-Blue Selection (250x);0;0;0
+ME061-01;DPBS;0;0;0
+ME061-02;DPBS;0;0;0
+ME061-03;DPBS (+MgCl2, +CaCl2);0;0;0
+ME062-00;PBS;0;0;0
+ME062-01;PBS/EDTA (1% EDTA in PBS);0;0;0
+ME063-011;HBSS (Hank's Balanced Salt Solution);0;0;0
+ME064-01;Sterile Water (cell culture grade);0;0;0
+ME069-02;Hydrocortisone, ethanol-soluble, Sigma #H0135-1MG;0;0;0
+ME076-05;"ITS solution II (100x); PAN #P07-03200; 5 mL";0;0;0
+ME080-01;FBS qualified;0;0;0
+ME080-02;FBS qualified-heat inactivated (h.i.);0;0;0
+ME081-02;FBS-heat inactivated (h.i.);0;0;0
+ME082-00;FBS Low Endotoxin;0;0;0
+ME082-02;FBS Superior;0;0;0
+ME082-03;FBS Premium (Std);0;0;0
+ME082-04;FBS Hyclone (New Zealand);0;0;0
+ME082-05;FBS Hyclone (characterized, heat inactivated);0;0;0
+ME082-06;FBS Hyclone (charcoal treated, heat inactivated, irradiated);0;0;0
+ME083-02;FBS (EU approved, South America);0;0;0
+ME083-03;FBS Good (EU approved);0;0;0
+ME084-01;FBS (US Origin);0;0;0
+ME084-02;FBS (USDA approved, heat inactivated);0;0;0
+ME084-03;FBS (USDA approved);0;0;0
+ME084-04;FBS (gamma irradiated);0;0;0
+ME084-05;FBS (Brazil);0;0;0
+ME085-01;FBS (tetracyclin-free);0;0;0
+ME085-02;FBS (dialysed);0;0;0
+ME085-05;FBS (ultra low IgG);0;0;0
+ME085-06;FBS (HL-1 qualified);0;0;0
+ME089-01;Horse Serum;0;0;0
+ME095-01;Medium 199, low NaHCO3;0;0;0
+ME095-02;Medium 199, high NaHCO3;0;0;0
+ME096-01;Skeletal Muscle Cell Growth Medium - Basal Medium 500 ml;0;0;0
+ME096-02;Skeletal Muscle Cell Growth Medium SupplementMix;0;0;0
+ME097-00;NbActiv4 (For Primary Neuron Cultures) 500 ml;0;0;0
+ME097-01;T-Cell Culture Supplement with ConA;0;0;0
+ME098-01;M3 base medium;0;0;0
+ME099-00;EmbryoMax 0,1 % Gelatinelösung 500 ML;0;0;0
+ME100-00;CTS Synth-a-Freeze Medium 50ml;0;0;0
+ME258-05;NFM-G2;0;0;0
+VV01-01;"Styroporbox EPS-Box (klein); LBH 350*350*370; #11066G";0;0;0
+VV01-02;"Styroporbox EPS-Box (GROSS); LBH 520*360*335; #13630-G";0;0;0
+VV01-03;"Styroporbox EPS-Box (Kit); LBH  265 x 265 x 245 mm; #10423-0";0;0;0
+VV01-04;FreezeTherm 14 (M2.2) // 356 x 356 x 369mm;0;0;0
+VV01-05;FreezeTherm 29;0;0;0
+VV01-06;E89 PUR Container 533x356x445;0;0;0
+VV01-07;E186 PUR Box 591x489x489;0;0;0
+VV02-01;Enghalsflasche (4 ml, braun) 12 Stk./Pack.;0;0;0
+VV02-02;Enghalsflasche (8 ml, braun) 12 Stk./Pack.;0;0;0
+VV02-03;Enghalsflasche (15 ml, braun) 12 Stk./Pack.;0;0;0
+VV02-04;Enghalsflasche (8 ml, natur) 72 Stk./Pack.;0;0;0
+VV02-05;Enghalsflasche (15 ml, natur) 12 Stk./Pack.;0;0;0
+VV02-06;Enghalsflasche (60 ml, natur) 1000 Stk./Pack.;0;0;0
+VV02-07;Enghalsflasche (15 ml, natur) 2000 Stk./Pack.;0;0;0
+VV02-08;"Schraubgewindeflaschen ND10; 1,5mL";0;0;0
+VV02-09;"Mikroeinsätze für weite Öffnung; 0,2,mL";0;0;0
+VV02-10;Nalgene™ Pipettenflaschen mit Dosierspitze;0;0;0
+VV06-00;Schrumpfschlauch Verschlusskappen;0;0;0
+VV11-00;Lupo-Beutel mit Haftklebeverschluss 120 x 180 mm,;0;0;0
+VV12-00;PP-Beutel mit Haftklebeverschluss 150 x 250 mm, Labor;0;0;0
+VV13-00;Kryobox, Karton, weiß beschichtet. 50mm hoch;0;0;0
+VV13-01;Kryobox-Rastereinsätze 10 x 10;0;0;0
+VV13-02;Kryobox, Karton, weiß beschichtet. 130mm hoch;0;0;0
+VV13-03;Kryobox-Rastereinsätze 4 x 4;0;0;0
+VV13-04;Kryobox-Rastereinsätze 5 x 5;0;0;0
+VV14-00;Vakuumbeutel goffriert;0;0;0
+VV15-00;Trockeneis Pellets;0;0;0
+VV16-00;Vakuumverpackung Mattglasbirne weiß, 12x18cm, 100 Stück;0;0;0
+VV17-01;"FlashLink® USB PDF -80°C; #40535 (5Days)";0;0;0
+VV17-02;"FlashLink® USB PDF -80°C; #40536 (15Days)";0;0;0
+VV17-03;"FlashLink® USB-reusable -80°C; #40570";0;0;0
+VV18-01;Faltkarton / fefco 0201  - 530mm x 368mm x 343mm;0;0;0
+VV19-01;"Kryoboxen VWR 75×75×50 mm; RATI5160035";0;0;0
+VV19-02;Rastereinsätze VWR 69×69×35 mm, # RATI5160036;0;0;0
+VV19-03;Mini-Kryoboxen für CryoTubes (5x 1-2 mL);0;0;0
+VV19-04;Kryoboxen, KeepIT-25™, rot;0;0;0
+VV19-05;Mini-Kryoboxen für CryoTubes (10x 1-2 mL);0;0;0
+VV20-00;Gefahrgutaufkleber Klasse 9 verschiedene gefährliche Stoffe;0;0;0
+VV21-00;Positionierungsetikett für Tiltwatch Kippindikator;0;0;0
+VV22-00;Kippindikator Tiltwatch®;0;0;0
+VV23-00;"Etikettenspender; Rajapack #AG818";0;0;0
+VV24-00;Schweißgerät Easy Packer und Easy Magnet Packer #APM200H;0;0;0
+VV25-00;Zubehör Easy Packer und Easy Magnet Packer #WT200H;0;0;0
+VV26-00;"Etiketten 20 x 68 mm; CILS";0;0;0
+VV27-00;Temperatur-/Feuchte-Logger;0;0;0
+VV28-00;Daten-Logger VWR #620-1818, 2X1 St.;0;0;0
+VV29-00;Cloud-Lizenz Advanced f.36 M- 0526 0733 0526 0733;0;0;0
+VV30-00;Kryobox, PC, 133×133×52 mm, Fächer 10×10, blau;0;0;0
+VV30-01;Kryobox, PC, 133×133×52 mm, Fächer 10×10, rot;0;0;0
+VV30-02;Kryobox, PC, 133×133×52 mm, Fächer 10×10, gelb;0;0;0
+ZG01-02;Zellkulturplatte (12-well, clear);0;0;0
+ZG01-04;Zellkulturplatte (24-well, clear);0;0;0
+ZG01-05;Zellkulturplatte (48-well, clear);0;0;0
+ZG01-06;Zellkulturplatte (96-well, clear);0;0;0
+ZG02-01;Zellkulturplatte (24-well, Suspension);0;0;0
+ZG02-05;Zellkulturplatte (96-well, white);0;0;0
+ZG02-09;Zellkulturplatte (96-well, white, clear bottom);0;0;0
+ZG02-10;Transwell (12 Inserts, 0.4 μm pore / 24-well);0;0;0
+ZG02-11;Transwell polycarbonate membrane insert (24-well);0;0;0
+ZG02-12;Zellkulturplatte (96-well) weiß, transparenter Boden, Fisher;0;0;0
+ZG02-13;96-Well CytoOne® Platte, unbehandelt;0;0;0
+ZG02-14;Thermo Scientific 96 Well White/Clear Bottom Plate,TC Surfaa;0;0;0
+ZG02-15;96-well Flat Clear Bottom White Polystyrene TC-treated;0;0;0
+ZG02-16;Lipidure-Coat Low Adhesion Plate A-V96 (conical Plate);0;0;0
+ZG02-17;Zellkulturplatte, 96 Well, Oberfläche: Suspension, konisch;0;0;0
+ZG02-18;96-Well CytoOne® Platte, TC-behandelt;0;0;0
+ZG026-01;Cell Strainer (100µm, yellow);0;0;0
+ZG03-01;CellSTACK, 2 Layer;0;0;0
+ZG03-02;CellSTACK, 5 layer;0;0;0
+ZG03-03;CellSTACK, 10 Layer;0;0;0
+ZG03-04;Easy Fill Cell Factory, 10 Layer (6);0;0;0
+ZG03-05;CELLDISC, 8 LAGEN, 2000 CM²;0;0;0
+ZG03-06;CELLDISC, 12 LAGEN, 3000 CM²;0;0;0
+ZG03-07;CELLDISC, 16 LAGEN, 4000 CM²;0;0;0
+ZG03-08;Universal CellSTACK™ Verschlusskappen;0;0;0
+ZG03-09;CellSTACK, 40 Layer;0;0;0
+ZG03-10;CellSTACK, 10 Layer (2 St./Cs);0;0;0
+ZG03-11;CellSTACK CELLBIND, 10 Layer, Bulk of 6 VE;0;0;0
+ZG03-12;Easy Fill Cell Factory, 10 Layer (2);0;0;0
+ZG04-01;Zellkulturflaschen (T25);0;0;0
+ZG04-02;Zellkulturflaschen (T75);0;0;0
+ZG04-03;Zellkulturflaschen (T175);0;0;0
+ZG04-04;Suspensionsflaschen (T175);0;0;0
+ZG04-05;CellBIND (T75);0;0;0
+ZG04-06;CellBIND (T175);0;0;0
+ZG04-07;Zellkulturflaschen (T75), ultra low binding;0;0;0
+ZG04-08;Suspensionslaschen (T25);0;0;0
+ZG04-09;Suspensionslaschen (T75);0;0;0
+ZG045-01;Cryovials Nunc  (1,8 ml);0;0;0
+ZG045-02;Cryovials (1 ml);0;0;0
+ZG045-03;Cryovials Fisherbrand  (1,8 ml);0;0;0
+ZG045-05;Cryovials Greiner (2ml, barcoded);0;0;0
+ZG045-06;Cryovials Greiner (2 ml);0;0;0
+ZG045-07;Cryovials Greiner (1 ml, barcoded);0;0;0
+ZG045-08;Cryovials Greiner (2 ml), farbige Deckel;0;0;0
+ZG045-09;Cryovials Greiner (2ml, barcoded), farbge Deckel;0;0;0
+ZG045-11;Cryovials Sarstedt (2,0 ml) CryoPure;0;0;0
+ZG049-01;Spin Reaktor (450 ml);0;0;0
+ZG049-02;Spin Reaktor (50 ml);0;0;0
+ZG049-03;DISPOSABLE SPINNER FLASK, 3L, GL45 CAPS, S, IND, 1/4;0;0;0
+ZG049-04;DISPOSABLE SPINNER FLASK, 1L, GL45 CAPS, S, IND, 1/6;0;0;0
+ZG049-05;SPINNER FLASK, 500ML, DISPOSABLE, PS, S, IND, 1/12;0;0;0
+ZG049-06;FLASK SPIN 100MM 2SA 1000ML;0;0;0
+ZG049-07;FLASK SPIN 100MM 2SA 3000ML;0;0;0
+ZG049-08;FLASK SPIN 100MM 2SA 500ML;0;0;0
+ZG05-01;Hyperflask M CellBIND (4);0;0;0
+ZG05-02;Hyperflask M CellBIND (24);0;0;0
+ZG05-03;Hyperflask CellBIND (4);0;0;0
+ZG05-04;Hyperflask CellBIND (24);0;0;0
+ZG05-05;Hyperflask M (4);0;0;0
+ZG05-06;HYPERStack - 12 Layer, untreated;0;0;0
+ZG05-07;HYPERStack - 36 Layer, untreated;0;0;0
+ZG06-00;Multi Flasks, 5 layer (875 cm2);0;0;0
+ZG08-02;Easy Fill Cell Factory, 4 Layer;0;0;0
+ZG08-03;Easy Fill Cell Factory, 2 Layer;0;0;0
+ZG11-00;Culture Dish, square (500 cm2);0;0;0
+ZG11-01;Erlenmeyer Flask (500 ml);0;0;0
+ZG11-02;Culture Dish, round (100 cm2);0;0;0
+ZG12-01;384-well Platte, weiß, flat bottom, TC, sterile;0;0;0
+ZG12-02;384-well Platte, clear, flat bottom, TC, sterile;0;0;0
+ZG12-03;Breathable Sealing Tape, Sterile;0;0;0
+ZG13-00;Zellschaber 39cm;0;0;0
+ZG14-01;Zellkulturflasche, Cell+ (T25);0;0;0
+ZG14-02;Zellkulturflasche, Cell+ (T75);0;0;0
+ZG14-03;Zellkulturflasche, Cell+ (T175);0;0;0
+ZG14-04;Zellkulturplatte, Cell+ (6-well);0;0;0
+ZG14-05;Zellkulturplatte, Cell+ (12-well);0;0;0
+ZG14-06;Zellkulturplatte, Cell+ (24-well);0;0;0
+ZG14-07;Zellkulturplatte, Cell+ (48-well);0;0;0
+ZG14-08;Zellkulturplatte, Cell+ (96-well);0;0;0
+ZG15-01;Nunc™ EasYFlask™ Zellkulturkolben, 25 cm2;0;0;0
+ZG15-02;Nunc™ EasYFlask™ Zellkulturkolben, 75 cm2;0;0;0
+ZG15-03;Nunc™ EasYFlask™ Zellkulturkolben, 175 cm2;0;0;0
+ZG16-01;ibidi 3-well Chamber;0;0;0
