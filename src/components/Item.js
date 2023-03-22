@@ -1,29 +1,18 @@
 import React, { useState } from 'react';
 import styles from './Item.module.css';
-const classNames = require('classnames');
 
 const Item = (props) => {
-    const [isActive, setIsActive] = useState(false);
-    const [add, setAdd] = useState(false);
     const [inputValue, setInputValue] = useState('');
 
+    //CRUD OPERATIONS
     const removeItemHandler = () => {
-        setIsActive(true);
         props.remove({
             _id: props.data.id,
             name: props.data.name,
             code: props.data.code,
             amount: props.data.amount,
-            history: { timestamp: Date.now(), amount: props.data.amount },
+            history: { timestamp: new Date(), amount: props.data.amount },
         });
-    };
-
-    const changeClassHandler = () => {
-        if (isActive) {
-            return true;
-        } else {
-            return false;
-        }
     };
 
     const formSubmitHandler = (event) => {
@@ -41,20 +30,73 @@ const Item = (props) => {
         setInputValue(event.target.value);
     };
 
+    //CONDITONAL RENDERING
+    const AllItems = () => {
+        return (
+            <React.Fragment>
+                <p className={styles.otherItems}>{props.data.amount}</p>
+                <form
+                    onSubmit={formSubmitHandler}
+                    className={styles.otherItems}
+                >
+                    <input
+                        className={styles.input}
+                        onChange={inputChangeHandler}
+                        value={inputValue}
+                        type="number"
+                        min="0"
+                    ></input>
+                </form>
+            </React.Fragment>
+        );
+    };
+
+    const ToOrder = () => {
+        return (
+            <React.Fragment>
+                <p className={styles.otherItems}>{props.data.amount}</p>
+                <button
+                    onClick={removeItemHandler}
+                    className={styles.otherItems}
+                >
+                    Remove
+                </button>
+            </React.Fragment>
+        );
+    };
+
+    const Ordered = () => {
+        // console.log(Date());
+        //Date needs to be extracted, when server posting date works
+        return (
+            <React.Fragment>
+                {props.data.history.map((itemObj, i) => {
+                    return (
+                        <React.Fragment>
+                            <p className={styles.otherItems}>
+                                {props.data.history[i].timestamp}
+                            </p>
+                            <p className={styles.otherItems}>
+                                {props.data.history[i].amount}
+                            </p>
+                        </React.Fragment>
+                    );
+                })}
+            </React.Fragment>
+        );
+    };
+
     return (
         <div className={styles.history}>
             <p className={styles.biggerFlex}>{props.data.name}</p>
             <p className={styles.otherItems}>{props.data.code}</p>
-            <p className={styles.otherItems}>{props.data.amount}</p>
-            <form onSubmit={formSubmitHandler}>
-                <input
-                    className={styles.input}
-                    onChange={inputChangeHandler}
-                    value={inputValue}
-                    type="number"
-                    min="0"
-                ></input>
-            </form>
+            {props.mode === 'allItems' ? <AllItems /> : ''}
+            {props.mode === 'toOrder' ? <ToOrder /> : ''}
+            {props.mode === 'ordered' ? (
+                <Ordered key={props.data.history[0].timestamp} />
+            ) : (
+                ''
+            )}
         </div>
     );
 };

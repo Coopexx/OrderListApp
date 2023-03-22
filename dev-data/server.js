@@ -33,12 +33,7 @@ const itemSchema = mongoose.Schema({
         type: Number,
         required: true,
     },
-    hTimestamp: {
-        type: Array,
-    },
-    hAmount: {
-        type: Array,
-    },
+    history: Array,
 });
 
 const Item = mongoose.model('Item', itemSchema); //must match name of collection
@@ -99,13 +94,18 @@ const patchItem = async (req, res) => {
 
 const deleteItem = async (req, res) => {
     try {
-        const updatedItem = await Item.findByIdAndUpdate(req.body._id, {
+        const updatedAmount = await Item.findByIdAndUpdate(req.body._id, {
             amount: 0,
+        });
+
+        const updatedHistory = await Item.findByIdAndUpdate(req.body._id, {
+            $push: { history: req.body.history },
         });
 
         res.status(201).json({
             status: 'success',
-            item: updatedItem,
+            amount: updatedAmount,
+            history: updatedHistory,
         });
     } catch (err) {
         res.status(400).json({

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import Item from './components/Item';
 import Navigation from './components/Navigation';
 import Description from './components/Description';
@@ -8,54 +9,52 @@ import styles from './App.module.css';
 function App() {
     const [allItems, setAllItems] = useState({}); //allItems
     const [toOrder, setToOrder] = useState({}); //toOrder
-    const [ordered, setOrdered] = useState({});
+    const [ordered, setOrdered] = useState({}); //ordered
+
     const [renderedList, setRenderedList] = useState({});
     const [listLoaded, setListLoaded] = useState(false);
-    const [mode, setMode] = useState('');
+
+    const [mode, setMode] = useState('allItems');
 
     const url = 'http://127.0.0.1:3000/api/v1/items';
 
-    //historyFiltered
+    //SORTING DATA
+    const alphanumericSorting = (alphanumericSortingObj) => {
+        alphanumericSortingObj.sort((a, b) => {
+            if (a.name < b.name) {
+                return -1;
+            }
+            if (a.name > b.name) {
+                return 1;
+            }
+            return 0;
+        });
+        return alphanumericSortingObj;
+    };
 
-    const renderToOrder = (data) => {
-        let orders = data.filter((dataObj) => {
+    const sortToOrder = (data) => {
+        let toOrderObj = data.filter((dataObj) => {
             if (dataObj.amount > 0) {
                 return true;
             } else {
                 return false;
             }
         });
-        setToOrder(orders);
-        setListLoaded(true);
+        return toOrderObj;
     };
 
-    const renderOrdered = (data) => {
-        const history = data.filter((dataObj) => {
+    const sortOrdered = (data) => {
+        const orderedObj = data.filter((dataObj) => {
             if (dataObj.history.length > 0) {
                 return true;
             } else {
                 return false;
             }
         });
-        setOrdered(history);
+        return orderedObj;
     };
 
-    function compare(a, b) {
-        if (a.name < b.name) {
-            return -1;
-        }
-        if (a.name > b.name) {
-            return 1;
-        }
-        return 0;
-    }
-
-    const alphanumericSorting = (dataObj) => {
-        dataObj.sort(compare);
-        return dataObj;
-    };
-
-    //DATA IMPORT
+    //FETCH DATA
     async function fetchItemsHandler() {
         const response = await fetch(url);
         const rawData = await response.json();
@@ -70,23 +69,63 @@ function App() {
         });
         alphanumericSorting(data);
         setAllItems(data);
-        renderToOrder(data);
-        renderOrdered(data);
+        setToOrder(sortToOrder(data));
+        setOrdered(sortOrdered(data));
         setRenderedList(data);
+        setListLoaded(true);
     }
 
-    const modeHandler = (mode) => {
-        if (mode === 'allItems') {
-            console.log(allItems);
+    //DISPLAY DATA
+    const modeHandler = (type) => {
+        setMode(type);
+        if (type === 'allItems') {
             setRenderedList(allItems);
         }
-        if (mode === 'toOrder') {
-            console.log(toOrder);
+        if (type === 'toOrder') {
             setRenderedList(toOrder);
         }
-        if (mode === 'ordered') {
-            console.log(ordered);
+        if (type === 'ordered') {
             setRenderedList(ordered);
+        }
+    };
+
+    //POSTING/UPDATING DATA
+    const addAmountHandler = async (dataObj) => {
+        console.log(dataObj);
+        try {
+            const response = await fetch(url, {
+                method: 'PATCH',
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(dataObj),
+            });
+            const content = await response.json();
+            console.log(content); //Include in notification upper right corner
+            setMode('allItems');
+            fetchItemsHandler();
+        } catch (err) {
+            console.log(err);
+        }
+    };
+
+    const removeAmountHandler = async (dataObj) => {
+        try {
+            const response = await fetch(url, {
+                method: 'DELETE',
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(dataObj),
+            });
+            const content = await response.json();
+            console.log(content); //Include in notification upper right corner
+            setMode('toOrder');
+            fetchItemsHandler();
+        } catch (err) {
+            console.log(err);
         }
     };
 
@@ -98,16 +137,16 @@ function App() {
         <div className={styles.background}>
             <div className={styles.window}>
                 <Navigation modeHandler={modeHandler} />
-                <Description />
+                <Description mode={mode} />
                 <div className={styles.itemContainer}>
                     {listLoaded &&
                         renderedList.map((data, i) => (
                             <Item
                                 data={renderedList[i]}
                                 key={data.id}
-
-                                // add={addAmountHandler}
-                                // remove={removeAmountHandler}
+                                mode={mode}
+                                add={addAmountHandler}
+                                remove={removeAmountHandler}
                             />
                         ))}
                 </div>
