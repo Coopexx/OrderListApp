@@ -8,6 +8,7 @@ const Navigation = (props) => {
     const [allItemsClicked, setAllItemsClicked] = useState(false);
     const [toOrderClicked, setToOrderClicked] = useState(false);
     const [orderedClicked, setOrderedClicked] = useState(false);
+    const [type, setType] = useState('allItems');
 
     const showTextfield = () => {
         if (textfield) {
@@ -23,7 +24,7 @@ const Navigation = (props) => {
 
     const filterChangeHandler = (event) => {
         setFilter(event.target.value);
-        props.filterHandler(event.target.value);
+        props.filterHandler(event.target.value, type);
     };
 
     const resetAll = () => {
@@ -33,6 +34,7 @@ const Navigation = (props) => {
     };
 
     const changeModeHandler = (type) => {
+        setType(type);
         if (type === 'allItems') {
             resetAll();
             props.modeHandler('allItems');
@@ -62,7 +64,9 @@ const Navigation = (props) => {
                     onClick={() => {
                         changeModeHandler('allItems');
                     }}
-                    className={`${allItemsClicked ? styles.active : null}`}
+                    className={`${allItemsClicked ? styles.active : null} ${
+                        styles.navItem
+                    }`}
                 >
                     ALL ITEMS
                 </p>
@@ -70,7 +74,9 @@ const Navigation = (props) => {
                     onClick={() => {
                         changeModeHandler('toOrder');
                     }}
-                    className={`${toOrderClicked ? styles.active : null}`}
+                    className={`${toOrderClicked ? styles.active : null} ${
+                        styles.navItem
+                    }`}
                 >
                     TO ORDER
                 </p>
@@ -78,7 +84,9 @@ const Navigation = (props) => {
                     onClick={() => {
                         changeModeHandler('ordered');
                     }}
-                    className={`${orderedClicked ? styles.active : null}`}
+                    className={`${orderedClicked ? styles.active : null} ${
+                        styles.navItem
+                    }`}
                 >
                     ORDERED
                 </p>

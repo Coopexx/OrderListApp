@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from './Item.module.css';
 
 const Item = (props) => {
     const [inputValue, setInputValue] = useState('');
+    const inputRef = useRef(null);
 
     //CRUD OPERATIONS
     const removeItemHandler = () => {
@@ -21,13 +22,9 @@ const Item = (props) => {
             _id: props.data.id,
             name: props.data.name,
             code: props.data.code,
-            amount: props.data.amount + Number(inputValue),
+            amount: props.data.amount + Number(inputRef.current.value),
         });
-        setInputValue('');
-    };
-
-    const inputChangeHandler = (event) => {
-        setInputValue(event.target.value);
+        inputRef.current.value = '';
     };
 
     //CONDITONAL RENDERING
@@ -36,18 +33,17 @@ const Item = (props) => {
             <div className={styles.row}>
                 <p className={styles.biggerFlex}>{props.data.name}</p>
                 <p className={styles.otherItems}>{props.data.code}</p>
-                <p className={styles.otherItems}>{props.data.amount}</p>
                 <form
                     onSubmit={formSubmitHandler}
                     className={styles.otherItems}
                 >
                     <input
                         className={styles.input}
-                        onChange={inputChangeHandler}
-                        value={inputValue}
+                        ref={inputRef}
                         type="number"
                         min="0"
                     ></input>
+                    <p className={styles.VE}>VE</p>
                 </form>
             </div>
         );
@@ -64,9 +60,24 @@ const Item = (props) => {
                         onClick={removeItemHandler}
                         className={styles.trash}
                     >
-                        <svg className={styles.svg} viewBox="0 0 32 32">
-                            <g fill="#000">
-                                <path d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path>
+                        <svg
+                            className={styles.svg}
+                            fill="#000000"
+                            height="200px"
+                            width="200px"
+                            version="1.1"
+                            id="Capa_1"
+                            viewBox="0 0 460.775 460.775"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                {' '}
+                                <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55 c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55 c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505 c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55 l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719 c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"></path>{' '}
                             </g>
                         </svg>
                     </button>
@@ -76,8 +87,6 @@ const Item = (props) => {
     };
 
     const Ordered = () => {
-        // console.log(Date());
-        //Date needs to be extracted, when server posting date works
         return (
             <div className={styles.row}>
                 <React.Fragment>
@@ -87,7 +96,7 @@ const Item = (props) => {
 
                 <React.Fragment>
                     <p className={styles.otherItems}>
-                        {props.data.history[props.index].timestamp}
+                        {props.data.history[props.index].timestamp.slice(0, 10)}
                     </p>
                     <p className={styles.otherItems}>
                         {props.data.history[props.index].amount}

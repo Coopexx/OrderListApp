@@ -35,17 +35,23 @@ function App() {
     };
 
     const sortByDate = (data) => {
-        // data.map((a, b) => {
-        //     console.log(a, b);
-        //     a.map((arr, i) => {
-        //         console.log(arr);
-        //         if (arr.history[i].timestamp < arr.history[i].timestamp) {
-        //             return -1;
-        //         }
-        //         return 0;
-        //     });
-        // });
-        // return data;
+        const newArr = [];
+        data.map((obj, i) => {
+            console.log(obj[i]);
+            // obj[i].map((history, index) => {
+            //     console.log(history);
+            // });
+            console.log(obj);
+        });
+        console.log(newArr);
+        const sortedOrdered = data.sort((a, b) => {
+            if (a.history[0].timestamp > b.history[0].timestamp) {
+                return -1;
+            } else {
+                return 0;
+            }
+        });
+        return sortedOrdered;
     };
 
     const sortToOrder = (data) => {
@@ -67,9 +73,87 @@ function App() {
                 return false;
             }
         });
-        // const orderedObj2 = sortByDate(orderedObj);
-        // console.log(orderedObj2);
+        const orderedObj2 = sortByDate(orderedObj);
         return orderedObj;
+    };
+
+    const filterHandler = (searchString, type) => {
+        if (type === 'allItems') {
+            const filteredList = allItems.filter((data) => {
+                if (
+                    data.name
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                }
+                if (
+                    data.code
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            setRenderedList(filteredList);
+        }
+        if (type === 'toOrder') {
+            const filteredList = toOrder.filter((data) => {
+                if (
+                    data.name
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                }
+                if (
+                    data.code
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            setRenderedList(filteredList);
+        }
+        if (type === 'ordered') {
+            const filteredList = ordered.filter((data) => {
+                if (
+                    data.name
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                }
+                if (
+                    data.code
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                }
+                if (
+                    data.history[0].timestamp
+                        .slice(0, 10)
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            setRenderedList(filteredList);
+        }
     };
 
     //FETCH DATA
@@ -103,7 +187,6 @@ function App() {
         if (type === 'toOrder') {
             setRenderedList(toOrder);
             setCheckOrdered(false);
-            console.log('called');
         }
         if (type === 'ordered') {
             setRenderedList(ordered);
@@ -158,7 +241,10 @@ function App() {
     return (
         <div className={styles.background}>
             <div className={styles.window}>
-                <Navigation modeHandler={modeHandler} />
+                <Navigation
+                    modeHandler={modeHandler}
+                    filterHandler={filterHandler}
+                />
                 <Description mode={mode} />
                 <div className={styles.itemContainer}>
                     {checkOrdered &&

@@ -33,3 +33,11 @@ input:focus {
 .active {
     color: white;
 }
+
+.navItem {
+    cursor: pointer;
+}
+
+.navItem:hover {
+    color: white;
+}

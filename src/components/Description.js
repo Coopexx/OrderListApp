@@ -5,7 +5,6 @@ const Description = (props) => {
     const AllItems = () => {
         return (
             <React.Fragment>
-                <p className={`${styles.column} ${styles.flex}`}>VE</p>
                 <p className={`${styles.column} ${styles.flex}`}>
                     <svg className={styles.svg} viewBox="0 0 32 32">
                         <g fill="#3cb043">
