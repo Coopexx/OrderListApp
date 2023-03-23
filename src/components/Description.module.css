@@ -12,3 +12,9 @@
 .flex {
     flex: 1;
 }
+
+.svg {
+    margin: auto;
+    width: 25px;
+    height: 25px;
+}

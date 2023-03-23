@@ -16,6 +16,8 @@ function App() {
 
     const [mode, setMode] = useState('allItems');
 
+    const [checkOrdered, setCheckOrdered] = useState(false);
+
     const url = 'http://127.0.0.1:3000/api/v1/items';
 
     //SORTING DATA
@@ -30,6 +32,20 @@ function App() {
             return 0;
         });
         return alphanumericSortingObj;
+    };
+
+    const sortByDate = (data) => {
+        // data.map((a, b) => {
+        //     console.log(a, b);
+        //     a.map((arr, i) => {
+        //         console.log(arr);
+        //         if (arr.history[i].timestamp < arr.history[i].timestamp) {
+        //             return -1;
+        //         }
+        //         return 0;
+        //     });
+        // });
+        // return data;
     };
 
     const sortToOrder = (data) => {
@@ -51,6 +67,8 @@ function App() {
                 return false;
             }
         });
+        // const orderedObj2 = sortByDate(orderedObj);
+        // console.log(orderedObj2);
         return orderedObj;
     };
 
@@ -80,16 +98,20 @@ function App() {
         setMode(type);
         if (type === 'allItems') {
             setRenderedList(allItems);
+            setCheckOrdered(false);
         }
         if (type === 'toOrder') {
             setRenderedList(toOrder);
+            setCheckOrdered(false);
+            console.log('called');
         }
         if (type === 'ordered') {
             setRenderedList(ordered);
+            setCheckOrdered(true);
         }
     };
 
-    //POSTING/UPDATING DATA
+    //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj) => {
         console.log(dataObj);
         try {
@@ -103,7 +125,7 @@ function App() {
             });
             const content = await response.json();
             console.log(content); //Include in notification upper right corner
-            setMode('allItems');
+            modeHandler('allItems');
             fetchItemsHandler();
         } catch (err) {
             console.log(err);
@@ -122,7 +144,7 @@ function App() {
             });
             const content = await response.json();
             console.log(content); //Include in notification upper right corner
-            setMode('toOrder');
+            modeHandler('toOrder');
             fetchItemsHandler();
         } catch (err) {
             console.log(err);
@@ -139,7 +161,23 @@ function App() {
                 <Navigation modeHandler={modeHandler} />
                 <Description mode={mode} />
                 <div className={styles.itemContainer}>
-                    {listLoaded &&
+                    {checkOrdered &&
+                        listLoaded &&
+                        renderedList.map((data, i) => {
+                            return data.history.map((dataHistory, index) => (
+                                // Sort list by history timestamp and replace renderedList with that List
+                                <Item
+                                    data={renderedList[i]}
+                                    key={data.id}
+                                    mode={mode}
+                                    index={index}
+                                    add={addAmountHandler}
+                                    remove={removeAmountHandler}
+                                />
+                            ));
+                        })}
+                    {!checkOrdered &&
+                        listLoaded &&
                         renderedList.map((data, i) => (
                             <Item
                                 data={renderedList[i]}
