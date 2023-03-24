@@ -6,6 +6,8 @@ import Description from './components/Description';
 
 import styles from './App.module.css';
 
+//Functionalities: filter ordered date, notification div
+
 function App() {
     const [allItems, setAllItems] = useState({}); //allItems
     const [toOrder, setToOrder] = useState({}); //toOrder
@@ -17,6 +19,12 @@ function App() {
     const [mode, setMode] = useState('allItems');
 
     const [checkOrdered, setCheckOrdered] = useState(false);
+
+    const [notificationStatus, setNotificationStatus] = useState('');
+    const [notificationItem, setNotificationItem] = useState('');
+    const [notificationType, setNotificationType] = useState('');
+    const [itemModified, setItemModified] = useState(false);
+    //write timer so itemModified will be set to false after timer runs out
 
     const url = 'http://127.0.0.1:3000/api/v1/items';
 
@@ -37,13 +45,13 @@ function App() {
     const sortByDate = (data) => {
         const newArr = [];
         data.map((obj, i) => {
-            console.log(obj[i]);
+            // console.log(obj[i]);
             // obj[i].map((history, index) => {
             //     console.log(history);
             // });
-            console.log(obj);
+            // console.log(obj);
         });
-        console.log(newArr);
+        // console.log(newArr);
         const sortedOrdered = data.sort((a, b) => {
             if (a.history[0].timestamp > b.history[0].timestamp) {
                 return -1;
@@ -80,6 +88,29 @@ function App() {
     const filterHandler = (searchString, type) => {
         if (type === 'allItems') {
             const filteredList = allItems.filter((data) => {
+                if (
+                    data.name
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                }
+                if (
+                    data.code
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            setRenderedList(filteredList);
+        }
+        if (type === 'toOrder') {
+            const filteredList = toOrder.filter((data) => {
                 if (
                     data.name
                         .toLowerCase()
@@ -196,7 +227,8 @@ function App() {
 
     //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj) => {
-        console.log(dataObj);
+        setNotificationItem(dataObj);
+        setNotificationType('add');
         try {
             const response = await fetch(url, {
                 method: 'PATCH',
@@ -207,15 +239,18 @@ function App() {
                 body: JSON.stringify(dataObj),
             });
             const content = await response.json();
-            console.log(content); //Include in notification upper right corner
+            setNotificationStatus(content.status);
             modeHandler('allItems');
             fetchItemsHandler();
         } catch (err) {
             console.log(err);
         }
+        setItemModified(true);
     };
 
     const removeAmountHandler = async (dataObj) => {
+        setNotificationItem(dataObj);
+        setNotificationType('remove');
         try {
             const response = await fetch(url, {
                 method: 'DELETE',
@@ -226,12 +261,13 @@ function App() {
                 body: JSON.stringify(dataObj),
             });
             const content = await response.json();
-            console.log(content); //Include in notification upper right corner
+            setNotificationStatus(content.status);
             modeHandler('toOrder');
             fetchItemsHandler();
         } catch (err) {
             console.log(err);
         }
+        setItemModified(true);
     };
 
     useEffect(() => {
@@ -240,6 +276,55 @@ function App() {
 
     return (
         <div className={styles.background}>
+            {itemModified && (
+                <div className={styles.notification}>
+                    <p className={styles.notificationTagHeadline}>
+                        {notificationStatus.charAt(0).toUpperCase() +
+                            notificationStatus.slice(1) +
+                            '!'}
+                    </p>
+
+                    {notificationType === 'add' ? (
+                        <div className={styles.notificationMessage}>
+                            <p className={styles.notificationTag}>Added </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.name}
+                            </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.code}
+                            </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.amount}
+                            </p>
+                            <p className={styles.notificationLast}>
+                                You can find it under "Orders"
+                            </p>
+                        </div>
+                    ) : (
+                        ''
+                    )}
+                    {notificationType === 'remove' ? (
+                        <div className={styles.notificationMessage}>
+                            <p className={styles.notificationTag}>Ordered </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.name}
+                            </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.code}
+                            </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.amount}
+                            </p>
+                            <p className={styles.notificationLast}>
+                                You can find it under "Ordered"
+                            </p>
+                        </div>
+                    ) : (
+                        ''
+                    )}
+                </div>
+            )}
+
             <div className={styles.window}>
                 <Navigation
                     modeHandler={modeHandler}
