@@ -29,7 +29,11 @@ const itemSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    amount: {
+    amountVE: {
+        type: Number,
+        required: true,
+    },
+    amountPC: {
         type: Number,
         required: true,
     },
@@ -49,39 +53,23 @@ const getItems = async (req, res) => {
 };
 
 // POST ITEM
-const postItem = async (req, res) => {
-    try {
-        //if (items.find().amount > 0){UPDATE items.find() = items.find() + req.body.amount}
-        const newItem = await Item.create(req.body);
-
-        res.status(201).json({
-            status: 'success',
-            data: {
-                item: newItem,
-            },
-        });
-    } catch (err) {
-        res.status(400).json({
-            status: 'fail',
-            message: err,
-        });
-    }
-};
+const postItem = async (req, res) => {};
 
 //PATCH ITEM
 const patchItem = async (req, res) => {
     try {
-        console.log(req.body._id);
-        console.log(req.body.amount);
-        // const updatedItem = new Item(req.body);
-
-        const updatedItem = await Item.findByIdAndUpdate(req.body._id, {
-            amount: req.body.amount,
+        console.log(req.body);
+        const updatedItemVE = await Item.findByIdAndUpdate(req.body._id, {
+            amountVE: req.body.amountVE,
+        });
+        const updatedItemPC = await Item.findByIdAndUpdate(req.body._id, {
+            amountPC: req.body.amountPC,
         });
 
         res.status(201).json({
             status: 'success',
-            item: updatedItem,
+            itemVE: updatedItemVE,
+            itemPC: updatedItemPC,
         });
     } catch (err) {
         res.status(400).json({
@@ -95,7 +83,8 @@ const patchItem = async (req, res) => {
 const deleteItem = async (req, res) => {
     try {
         const updatedAmount = await Item.findByIdAndUpdate(req.body._id, {
-            amount: 0,
+            amountVE: 0,
+            amountPC: 0,
         });
 
         const updatedHistory = await Item.findByIdAndUpdate(req.body._id, {

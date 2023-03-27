@@ -3,28 +3,72 @@ import styles from './Item.module.css';
 
 const Item = (props) => {
     const [inputValue, setInputValue] = useState('');
+    const [selection, setSelection] = useState('VE');
     const inputRef = useRef(null);
 
     //CRUD OPERATIONS
+    const orderItemHandler = () => {
+        props.remove(
+            {
+                _id: props.data.id,
+                name: props.data.name,
+                code: props.data.code,
+                amountVE: props.data.amountVE,
+                amountPC: props.data.amountPC,
+                history: {
+                    timestamp: new Date(),
+                    amountVE: props.data.amountVE,
+                    amountPC: props.data.amountPC,
+                },
+            },
+            'order'
+        );
+    };
     const removeItemHandler = () => {
-        props.remove({
-            _id: props.data.id,
-            name: props.data.name,
-            code: props.data.code,
-            amount: props.data.amount,
-            history: { timestamp: new Date(), amount: props.data.amount },
-        });
+        props.remove(
+            {
+                _id: props.data.id,
+                name: props.data.name,
+                code: props.data.code,
+                amountVE: 0,
+                amountPC: 0,
+            },
+            'delete'
+        );
     };
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
-        props.add({
-            _id: props.data.id,
-            name: props.data.name,
-            code: props.data.code,
-            amount: props.data.amount + Number(inputRef.current.value),
-        });
+        if (selection === 'VE') {
+            props.add(
+                {
+                    _id: props.data.id,
+                    name: props.data.name,
+                    code: props.data.code,
+                    amountVE:
+                        props.data.amountVE + Number(inputRef.current.value),
+                },
+                'VE'
+            );
+        }
+        if (selection === 'PC') {
+            props.add(
+                {
+                    _id: props.data.id,
+                    name: props.data.name,
+                    code: props.data.code,
+                    amountPC:
+                        props.data.amountPC + Number(inputRef.current.value),
+                },
+                'PC'
+            );
+        }
+
         inputRef.current.value = '';
+    };
+
+    const handleChange = (event) => {
+        setSelection(event.target.value);
     };
 
     //CONDITONAL RENDERING
@@ -33,18 +77,31 @@ const Item = (props) => {
             <div className={styles.row}>
                 <p className={styles.biggerFlex}>{props.data.name}</p>
                 <p className={styles.otherItems}>{props.data.code}</p>
-                <form
-                    onSubmit={formSubmitHandler}
-                    className={styles.otherItems}
-                >
-                    <input
-                        className={styles.input}
-                        ref={inputRef}
-                        type="number"
-                        min="0"
-                    ></input>
-                    <p className={styles.VE}>VE</p>
-                </form>
+                <div className={styles.buttonDiv}>
+                    <form onSubmit={formSubmitHandler}>
+                        <input
+                            className={styles.input}
+                            ref={inputRef}
+                            type="number"
+                            min="0"
+                        ></input>
+                        <select
+                            className={styles.select}
+                            onChange={handleChange}
+                            value={selection}
+                        >
+                            <option selected="selected" value="VE">
+                                VE
+                            </option>
+                            <option value="PC">PC</option>
+                        </select>
+                    </form>
+                    <svg className={styles.add} viewBox="0 0 32 32">
+                        <g fill="#3cb043">
+                            <path d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z"></path>
+                        </g>
+                    </svg>
+                </div>
             </div>
         );
     };
@@ -54,30 +111,34 @@ const Item = (props) => {
             <div className={styles.row}>
                 <p className={styles.biggerFlex}>{props.data.name}</p>
                 <p className={styles.otherItems}>{props.data.code}</p>
-                <p className={styles.otherItems}>{props.data.amount}</p>
+                <p className={styles.otherItems}>{props.data.amountVE}</p>
+                <p className={styles.otherItems}>{props.data.amountPC}</p>
                 <div className={styles.buttonDiv}>
+                    <button onClick={orderItemHandler} className={styles.trash}>
+                        <svg
+                            className={styles.svg}
+                            fill="#3cb043"
+                            viewBox="0 0 32 32"
+                        >
+                            <g id="SVGRepo_iconCarrier">
+                                {' '}
+                                <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+                            </g>
+                        </svg>
+                    </button>
                     <button
                         onClick={removeItemHandler}
                         className={styles.trash}
                     >
                         <svg
                             className={styles.svg}
-                            fill="#000000"
-                            height="200px"
-                            width="200px"
-                            version="1.1"
-                            id="Capa_1"
-                            viewBox="0 0 460.775 460.775"
+                            fill="#EA0B00"
+                            viewBox="0 0 32 32"
                         >
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g
-                                id="SVGRepo_tracerCarrier"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                            ></g>
                             <g id="SVGRepo_iconCarrier">
                                 {' '}
-                                <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55 c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55 c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505 c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55 l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719 c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"></path>{' '}
+                                <path d="M4 10v20c0 1.1 0.9 2 2 2h18c1.1 0 2-0.9 2-2v-20h-22zM10 28h-2v-14h2v14zM14 28h-2v-14h2v14zM18 28h-2v-14h2v14zM22 28h-2v-14h2v14z"></path>
+                                <path d="M26.5 4h-6.5v-2.5c0-0.825-0.675-1.5-1.5-1.5h-7c-0.825 0-1.5 0.675-1.5 1.5v2.5h-6.5c-0.825 0-1.5 0.675-1.5 1.5v2.5h26v-2.5c0-0.825-0.675-1.5-1.5-1.5zM18 4h-6v-1.975h6v1.975z"></path>
                             </g>
                         </svg>
                     </button>
@@ -99,7 +160,10 @@ const Item = (props) => {
                         {props.data.history[props.index].timestamp.slice(0, 10)}
                     </p>
                     <p className={styles.otherItems}>
-                        {props.data.history[props.index].amount}
+                        {props.data.history[props.index].amountVE}
+                    </p>
+                    <p className={styles.otherItems}>
+                        {props.data.history[props.index].amountPC}
                     </p>
                 </React.Fragment>
             </div>

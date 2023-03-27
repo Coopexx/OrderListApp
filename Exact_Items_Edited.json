@@ -2,127 +2,148 @@
     {
         "code": "ME001-00",
         "name": "RPMI 1640, with HEPES, stable Gln., NaHC, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME00100-00",
         "name": "4′,6-Diamidino-2-phenyl-indol -dihydrochlorid 5 MG",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-01",
         "name": "RPMI 1640, with L-Gln, NaHC, phenol red,  w/o L-Tryptophan",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-02",
         "name": "RPMI 1640, with NaHC, w/o L-Gln, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-03",
         "name": "RPMI 1640, with NaHC, phenol red, w/o L-Gln",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-04",
         "name": "RPMI 1640, with L-Gln, NaHC, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-06",
         "name": "RPMI 1640, with GlutaMAX, phenol red, NaHC, w/o HEPES",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-07",
         "name": "RPMI 1640 (ATCC modification)",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-08",
         "name": "RPMI 1640 Advanced",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME001-09",
         "name": "RPMI 1640 with HEPES, L-Gln., NaHC, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME002-01",
         "name": "Alpha MEM, w/o nucleosides",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME002-02",
         "name": "Alpha MEM, with nucleosides",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME002-03",
         "name": "Alpha MEM, with nucleosides, w/o phenolred",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME003-01",
         "name": "Ham's F12, w/o L-Gln, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME003-02",
         "name": "Ham's F12, with phenol red, w/o L-Gln",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME003-03",
         "name": "Ham's F12, with L-Gln, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME003-05",
         "name": "Ham's F12 (Kaighn's modification)",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME004-01",
         "name": "DMEM (high glucose), w/o L-Gln, phenol red",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME004-02",
         "name": "DMEM (high glucose), with phenol red, w/o L-Gln, NaPy",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME004-03",
         "name": "DMEM (low glucose), w/o phenol red, NaPy",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     },
     {
         "code": "ME004-04",
         "name": "DMEM (low glucose), with phenol red, NaPy",
-        "amount": 0,
+        "amountVE": 0,
+        "amountPC": 0,
         "history": []
     }
 ]

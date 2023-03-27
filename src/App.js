@@ -23,8 +23,8 @@ function App() {
     const [notificationStatus, setNotificationStatus] = useState('');
     const [notificationItem, setNotificationItem] = useState('');
     const [notificationType, setNotificationType] = useState('');
-    const [itemModified, setItemModified] = useState(false);
-    //write timer so itemModified will be set to false after timer runs out
+
+    const [show, setShow] = useState(false);
 
     const url = 'http://127.0.0.1:3000/api/v1/items';
 
@@ -64,7 +64,10 @@ function App() {
 
     const sortToOrder = (data) => {
         let toOrderObj = data.filter((dataObj) => {
-            if (dataObj.amount > 0) {
+            if (dataObj.amountVE > 0) {
+                return true;
+            }
+            if (dataObj.amountPC > 0) {
                 return true;
             } else {
                 return false;
@@ -188,7 +191,7 @@ function App() {
     };
 
     //FETCH DATA
-    async function fetchItemsHandler() {
+    async function fetchItemsHandler(type) {
         const response = await fetch(url);
         const rawData = await response.json();
         const data = rawData.map((dataObj) => {
@@ -196,7 +199,8 @@ function App() {
                 id: dataObj._id,
                 name: dataObj.name,
                 code: dataObj.code,
-                amount: dataObj.amount,
+                amountVE: dataObj.amountVE,
+                amountPC: dataObj.amountPC,
                 history: dataObj.history,
             };
         });
@@ -204,7 +208,15 @@ function App() {
         setAllItems(data);
         setToOrder(sortToOrder(data));
         setOrdered(sortOrdered(data));
-        setRenderedList(data);
+        if (type === 'allItems') {
+            setRenderedList(data);
+        }
+        if (type === 'toOrder') {
+            setRenderedList(toOrder);
+        }
+        if (type === 'ordered') {
+            setRenderedList(ordered);
+        }
         setListLoaded(true);
     }
 
@@ -212,71 +224,131 @@ function App() {
     const modeHandler = (type) => {
         setMode(type);
         if (type === 'allItems') {
+            fetchItemsHandler('allItems');
             setRenderedList(allItems);
             setCheckOrdered(false);
         }
         if (type === 'toOrder') {
+            fetchItemsHandler('toOrder');
             setRenderedList(toOrder);
             setCheckOrdered(false);
         }
         if (type === 'ordered') {
+            fetchItemsHandler('ordered');
             setRenderedList(ordered);
             setCheckOrdered(true);
         }
     };
 
     //POSTING & UPDATING DATA
-    const addAmountHandler = async (dataObj) => {
+    const addAmountHandler = async (dataObj, type) => {
         setNotificationItem(dataObj);
         setNotificationType('add');
-        try {
-            const response = await fetch(url, {
-                method: 'PATCH',
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(dataObj),
-            });
-            const content = await response.json();
-            setNotificationStatus(content.status);
-            modeHandler('allItems');
-            fetchItemsHandler();
-        } catch (err) {
-            console.log(err);
+
+        if (type === 'VE') {
+            try {
+                const response = await fetch(url, {
+                    method: 'PATCH',
+                    headers: {
+                        Accept: 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(dataObj),
+                });
+                const content = await response.json();
+                setNotificationStatus(content.status);
+                console.log(content.item);
+                modeHandler('allItems');
+                fetchItemsHandler('allItems');
+                setShow(true);
+            } catch (err) {
+                console.log(err);
+            }
         }
-        setItemModified(true);
+        if (type === 'PC') {
+            try {
+                const response = await fetch(url, {
+                    method: 'PATCH',
+                    headers: {
+                        Accept: 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(dataObj),
+                });
+                const content = await response.json();
+                setNotificationStatus(content.status);
+                console.log(content.item);
+                modeHandler('allItems');
+                fetchItemsHandler('allItems');
+                setShow(true);
+            } catch (err) {
+                console.log(err);
+            }
+        }
     };
 
-    const removeAmountHandler = async (dataObj) => {
-        setNotificationItem(dataObj);
-        setNotificationType('remove');
-        try {
-            const response = await fetch(url, {
-                method: 'DELETE',
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(dataObj),
-            });
-            const content = await response.json();
-            setNotificationStatus(content.status);
-            modeHandler('toOrder');
-            fetchItemsHandler();
-        } catch (err) {
-            console.log(err);
+    const removeAmountHandler = async (dataObj, type) => {
+        if (type === 'delete') {
+            setNotificationItem(dataObj);
+            setNotificationType('delete');
+            try {
+                const response = await fetch(url, {
+                    method: 'PATCH',
+                    headers: {
+                        Accept: 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(dataObj),
+                });
+                const content = await response.json();
+                setNotificationStatus(content.status);
+                modeHandler('toOrder');
+                fetchItemsHandler('toOrder');
+                setShow(true);
+            } catch (err) {
+                console.log(err);
+            }
         }
-        setItemModified(true);
+        if (type === 'order') {
+            setNotificationItem(dataObj);
+            setNotificationType('order');
+            try {
+                const response = await fetch(url, {
+                    method: 'DELETE',
+                    headers: {
+                        Accept: 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(dataObj),
+                });
+                const content = await response.json();
+                setNotificationStatus(content.status);
+                modeHandler('toOrder');
+                fetchItemsHandler('toOrder');
+                setShow(true);
+            } catch (err) {
+                console.log(err);
+            }
+            fetchItemsHandler('toOrder');
+        }
     };
 
     useEffect(() => {
-        fetchItemsHandler();
+        const timer = setTimeout(() => {
+            setShow(false);
+        }, 4000);
+        return () => {
+            clearTimeout(timer);
+        };
+    }, [show]);
+
+    useEffect(() => {
+        fetchItemsHandler('allItems');
     }, []);
 
     return (
         <div className={styles.background}>
-            {itemModified && (
+            {show && (
                 <div className={styles.notification}>
                     <p className={styles.notificationTagHeadline}>
                         {notificationStatus.charAt(0).toUpperCase() +
@@ -303,7 +375,7 @@ function App() {
                     ) : (
                         ''
                     )}
-                    {notificationType === 'remove' ? (
+                    {notificationType === 'order' ? (
                         <div className={styles.notificationMessage}>
                             <p className={styles.notificationTag}>Ordered </p>
                             <p className={styles.notificationTag}>
@@ -317,6 +389,22 @@ function App() {
                             </p>
                             <p className={styles.notificationLast}>
                                 You can find it under "Ordered"
+                            </p>
+                        </div>
+                    ) : (
+                        ''
+                    )}
+                    {notificationType === 'delete' ? (
+                        <div className={styles.notificationMessage}>
+                            <p className={styles.notificationTag}>Deleted </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.name}
+                            </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.code}
+                            </p>
+                            <p className={styles.notificationTag}>
+                                {notificationItem.amount}
                             </p>
                         </div>
                     ) : (
