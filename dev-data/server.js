@@ -1,17 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 
-const app = express();
-// dotenv.config({ path: __dirname + '/./../var.env' });
-app.use(express.urlencoded({ extended: true }), bodyParser());
-
-// console.log(process.env);
-
-const port = 3000;
+require('dotenv').config();
+console.log(process.env);
 // const uri = process.env.DATABASE;
 
+const app = express();
+app.use(express.urlencoded({ extended: true }), bodyParser());
+
+const port = 3000;
 const uri =
     'mongodb+srv://acCELLerate:u74gQ5EpDgFM74mz2TX7@orderlist.tggdj44.mongodb.net/OrderList?retryWrites=true&w=majority';
 

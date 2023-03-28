@@ -2,9 +2,8 @@ import React, { useState, useRef } from 'react';
 import styles from './Item.module.css';
 
 const Item = (props) => {
-    const [inputValue, setInputValue] = useState('');
-    const [selection, setSelection] = useState('VE');
     const inputRef = useRef(null);
+    const selectionRef = useRef(null);
 
     //CRUD OPERATIONS
     const orderItemHandler = () => {
@@ -16,6 +15,9 @@ const Item = (props) => {
                 amountVE: props.data.amountVE,
                 amountPC: props.data.amountPC,
                 history: {
+                    id: props.data.id,
+                    name: props.data.name,
+                    code: props.data.code,
                     timestamp: new Date(),
                     amountVE: props.data.amountVE,
                     amountPC: props.data.amountPC,
@@ -39,7 +41,7 @@ const Item = (props) => {
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
-        if (selection === 'VE') {
+        if (selectionRef.current.value === 'VE') {
             props.add(
                 {
                     _id: props.data.id,
@@ -51,7 +53,7 @@ const Item = (props) => {
                 'VE'
             );
         }
-        if (selection === 'PC') {
+        if (selectionRef.current.value === 'PC') {
             props.add(
                 {
                     _id: props.data.id,
@@ -63,12 +65,6 @@ const Item = (props) => {
                 'PC'
             );
         }
-
-        inputRef.current.value = '';
-    };
-
-    const handleChange = (event) => {
-        setSelection(event.target.value);
     };
 
     //CONDITONAL RENDERING
@@ -85,22 +81,20 @@ const Item = (props) => {
                             type="number"
                             min="0"
                         ></input>
-                        <select
-                            className={styles.select}
-                            onChange={handleChange}
-                            value={selection}
-                        >
-                            <option selected="selected" value="VE">
+                        <select className={styles.select} ref={selectionRef}>
+                            <option defaultValue="VE" value="VE">
                                 VE
                             </option>
                             <option value="PC">PC</option>
                         </select>
+                        <button type="submit" className={styles.buttonSubmit}>
+                            <svg className={styles.add} viewBox="0 0 32 32">
+                                <g fill="#3cb043">
+                                    <path d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z"></path>
+                                </g>
+                            </svg>
+                        </button>
                     </form>
-                    <svg className={styles.add} viewBox="0 0 32 32">
-                        <g fill="#3cb043">
-                            <path d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z"></path>
-                        </g>
-                    </svg>
                 </div>
             </div>
         );

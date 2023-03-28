@@ -42,26 +42,6 @@ function App() {
         return alphanumericSortingObj;
     };
 
-    const sortByDate = (data) => {
-        const newArr = [];
-        data.map((obj, i) => {
-            // console.log(obj[i]);
-            // obj[i].map((history, index) => {
-            //     console.log(history);
-            // });
-            // console.log(obj);
-        });
-        // console.log(newArr);
-        const sortedOrdered = data.sort((a, b) => {
-            if (a.history[0].timestamp > b.history[0].timestamp) {
-                return -1;
-            } else {
-                return 0;
-            }
-        });
-        return sortedOrdered;
-    };
-
     const sortToOrder = (data) => {
         let toOrderObj = data.filter((dataObj) => {
             if (dataObj.amountVE > 0) {
@@ -84,7 +64,7 @@ function App() {
                 return false;
             }
         });
-        const orderedObj2 = sortByDate(orderedObj);
+        // const orderedObj2 = sortByDate(orderedObj);
         return orderedObj;
     };
 
@@ -175,17 +155,40 @@ function App() {
                         .includes(searchString.toLowerCase().replace(/\s/g, ''))
                 ) {
                     return true;
-                }
-                if (
-                    data.history[0].timestamp
-                        .slice(0, 10)
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
                 } else {
                     return false;
                 }
             });
+
+            const filteredHistory = ordered
+                .filter((data) => {
+                    return data.history.some((history) =>
+                        history.timestamp
+                            .slice(0, 10)
+                            .includes(
+                                searchString.toLowerCase().replace(/\s/g, '')
+                            )
+                    );
+                })
+                .map((item) => {
+                    return item.history.find((historyItem) => {
+                        if (
+                            historyItem.timestamp
+                                .slice(0, 10)
+                                .includes(
+                                    searchString
+                                        .toLowerCase()
+                                        .replace(/\s/g, '')
+                                )
+                        ) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    });
+                });
+            console.log(filteredHistory);
+            // console.log(filteredList);
             setRenderedList(filteredList);
         }
     };
@@ -257,7 +260,6 @@ function App() {
                 });
                 const content = await response.json();
                 setNotificationStatus(content.status);
-                console.log(content.item);
                 modeHandler('allItems');
                 fetchItemsHandler('allItems');
                 setShow(true);
@@ -277,7 +279,6 @@ function App() {
                 });
                 const content = await response.json();
                 setNotificationStatus(content.status);
-                console.log(content.item);
                 modeHandler('allItems');
                 fetchItemsHandler('allItems');
                 setShow(true);
@@ -303,7 +304,6 @@ function App() {
                 const content = await response.json();
                 setNotificationStatus(content.status);
                 modeHandler('toOrder');
-                fetchItemsHandler('toOrder');
                 setShow(true);
             } catch (err) {
                 console.log(err);
@@ -324,7 +324,6 @@ function App() {
                 const content = await response.json();
                 setNotificationStatus(content.status);
                 modeHandler('toOrder');
-                fetchItemsHandler('toOrder');
                 setShow(true);
             } catch (err) {
                 console.log(err);
@@ -362,12 +361,29 @@ function App() {
                             <p className={styles.notificationTag}>
                                 {notificationItem.name}
                             </p>
-                            <p className={styles.notificationTag}>
-                                {notificationItem.code}
+                            <p className={styles.notificationTagNewLine}>
+                                <p className={styles.notificationTagCode}>
+                                    {notificationItem.code}
+                                </p>
+
+                                <p className={styles.notificationTagVE}>
+                                    <svg
+                                        className={styles.add}
+                                        viewBox="0 0 32 32"
+                                    >
+                                        <g fill="#000000">
+                                            <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+                                        </g>
+                                    </svg>
+                                </p>
+                                <p className={styles.notificationTagVE}>
+                                    {typeof notificationItem.amountVE !==
+                                    'undefined'
+                                        ? `${notificationItem.amountVE} VE`
+                                        : `${notificationItem.amountPC} PC`}
+                                </p>
                             </p>
-                            <p className={styles.notificationTag}>
-                                {notificationItem.amount}
-                            </p>
+
                             <p className={styles.notificationLast}>
                                 You can find it under "Orders"
                             </p>
@@ -381,12 +397,32 @@ function App() {
                             <p className={styles.notificationTag}>
                                 {notificationItem.name}
                             </p>
-                            <p className={styles.notificationTag}>
-                                {notificationItem.code}
+                            <p className={styles.notificationTagNewLine}>
+                                <p className={styles.notificationTagCode}>
+                                    {notificationItem.code}
+                                </p>
+
+                                <p className={styles.notificationTagVE}>
+                                    <svg
+                                        className={styles.add}
+                                        viewBox="0 0 32 32"
+                                    >
+                                        <g fill="#000000">
+                                            <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+                                        </g>
+                                    </svg>
+                                </p>
+                                <p className={styles.notificationTagVE}>
+                                    {notificationItem.amountVE} VE
+                                    <p
+                                        className={
+                                            styles.notificationTagSeperator
+                                        }
+                                    ></p>
+                                    {notificationItem.amountPC} PC
+                                </p>
                             </p>
-                            <p className={styles.notificationTag}>
-                                {notificationItem.amount}
-                            </p>
+
                             <p className={styles.notificationLast}>
                                 You can find it under "Ordered"
                             </p>
@@ -400,11 +436,10 @@ function App() {
                             <p className={styles.notificationTag}>
                                 {notificationItem.name}
                             </p>
-                            <p className={styles.notificationTag}>
-                                {notificationItem.code}
-                            </p>
-                            <p className={styles.notificationTag}>
-                                {notificationItem.amount}
+                            <p className={styles.notificationTagNewLine}>
+                                <p className={styles.notificationTagCode}>
+                                    {notificationItem.code}
+                                </p>
                             </p>
                         </div>
                     ) : (
@@ -427,7 +462,7 @@ function App() {
                                 // Sort list by history timestamp and replace renderedList with that List
                                 <Item
                                     data={renderedList[i]}
-                                    key={data.id}
+                                    key={`${data.id}${index}`}
                                     mode={mode}
                                     index={index}
                                     add={addAmountHandler}
