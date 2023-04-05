@@ -6,103 +6,79 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type='number'] {
-    -moz-appearance: textfield;
+    width: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.select {
+    height: 22px;
 }
 
 .row {
     display: flex;
-    position: relative;
     justify-content: space-evenly;
-    text-align: center;
-}
-.row:not(:last-child) {
-    border-bottom: 1px solid #000;
-}
-
-.column {
-    flex: 3;
-}
-
-.borderChild {
-    border-right: 1px solid #000;
-}
-
-.trash {
-    position: absolute;
-    right: 0;
-    overflow: hidden;
-    width: 4rem;
-    height: 100%;
-    display: flex;
     align-items: center;
-    background: linear-gradient(to left, #fdacac 50%, #fff 50%);
-    background-size: 200% 100%;
-    background-position: left;
-    transition: all 0.4s ease-out;
+    text-align: center;
+    padding-left: 2.35rem;
 }
 
-/* these animations are supposed for the "order"-items only */
-/* can I get this animation outside the window? */
-.row:hover > .trash > .svg {
-    display: block;
+.biggerFlex {
+    flex: 3;
+    text-align: left;
 }
-
-.row:hover > .trash {
-    background-position: right;
-}
-
-.svg {
-    display: none;
-    margin: auto;
-    width: 25px;
-    height: 25px;
-}
-
-.flex {
+.otherItems {
     flex: 1;
+    text-align: left;
 }
 
-.delete {
-    transition: all 0.3s ease-out;
-    background: #fdacac 50%;
-}
-
-.deleteSVG > .trash > .svg {
-    display: block;
-}
-
-.deleteTrash > .trash {
-    background: #fdacac;
-}
-
-.add {
-    background: linear-gradient(to left, #99edc3 50%, #fff 50%);
-    background-size: 200% 100%;
-    background-position: left;
-    transition: all 0.4s ease-out;
-}
-
-.inputDiv {
-    height: 100%;
-    background: #99edc3;
+form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.input {
-    width: 50%;
+.newLine {
+    display: flex;
 }
 
-.history {
+.svg {
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.buttonDiv {
+    flex: 1;
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    align-items: center;
 }
 
-.biggerFlex {
-    flex: 3;
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
-.otherItems {
-    flex: 1;
+
+.VE {
+    padding-left: 5px;
+}
+
+.add {
+    width: 25px;
+    height: 25px;
+}
+
+.buttonSubmit {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
 }

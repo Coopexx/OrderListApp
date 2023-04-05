@@ -3,12 +3,21 @@
     justify-content: space-evenly;
     text-align: center;
     background-color: #dbd5e3;
+    padding-left: 2.35rem;
 }
 
 .column {
     flex: 3;
+    text-align: left;
 }
 
 .flex {
     flex: 1;
+    text-align: left;
+}
+
+.svg {
+    margin: auto;
+    width: 25px;
+    height: 25px;
 }

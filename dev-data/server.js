@@ -1,16 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 
-const app = express();
-dotenv.config({ path: __dirname + '/./../var.env' });
-app.use(express.urlencoded({ extended: true }), bodyParser());
-
-console.log(process.env);
-
-const port = 3000;
+require('dotenv').config({ path: __dirname + '/./../.env' });
 const uri = process.env.DATABASE;
+const port = process.env.PORT;
+
+const app = express();
+app.use(express.urlencoded({ extended: true }), bodyParser());
 
 //SCHEMA
 const itemSchema = mongoose.Schema({
@@ -26,13 +23,15 @@ const itemSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    amount: {
+    amountVE: {
         type: Number,
         required: true,
     },
-    history: {
+    amountPC: {
         type: Number,
+        required: true,
     },
+    history: Array,
 });
 
 const Item = mongoose.model('Item', itemSchema); //must match name of collection
@@ -48,39 +47,23 @@ const getItems = async (req, res) => {
 };
 
 // POST ITEM
-const postItem = async (req, res) => {
-    try {
-        //if (items.find().amount > 0){UPDATE items.find() = items.find() + req.body.amount}
-        const newItem = await Item.create(req.body);
-
-        res.status(201).json({
-            status: 'success',
-            data: {
-                item: newItem,
-            },
-        });
-    } catch (err) {
-        res.status(400).json({
-            status: 'fail',
-            message: err,
-        });
-    }
-};
+const postItem = async (req, res) => {};
 
 //PATCH ITEM
 const patchItem = async (req, res) => {
     try {
-        console.log(req.body._id);
-        console.log(req.body.amount);
-        // const updatedItem = new Item(req.body);
-
-        const updatedItem = await Item.findByIdAndUpdate(req.body._id, {
-            amount: req.body.amount,
+        console.log(req.body);
+        const updatedItemVE = await Item.findByIdAndUpdate(req.body._id, {
+            amountVE: req.body.amountVE,
+        });
+        const updatedItemPC = await Item.findByIdAndUpdate(req.body._id, {
+            amountPC: req.body.amountPC,
         });
 
         res.status(201).json({
             status: 'success',
-            item: updatedItem,
+            itemVE: updatedItemVE,
+            itemPC: updatedItemPC,
         });
     } catch (err) {
         res.status(400).json({
@@ -93,13 +76,19 @@ const patchItem = async (req, res) => {
 
 const deleteItem = async (req, res) => {
     try {
-        const updatedItem = await Item.findByIdAndUpdate(req.body._id, {
-            amount: 0,
+        const updatedAmount = await Item.findByIdAndUpdate(req.body._id, {
+            amountVE: 0,
+            amountPC: 0,
+        });
+
+        const updatedHistory = await Item.findByIdAndUpdate(req.body._id, {
+            $push: { history: req.body.history },
         });
 
         res.status(201).json({
             status: 'success',
-            item: updatedItem,
+            amount: updatedAmount,
+            history: updatedHistory,
         });
     } catch (err) {
         res.status(400).json({
