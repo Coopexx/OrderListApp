@@ -4,6 +4,8 @@ import styles from './Item.module.css';
 const Item = (props) => {
     const inputRef = useRef(null);
     const selectionRef = useRef(null);
+    const [showAdd, setShowAdd] = useState(false);
+    const [inputValue, setInputValue] = useState('');
 
     //CRUD OPERATIONS
     const orderItemHandler = () => {
@@ -84,6 +86,7 @@ const Item = (props) => {
                             </option>
                             <option value="PC">PC</option>
                         </select>
+
                         <button type="submit" className={styles.buttonSubmit}>
                             <svg className={styles.add} viewBox="0 0 32 32">
                                 <g fill="#3cb043">
