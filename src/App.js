@@ -5,9 +5,6 @@ import Navigation from './components/Navigation';
 import Description from './components/Description';
 
 import styles from './App.module.css';
-import { set } from 'mongoose';
-
-//Functionalities: filter ordered date, notification div
 
 function App() {
     const [allItems, setAllItems] = useState({}); //allItems
@@ -215,7 +212,6 @@ function App() {
 
     //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj, type) => {
-        console.log(dataObj);
         setNotificationItem(dataObj);
         setNotificationType('add');
         if (type === 'VE') {
@@ -431,7 +427,6 @@ function App() {
                         listLoaded &&
                         renderedList.map((data, i) => {
                             return data.history.map((dataHistory, index) => (
-                                // Sort list by history timestamp and replace renderedList with that List
                                 <Item
                                     data={renderedList[i]}
                                     key={`${data.id}${index}`}
