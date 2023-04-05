@@ -15,9 +15,6 @@ const Item = (props) => {
                 amountVE: props.data.amountVE,
                 amountPC: props.data.amountPC,
                 history: {
-                    id: props.data.id,
-                    name: props.data.name,
-                    code: props.data.code,
                     timestamp: new Date(),
                     amountVE: props.data.amountVE,
                     amountPC: props.data.amountPC,

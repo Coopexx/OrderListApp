@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import Description from './components/Description';
 
 import styles from './App.module.css';
+import { set } from 'mongoose';
 
 //Functionalities: filter ordered date, notification div
 
@@ -64,7 +65,6 @@ function App() {
                 return false;
             }
         });
-        // const orderedObj2 = sortByDate(orderedObj);
         return orderedObj;
     };
 
@@ -159,36 +159,6 @@ function App() {
                     return false;
                 }
             });
-
-            const filteredHistory = ordered
-                .filter((data) => {
-                    return data.history.some((history) =>
-                        history.timestamp
-                            .slice(0, 10)
-                            .includes(
-                                searchString.toLowerCase().replace(/\s/g, '')
-                            )
-                    );
-                })
-                .map((item) => {
-                    return item.history.find((historyItem) => {
-                        if (
-                            historyItem.timestamp
-                                .slice(0, 10)
-                                .includes(
-                                    searchString
-                                        .toLowerCase()
-                                        .replace(/\s/g, '')
-                                )
-                        ) {
-                            return true;
-                        } else {
-                            return false;
-                        }
-                    });
-                });
-            console.log(filteredHistory);
-            // console.log(filteredList);
             setRenderedList(filteredList);
         }
     };
@@ -245,9 +215,9 @@ function App() {
 
     //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj, type) => {
+        console.log(dataObj);
         setNotificationItem(dataObj);
         setNotificationType('add');
-
         if (type === 'VE') {
             try {
                 const response = await fetch(url, {
@@ -260,9 +230,6 @@ function App() {
                 });
                 const content = await response.json();
                 setNotificationStatus(content.status);
-                modeHandler('allItems');
-                fetchItemsHandler('allItems');
-                setShow(true);
             } catch (err) {
                 console.log(err);
             }
@@ -279,13 +246,13 @@ function App() {
                 });
                 const content = await response.json();
                 setNotificationStatus(content.status);
-                modeHandler('allItems');
-                fetchItemsHandler('allItems');
-                setShow(true);
             } catch (err) {
                 console.log(err);
             }
         }
+        modeHandler('allItems');
+        fetchItemsHandler('allItems');
+        setShow(true);
     };
 
     const removeAmountHandler = async (dataObj, type) => {
@@ -303,8 +270,6 @@ function App() {
                 });
                 const content = await response.json();
                 setNotificationStatus(content.status);
-                modeHandler('toOrder');
-                setShow(true);
             } catch (err) {
                 console.log(err);
             }
@@ -323,13 +288,20 @@ function App() {
                 });
                 const content = await response.json();
                 setNotificationStatus(content.status);
-                modeHandler('toOrder');
-                setShow(true);
             } catch (err) {
                 console.log(err);
             }
-            fetchItemsHandler('toOrder');
         }
+        const updatedToOrder = toOrder.filter((item) => {
+            if (item.id === dataObj._id) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+        setToOrder(updatedToOrder);
+        setRenderedList(updatedToOrder);
+        setShow(true);
     };
 
     useEffect(() => {
