@@ -24,7 +24,7 @@ function App() {
 
     const [show, setShow] = useState(false);
 
-    const url = 'http://127.0.0.1:3000/api/v1/items';
+    const url = 'https://orderlist-edd43.web.app/api/v1/items';
 
     //SORTING DATA
     const alphanumericSorting = (alphanumericSortingObj) => {
