@@ -100,6 +100,17 @@ const deleteItem = async (req, res) => {
 };
 
 //CONTROLLER
+
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', req.headers.origin);
+    res.header('Access-Control-Allow-Credentials', true);
+    res.header(
+        'Access-Control-Allow-Headers',
+        'Origin, X-Requested-With, Content-Type, Accept'
+    );
+    next();
+});
+
 app.get('/api/v1/items', getItems);
 app.post('/api/v1/items', postItem);
 app.patch('/api/v1/items', patchItem);
@@ -116,6 +127,6 @@ async function connect() {
 }
 connect();
 
-app.listen(port, () => {
+app.listen(port, '172.16.31.27', () => {
     console.log(`App running on port ${port}`);
 });

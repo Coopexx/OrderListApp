@@ -24,7 +24,7 @@ function App() {
 
     const [show, setShow] = useState(false);
 
-    const url = 'http://127.0.0.1:3000/api/v1/items';
+    const url = 'http://172.16.31.27:3000/api/v1/items/';
 
     //SORTING DATA
     const alphanumericSorting = (alphanumericSortingObj) => {
@@ -164,6 +164,7 @@ function App() {
     async function fetchItemsHandler(type) {
         const response = await fetch(url);
         const rawData = await response.json();
+        console.log(rawData);
         const data = rawData.map((dataObj) => {
             return {
                 id: dataObj._id,
