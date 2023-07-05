@@ -1,1 +1,1 @@
-web: node startServe
+web: npm run startServe
