@@ -24,7 +24,7 @@ function App() {
 
     const [show, setShow] = useState(false);
 
-    const url = 'http://0.0.0.0/api/v1/items/';
+    const url = 'https://order-list-4ecb0490f6d0.herokuapp.com/api/v1/items/';
     // http://192.168.178.22:3000/api/v1/items/
 
     //SORTING DATA
