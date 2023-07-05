@@ -1,1 +1,1 @@
-web: node ./dev-data/server.js
+web: node ./build
