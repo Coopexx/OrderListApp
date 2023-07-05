@@ -141,6 +141,6 @@ async function connect() {
 connect();
 
 // '192.168.178.22'
-app.listen(port, 'https://order-list-4ecb0490f6d0.herokuapp.com/', () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`App running on port ${port}`);
 });
