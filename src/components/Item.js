@@ -141,22 +141,36 @@ const Item = (props) => {
     const Ordered = () => {
         return (
             <div className={styles.row}>
-                <React.Fragment>
-                    <p className={styles.biggerFlex}>{props.data.name}</p>
-                    <p className={styles.otherItems}>{props.data.code}</p>
-                </React.Fragment>
+                <p className={styles.biggerFlex}>{props.data.name}</p>
+                <p className={styles.otherItems}>{props.data.code}</p>
 
-                <React.Fragment>
-                    <p className={styles.otherItems}>
-                        {props.data.history[props.index].timestamp.slice(0, 10)}
-                    </p>
-                    <p className={styles.otherItems}>
-                        {props.data.history[props.index].amountVE}
-                    </p>
-                    <p className={styles.otherItems}>
-                        {props.data.history[props.index].amountPC}
-                    </p>
-                </React.Fragment>
+                <p className={styles.otherItems}>
+                    {props.data.history[props.index].timestamp.slice(0, 10)}
+                </p>
+                <p className={styles.otherItems}>
+                    {props.data.history[props.index].amountVE}
+                </p>
+                <p className={styles.otherItems}>
+                    {props.data.history[props.index].amountPC}
+                </p>
+                <form onSubmit={formSubmitHandler}>
+                    <button
+                        type="submit"
+                        className={styles.buttonSubmitOrdered}
+                        title="Delivered?"
+                    >
+                        <svg
+                            className={styles.svg}
+                            fill="#3cb043"
+                            viewBox="0 0 32 32"
+                        >
+                            <g id="SVGRepo_iconCarrier">
+                                {' '}
+                                <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </form>
             </div>
         );
     };

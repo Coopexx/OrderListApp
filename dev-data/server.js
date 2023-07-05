@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
@@ -108,8 +109,20 @@ app.use((req, res, next) => {
         'Access-Control-Allow-Headers',
         'Origin, X-Requested-With, Content-Type, Accept'
     );
+    res.header(
+        'Access-Control-Allow-Methods',
+        'GET, POST,HEAD, OPTIONS,PUT, DELETE'
+    );
     next();
 });
+
+var options = {
+    origin: '*',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    preflightContinue: false,
+    optionsSuccessStatus: 204,
+};
+app.use(cors(options));
 
 app.get('/api/v1/items', getItems);
 app.post('/api/v1/items', postItem);
@@ -127,6 +140,7 @@ async function connect() {
 }
 connect();
 
-app.listen(port, '172.16.31.27', () => {
+// '192.168.178.22'
+app.listen(port, () => {
     console.log(`App running on port ${port}`);
 });
