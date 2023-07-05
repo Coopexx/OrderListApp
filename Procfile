@@ -1,2 +1,2 @@
 web: npm run startServe
-worker: node ./dev-data/server.js
+web: node ./dev-data/server.js
