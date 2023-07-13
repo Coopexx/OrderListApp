@@ -24,7 +24,9 @@ function App() {
 
     const [show, setShow] = useState(false);
 
-    const url = 'https://orderlist-edd43.web.app/api/v1/items';
+
+    const url = 'http://127.0.0.1:3000/api/v1/items';
+    // http://192.168.178.22:3000/api/v1/items/
 
     //SORTING DATA
     const alphanumericSorting = (alphanumericSortingObj) => {
@@ -208,10 +210,16 @@ function App() {
             setRenderedList(ordered);
             setCheckOrdered(true);
         }
+        if (type === 'delivered') {
+            fetchItemsHandler('allItems');
+            setRenderedList(allItems);
+            setCheckOrdered(false);
+        }
     };
 
     //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj, type) => {
+        console.log(dataObj);
         setNotificationItem(dataObj);
         setNotificationType('add');
         if (type === 'VE') {

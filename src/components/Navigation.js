@@ -8,6 +8,7 @@ const Navigation = (props) => {
     const [allItemsClicked, setAllItemsClicked] = useState(false);
     const [toOrderClicked, setToOrderClicked] = useState(false);
     const [orderedClicked, setOrderedClicked] = useState(false);
+    const [deliveredClicked, setDeliveredClicked] = useState(false);
     const [type, setType] = useState('allItems');
 
     const showTextfield = () => {
@@ -31,6 +32,7 @@ const Navigation = (props) => {
         setAllItemsClicked(false);
         setToOrderClicked(false);
         setOrderedClicked(false);
+        setDeliveredClicked(false);
     };
 
     const changeModeHandler = (type) => {
@@ -49,6 +51,11 @@ const Navigation = (props) => {
             resetAll();
             props.modeHandler('ordered');
             setOrderedClicked(true);
+        }
+        if (type === 'delivered') {
+            resetAll();
+            props.modeHandler('delivered');
+            setDeliveredClicked(true);
         }
         setFilter('');
         setTextfield('');
@@ -89,6 +96,16 @@ const Navigation = (props) => {
                     }`}
                 >
                     ORDERED
+                </p>
+                <p
+                    onClick={() => {
+                        changeModeHandler('delivered');
+                    }}
+                    className={`${deliveredClicked ? styles.active : null} ${
+                        styles.navItem
+                    }`}
+                >
+                    DELIVERED
                 </p>
             </div>
             <div className={styles.filterDiv}>

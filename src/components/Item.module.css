@@ -82,3 +82,9 @@ button {
     align-items: center;
     margin-left: 2rem;
 }
+
+.buttonSubmitOrdered {
+    display: flex;
+    align-items: center;
+    margin-right: 3.5rem;
+}
