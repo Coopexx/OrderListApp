@@ -1,0 +1,1850 @@
+[
+    {
+      "code": "ZG00-02",
+      "name": "Zellkulturplatte (96-well, clear) - für Cytotox-Kit",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG01-01",
+      "name": "Zellkulturplatte (6-well, clear)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG01-02",
+      "name": "Zellkulturplatte (12-well, clear)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG01-04",
+      "name": "Zellkulturplatte (24-well, clear)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG01-05",
+      "name": "Zellkulturplatte (48-well, clear)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG01-06",
+      "name": "Zellkulturplatte (96-well, clear)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG02-01",
+      "name": "Zellkulturplatte (24-well, Suspension)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG02-05",
+      "name": "Zellkulturplatte (96-well, white)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG026-01",
+      "name": "Cell Strainer (100µm, yellow)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG03-01",
+      "name": "CellSTACK, 2 Layer",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG03-02",
+      "name": "CellSTACK, 5 layer",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG03-03",
+      "name": "CellSTACK, 10 Layer",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG03-04",
+      "name": "Easy Fill Cell Factory, 10 Layer (6)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG03-05",
+      "name": "CELLDISC, 8 LAGEN, 2000 CM²",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG03-06",
+      "name": "CELLDISC, 12 LAGEN, 3000 CM²",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-01",
+      "name": "Zellkulturflaschen (T25)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-02",
+      "name": "Zellkulturflaschen (T75)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-03",
+      "name": "Zellkulturflaschen (T175)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-04",
+      "name": "Suspensionsflaschen (T175)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-07",
+      "name": "Zellkulturflaschen (T75), ultra low binding",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-08",
+      "name": "Suspensionsflaschen (T25)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG04-09",
+      "name": "Suspensionsflaschen (T75)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG045-01",
+      "name": "Cryovials Nunc  (1,8 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG045-02",
+      "name": "Cryovials (1 ml) (nunc/Greiner)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG045-03",
+      "name": "Cryovials Fisherbrand  (1,8 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG045-05",
+      "name": "Cryovials Greiner (2ml, barcoded)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG045-06",
+      "name": "Cryovials Greiner (2 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG045-07",
+      "name": "Cryovials Greiner (1 ml, barcoded)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG049-03",
+      "name": "DISPOSABLE SPINNER FLASK, 3L, GL45 CAPS, S, IND, 1/4",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG049-04",
+      "name": "DISPOSABLE SPINNER FLASK, 1L, GL45 CAPS, S, IND, 1/6",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG049-05",
+      "name": "DISPOSABLE SPINNER FLASK 500mL, PS, S, IND, 1/12",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG049-06",
+      "name": "FLASK SPIN 100MM 2SA 1000ML",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG049-07",
+      "name": "FLASK SPIN 100MM 2SA 3000ML",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG049-08",
+      "name": "FLASK SPIN 100MM 2SA 500ML",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG05-02",
+      "name": "Hyperflask M CellBIND (24)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG05-04",
+      "name": "Hyperflask CellBIND (24)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG05-05",
+      "name": "Hyperflask M (4)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG11-00",
+      "name": "Culture Dish, square (500 cm2)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-01",
+      "name": "Zellkulturflasche, Cell+ (T25)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-02",
+      "name": "Zellkulturflasche, Cell+ (T75)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-03",
+      "name": "Zellkulturflasche, Cell+ (T175)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-04",
+      "name": "Zellkulturplatte, Cell+ (6-well)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-05",
+      "name": "Zellkulturplatte, Cell+ (12-well)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-06",
+      "name": "Zellkulturplatte, Cell+ (24-well)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-07",
+      "name": "Zellkulturplatte, Cell+ (48-well)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG14-08",
+      "name": "Zellkulturplatte, Cell+ (96-well)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ZG16-01",
+      "name": "ibidi 3-well Chamber",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "KR002-00",
+      "name": "Mikrobac Forte",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "KR002-01",
+      "name": "Wasserbad-Schutzmittel RDS® Wasserbadstabil, 100ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM001-00",
+      "name": "Farbband für Etikettendrucker Resin SP 110 x 300 OUT",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM001-01",
+      "name": "Farbband für CAB Etikettendrucker, R71, 38mm x 360m",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM002-00",
+      "name": "Laboretiketten (klein) Folienetikett e-3032, 30 x 15 mm",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM002-01",
+      "name": "Laboretiketten (mittel) Folienetikett e-3032, 70 x 33 mm",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM002-03",
+      "name": "Laboretiketten \"acCELLerate\" für CAB-Druckautomat, 20.000",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM003-02",
+      "name": "Dismozon Plus (100 Beutel) 16g Beutel",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM005-00",
+      "name": "Einmalhandschuh Nitril (M) ; Box/100St.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM005-01",
+      "name": "Einmalhandschuh Nitril (S) ; Box/100St.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM005-02",
+      "name": "Einmalhandschuh Nitril (L) ; Box/100St.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM005-03",
+      "name": "Einmalhandschuh Nitril (XS) ; Box/100St.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM005-04",
+      "name": "Latex Gloves, M, Powder free",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM006-00",
+      "name": "Einweg-Spritzen, Luer-Lock, steril, 3 ml (100 Stk./Pack.)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM006-01",
+      "name": "Einweg-Spritzen, steril, 20 ml (50 Stk./Pack.)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM006-02",
+      "name": "Einweg-Injektionskanülen FINE-JECT, hellgrau",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM006-03",
+      "name": "Einweg-SterilFILTER Filtropur S (0.2 µm)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM006-04",
+      "name": "Einweg Injektionskanülen 40x0,9mm, gelb",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM007-02",
+      "name": "Thermowell™ GOLD 0.2 mL PCR Tubes",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM007-03",
+      "name": "PCR Tubes, 0.2 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM008-01",
+      "name": "Eppis (1,5 ml), amber",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM009-00",
+      "name": "Handcreme Stokolan Classic 100ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM010-00",
+      "name": "KimWipe (100 Tücher/Box)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM010-01",
+      "name": "Spezial-Wischtuch, weiß, 40x38 cm",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM011-00",
+      "name": "Lab-Marker, VE=10 Labormarker schwarz",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM011-01",
+      "name": "Lab-Marker, VE=10 Labormarker blau",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM011-02",
+      "name": "Labormarker Securline Set",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-02",
+      "name": "Pipettenspitze in TipStacks, 2 - 200 µl, StackPack",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-06",
+      "name": "Biosphere FILTER-Tips, 2 - 200 µl",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-08",
+      "name": "Biosphere FILTER-Tips, 50 - 1.250 µl, lang",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-09",
+      "name": "Rainin Pipettenspitzen, Tips RT-LTS-A-300µl-/L/S-768/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-10",
+      "name": "Rainin Pipettenspitzen, Tips RT-LTS-A-300µl-/F/L-768/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-11",
+      "name": "Rainin Pipettenspitzen, Tips RT-LTS-A-1200µl-/L/S-768/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-12",
+      "name": "Rainin Pipettenspitzen, Tips RT-LTS-A-1200µl-/F/L-768/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-13",
+      "name": "Rainin Pipettenspitzen, Tips GPS-LTS-A-250µl-/L/S-960/10",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-14",
+      "name": "Rainin Pipettenspitzen, LTS-Tips GPS-L1000SLR-768/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-15",
+      "name": "Rainin Pipettenspitzen HRC UNV 1000μL F 768C/8 (Filter Tips)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-16",
+      "name": "Rainin Pipettenspitzen GPS UNV 250μL 960A/10, SpaceSaver",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-17",
+      "name": "Rainin Pipettenspitzen, Tips GPS-LTS-300µl-S-768/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-18",
+      "name": "Biosphere FILTER-Tips, 10 - 100 µl",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-19",
+      "name": "Rainin Pipettenspitzen RT UNV 250μL 960A/10",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-24",
+      "name": "Biosphere plus Filter-Tips, 30-300 µl",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-25",
+      "name": "PCR Preformance Tips, 50 - 1.250 µl, StackPack",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-27",
+      "name": "Rainin Pipettenspitzen GPS UNV 1000μl LS 768A/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-28",
+      "name": "Biosphere Tips, 50 - 1.250 µl, lang",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-29",
+      "name": "Biosphere FILTER-Tips, 50 - 1.250 µl, SingleRefill",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-30",
+      "name": "Biosphere FILTER-Tips, 2 - 20 µl",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM013-31",
+      "name": "Biosphere FILTER-Tips, 50 - 1.250 µl, Box",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM015-00",
+      "name": "Überziehschuhe blau; VE=100 St.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM018-01",
+      "name": "Trockeneis Platten 150 x150 x 30 mm",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM019-00",
+      "name": "Vernichtungsbeutel 600 x 780 mm",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM019-01",
+      "name": "Vernichtungsbeutel 200 x 300 mm",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-01",
+      "name": "2,5 ml Combitips advanced®, Biopur, einzeln steril verpackt",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-02",
+      "name": "10 ml Combitips advanced®, Biopur, einzeln steril verpackt",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-03",
+      "name": "50 ml Combitips advanced®, Biopur, einzeln steril verpackt",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-04",
+      "name": "0,5 ml Combitips advanced®, Biopur, einzeln steril verpackt",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-05",
+      "name": "12,5 ml Fisherbrand™ Dispensertips, steril",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-2",
+      "name": "Reagenzien-Reservoir, 60ml, steril",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM020-4",
+      "name": "Reagenzien-Reservoir für 8/12-Kanalpipetten, steril",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM022-00",
+      "name": "Baktolin Pure Waschlotion, 5 L",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM022-01",
+      "name": "Baktolin Pure Waschlotion, 500 mL",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM025-00",
+      "name": "Sterilium Desinfektionsmittel für die Hände, 5L-Kanister",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM025-01",
+      "name": "Sterilium Desinfektionsmittel für die Hände, 500 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM027-00",
+      "name": "SafeSeal Reagiergefäße 1,5 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM027-01",
+      "name": "SafeSeal Reagiergefäße 2,0 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM027-02",
+      "name": "Biosphere SafeSeal Reagiergefäße 1,5 ml, DNA-frei",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM028-00",
+      "name": "Reagiergefäße 1,5 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM029-00",
+      "name": "Eppendorf Tubes 5.0 ml (200 Tubes)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM032-00",
+      "name": "neodisher FA, Dr. Weigert, 10 L",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM032-01",
+      "name": "neodisher Z, Dr. Weigert, 5 L",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM034-00",
+      "name": "Aspirationspipette",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM037-00",
+      "name": "CASY Clean 500 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM038-00",
+      "name": "Casy Cups",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM039-00",
+      "name": "Casy Ton, 10 Liter/Kanister",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-01",
+      "name": "Serologische Pipette 10 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-02",
+      "name": "Serologische Pipette 25 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-03",
+      "name": "Serologische Pipette 2 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-04",
+      "name": "Serologische Pipette 50 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-05",
+      "name": "Serologische Pipette 5 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-06",
+      "name": "Serologische Pipette 1 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-01",
+      "name": "Centrifugation Tube (15 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-02",
+      "name": "Centrifugation Tube (50 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-03",
+      "name": "Centrifugation Tube (500 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-05",
+      "name": "Gosselin gerader Polypropylenbehälter, 125 mL, steril",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-14",
+      "name": "Rack für Centrifugation Tube (500 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-15",
+      "name": "Centrifugation Tube (50 ml), braun",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-16",
+      "name": "Centrifugation Tube (15 ml), braun",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM046-00",
+      "name": "Filtrationsauffanggefäße (250 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM046-01",
+      "name": "Filtrationsauffanggefäße (500 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM046-02",
+      "name": "Filtrationsauffanggefäße (1000 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM047-00",
+      "name": "Via Check Control Microspheres (20ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM050-00",
+      "name": "Filtropur V25, Vakuumfiltrationseinheit",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM050-01",
+      "name": "Vacuumfiltrationseinheit, 0.2µm, 250ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM053-00",
+      "name": "Einweg-Spritze, 50 ml, Luer-Steck, steril",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM053-01",
+      "name": "Einweg-Spritze, 50 ml, Luer-Lock, steril",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM054-00",
+      "name": "Filtropur BT 50 FlaschenaufsatzFILTER",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM054-01",
+      "name": "Vacuumfiltrationseinheit, 0.2µm, 500ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM061-00",
+      "name": "Petrischale (92 x 16 mm)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM062-01",
+      "name": "Schraubverschluß rot für Mikro-Schraubröhren",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM062-02",
+      "name": "Schraubverschluß gelb für Mikro-Schraubröhren",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM062-03",
+      "name": "Schraubverschluß grün für Mikro-Schraubröhren",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM063-01",
+      "name": "Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3417",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM063-02",
+      "name": "Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3410",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM063-03",
+      "name": "Flaschen, enghalsig, mit Schraubverschluss; VWR# 215-3409",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM064-01",
+      "name": "Stand-Reaktionsgefäß 0.5ml natur; VWR# 525-0644",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM064-02",
+      "name": "Stand-Reaktionsgefäß 2ml natur; VWR# 525-0652",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM064-03",
+      "name": "Stand-Reaktionsgefäß 0.5ml braun, NEOLAB; VWR# NEOL7-4590",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM064-04",
+      "name": "Stand-Reaktionsgefäß 2ml braun, ohne Schraubverschluss",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM065-01",
+      "name": "Hämacytometer Cover Glass (f. Neubauerkammer)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM065-03",
+      "name": "Neubauer Zählkammer",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM066-00",
+      "name": "SafeSeal Reagiergefäß 0,5 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM067-00",
+      "name": "OSRAM HBO 50W-AC 39V L1",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM068-00",
+      "name": "Zähler / Handzähler",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM075-00",
+      "name": "6CH Large Tubing Cartridge with Resin Nozzle (5UL-2000UL)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM076-01",
+      "name": "PARAFILM® M, 100 mm, 38 m",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM077-00",
+      "name": "Sicherheitsventil Za G1/4-RC3/8",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM079-00",
+      "name": "Membranfilter, 0,45 µm, PTFE, steril EPPENDORF, VE 5,",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-00",
+      "name": "Batterie, Lithium-Polymer, für PIPETBOY acu 2; VWR",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-01",
+      "name": "Lithium-Ionen-Akku f. Multipette, Eppendorf",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-02",
+      "name": "Akkufachdeckel für PIPETBOY acu 2",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-03",
+      "name": "PIPETBOY acu 2",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-04",
+      "name": "HandyStep touch, DE-M",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-05",
+      "name": "Ladeständer für HandyStep touch & HandyStep touch S",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM080-06",
+      "name": "Dispensette S, Digital,110ml, m. RDV",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM081-00",
+      "name": "Laborflaschen, rund, braun, mit Gewinde, DURAN VE=10",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM085-02",
+      "name": "4L Weithalsflaschen mit PP-Schraubverschluss, mit Griffmulde",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM085-03",
+      "name": "4L Ersatz-Vakuumflasche, ohne Schlauchanschlüsse",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM085-04",
+      "name": "4L Ersatz-Vakuumflasche, mit Schlauchanschlüssen",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM087-00",
+      "name": "Baumwollhandschuhe",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM087-01",
+      "name": "Strickhandschuhe",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM096-01",
+      "name": "Halogenbirne mit Sockel, 6V / 30W",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-01",
+      "name": "Lager-Box Curver Essentials 26l (transparent)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-02",
+      "name": "Lager-Box Curver Essentials 45l (transparent)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-03",
+      "name": "Lager-Box Curver Essentials 16l (transparent)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-04",
+      "name": "Lager-Box Curver Essentials 20l (transparent)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-05",
+      "name": "Lager-Box 18L, KIS Moover Pro S, blickdicht m. Deckel",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-06",
+      "name": "keeeper (OKT) bruno Eurobox XXL, 54l (transparent)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM097-07",
+      "name": "keeeper (OKT) bruno Eurobox XL, 28l (transparent)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM099-00",
+      "name": "CLA Barcodes (STR-Analyse)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM100-00",
+      "name": "ASCO Magnetventil; #325037-LT",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM101-01",
+      "name": "Mikro-Schraubröhren, 0,5 ml, braun",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM43-04",
+      "name": "Rundfilter, für Integra-PipetBOY (Art.-Nr. 153016)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "KR001-01",
+      "name": "Ethanol 96% / vergällt (5 L)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "KR137-00",
+      "name": "Triton X-100 (250 ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-01",
+      "name": "Enghalsflasche (4 ml, braun) 12 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-02",
+      "name": "Enghalsflasche (8 ml, braun) 12 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-03",
+      "name": "Enghalsflasche (15 ml, braun) 12 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-04",
+      "name": "Enghalsflasche (8 ml, natur) 72 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-05",
+      "name": "Enghalsflasche (15 ml, natur) 12 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-06",
+      "name": "Enghalsflasche (60 ml, natur) 1000 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV02-07",
+      "name": "Enghalsflasche (15 ml, natur) 2000 Stk./Pack.",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV19-04",
+      "name": "Kryoboxen, KeepIT-25™, rot",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV30-00",
+      "name": "Kryobox, PC, 133×133×52 mm, Fächer 10×10, blau",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV30-01",
+      "name": "Kryobox, PC, 133×133×52 mm, Fächer 10×10, rot",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "VV30-02",
+      "name": "Kryobox, PC, 133×133×52 mm, Fächer 10×10, gelb",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME001-02",
+      "name": "RPMI 1640, with NaHC, w/o L-Gln, phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME001-03",
+      "name": "RPMI 1640, with NaHC, phenol red, w/o L-Gln",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME001-06",
+      "name": "RPMI 1640, with GlutaMAX, phenol red, NaHC, w/o HEPES",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME001-07",
+      "name": "RPMI 1640 (ATCC modification)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME002-01",
+      "name": "Alpha MEM, w/o nucleosides",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME002-02",
+      "name": "Alpha MEM, with nucleosides",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME003-01",
+      "name": "Ham's F12, w/o L-Gln, phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME003-02",
+      "name": "Ham's F12, with phenol red, w/o L-Gln",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME003-05",
+      "name": "Ham's F12 (Kaighn's modification)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME004-01",
+      "name": "DMEM (high glucose), w/o L-Gln, phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME004-02",
+      "name": "DMEM (high glucose), with phenol red, w/o L-Gln, NaPy",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME004-03",
+      "name": "DMEM (low glucose), w/o phenol red, NaPy",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME004-04",
+      "name": "DMEM (low glucose), with phenol red, NaPy",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME004-11",
+      "name": "DMEM (high glucose), with L-Gln, phenol red, NaPy",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME005-04",
+      "name": "DMEM/F12, with HEPES, NaHC, L-Gln, w/o phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME005-10",
+      "name": "DMEM/F12, with HEPES, NaHC, phenol red, w/o L-Gln",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME005-14",
+      "name": "DMEM/F12, with NaHC, phenol red, w/o HEPES, L-Gln",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME005-15",
+      "name": "DMEM/F12, with NaPy, phenol red, w/o L-Gln, HEPES",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME005-16",
+      "name": "DMEM/F12, with stable Gln, NaPy, phenol red, w/o HEPES",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME006-02",
+      "name": "IMDM (high glucose), with HEPES, NaPy, w/o phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME006-04",
+      "name": "IMDM (high glucose), with HEPES, NaPy, phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME007-00",
+      "name": "MEM Eagle, with EBSS, with L-Gln, 1.5 g/L NaHC",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME007-01",
+      "name": "MEM Eagle, with EBSS, w/o L-Gln, 2.2 g/L NaHC",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME008-00",
+      "name": "Leibovitz-Medium L15",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME008-02",
+      "name": "McCoy's 5A",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME020-01",
+      "name": "Sodium Pyruvate (100 mM)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME020-02",
+      "name": "Sodium bicarbonate solution (7.5%)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME020-03",
+      "name": "HEPES Buffer Solution (1 M)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME022-00",
+      "name": "L-Glutamine Solution (200 mM)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME022-02",
+      "name": "Stable Glutamine (100x)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME023-00",
+      "name": "MEM NEAA (100x)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME024-00",
+      "name": "Pluronic F-68 (10%)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME025-01",
+      "name": "ß-Mercaptoethanol (50 mM)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME026-00",
+      "name": "DMSO (Dimethyl sulfoxide)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME029-01",
+      "name": "Penicillin / Streptomycin",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME029-03",
+      "name": "Tetracycline hydrochloride (fest)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME032-01",
+      "name": "Accutase, 100 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME032-02",
+      "name": "Accutase, 500 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME032-03",
+      "name": "AccuMax, 100 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME033-01",
+      "name": "TrypLE Express (5 L)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME035-00",
+      "name": "Trypsin-EDTA (0,25%), 100 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME035-02",
+      "name": "Trypsin-EDTA (0.05%), 100 ml, phenolred",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME040-03",
+      "name": "G418 Sulfate",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME042-00",
+      "name": "Puromycin (10 mg/ml), 10x 1mL",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME043-01",
+      "name": "Blasticidine (10 mg/ml)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME045-05",
+      "name": "Hygromycin B",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME046-00",
+      "name": "Zeocin",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME061-01",
+      "name": "DPBS",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME064-01",
+      "name": "Sterile Water (cell culture grade)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME080-01",
+      "name": "FBS qualified",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME080-02",
+      "name": "FBS qualified-heat inactivated (h.i.)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME081-02",
+      "name": "FBS-heat inactivated (h.i.)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME082-00",
+      "name": "FBS Low Endotoxin",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME085-01",
+      "name": "FBS (tetracyclin-free)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME089-01",
+      "name": "Horse Serum",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME258-05",
+      "name": "NFM-G2",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "BM08-2",
+      "name": "Schere groß",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "BM11-0",
+      "name": "Haftnotitzen / Post it",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "BM13-0",
+      "name": "Stifteköcher",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "BM25-0",
+      "name": "Taschenrechner Casio",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "BM25-1",
+      "name": "Taschenrechner office",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "BM27-0",
+      "name": "Papierhandtücher",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    }  
+]

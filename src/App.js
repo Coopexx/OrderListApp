@@ -24,7 +24,7 @@ function App() {
 
     const [show, setShow] = useState(false);
 
-    const url = 'https://order-list-4ecb0490f6d0.herokuapp.com/api/v1/items/';
+    const url = 'http://127.0.0.1:3000/api/v1/items';
     // http://192.168.178.22:3000/api/v1/items/
 
     //SORTING DATA
@@ -165,7 +165,6 @@ function App() {
     async function fetchItemsHandler(type) {
         const response = await fetch(url);
         const rawData = await response.json();
-        console.log(rawData);
         const data = rawData.map((dataObj) => {
             return {
                 id: dataObj._id,

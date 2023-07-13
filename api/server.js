@@ -124,22 +124,10 @@ var options = {
 };
 app.use(cors(options));
 
-app.get(
-    'https://order-list-4ecb0490f6d0.herokuapp.com//api/v1/items',
-    getItems
-);
-app.post(
-    'https://order-list-4ecb0490f6d0.herokuapp.com//api/v1/items',
-    postItem
-);
-app.patch(
-    'https://order-list-4ecb0490f6d0.herokuapp.com//api/v1/items',
-    patchItem
-);
-app.delete(
-    'https://order-list-4ecb0490f6d0.herokuapp.com//api/v1/items',
-    deleteItem
-);
+app.get('/api/v1/items', getItems);
+app.post('/api/v1/items', postItem);
+app.patch('/api/v1/items', patchItem);
+app.delete('/api/v1/items', deleteItem);
 
 //SERVER
 async function connect() {
@@ -153,10 +141,6 @@ async function connect() {
 connect();
 
 // '192.168.178.22'
-app.listen(
-    process.env.PORT || 3000,
-    'https://order-list-4ecb0490f6d0.herokuapp.com',
-    () => {
-        console.log(`App running on port ${port}`);
-    }
-);
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`App running on port ${port}`);
+});
