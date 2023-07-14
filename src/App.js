@@ -25,7 +25,7 @@ function App() {
     const [show, setShow] = useState(false);
 
 
-    const url = 'http://127.0.0.1:3000/api/v1/items';
+    const url = 'http://172.16.31.25:3001/api/v1/items';
     // http://192.168.178.22:3000/api/v1/items/
 
     //SORTING DATA

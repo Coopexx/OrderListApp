@@ -141,6 +141,6 @@ async function connect() {
 connect();
 
 // '192.168.178.22'
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT,'172.16.31.25', () => {
     console.log(`App running on port ${port}`);
 });

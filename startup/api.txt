@@ -1,0 +1,10 @@
+@ECHO OFF
+
+ECHO Starting API...
+
+CD C:\Users\acproduktion\Documents\GitHub\order-list\windows
+CD
+
+call node run .\server.js
+
+PAUSE
