@@ -64,6 +64,10 @@ const Item = (props) => {
         }
     };
 
+    const setModalHandler = () => {
+        props.modal(true);
+    };
+
     //CONDITONAL RENDERING
     const AllItems = () => {
         return (
@@ -105,7 +109,7 @@ const Item = (props) => {
                 <p className={styles.otherItems}>{props.data.amountVE}</p>
                 <p className={styles.otherItems}>{props.data.amountPC}</p>
                 <div className={styles.buttonDiv}>
-                    <button onClick={orderItemHandler} className={styles.trash}>
+                    <button onClick={orderItemHandler}>
                         <svg
                             className={styles.svg}
                             fill="#3cb043"
@@ -117,10 +121,7 @@ const Item = (props) => {
                             </g>
                         </svg>
                     </button>
-                    <button
-                        onClick={removeItemHandler}
-                        className={styles.trash}
-                    >
+                    <button onClick={removeItemHandler}>
                         <svg
                             className={styles.svg}
                             fill="#EA0B00"
@@ -143,21 +144,15 @@ const Item = (props) => {
             <div className={styles.row}>
                 <p className={styles.biggerFlex}>{props.data.name}</p>
                 <p className={styles.otherItems}>{props.data.code}</p>
-
+                <p className={styles.otherItems}>{props.data.amountVE}</p>
+                <p className={styles.otherItems}>{props.data.amountPC}</p>
                 <p className={styles.otherItems}>
                     {props.data.history[props.index].timestamp.slice(0, 10)}
                 </p>
-                <p className={styles.otherItems}>
-                    {props.data.history[props.index].amountVE}
-                </p>
-                <p className={styles.otherItems}>
-                    {props.data.history[props.index].amountPC}
-                </p>
-                <form onSubmit={formSubmitHandler}>
+                <div className={styles.buttonOrderedDiv}>
                     <button
-                        type="submit"
-                        className={styles.buttonSubmitOrdered}
-                        title="Delivered?"
+                        onClick={setModalHandler}
+                        className={styles.buttonOrdered}
                     >
                         <svg
                             className={styles.svg}
@@ -170,7 +165,7 @@ const Item = (props) => {
                             </g>
                         </svg>
                     </button>
-                </form>
+                </div>
             </div>
         );
     };

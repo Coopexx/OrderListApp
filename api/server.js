@@ -56,9 +56,11 @@ const patchItem = async (req, res) => {
         console.log(req.body);
         const updatedItemVE = await Item.findByIdAndUpdate(req.body._id, {
             amountVE: req.body.amountVE,
+            amountPC: req.body.amountPC,
         });
         const updatedItemPC = await Item.findByIdAndUpdate(req.body._id, {
             amountPC: req.body.amountPC,
+            amountVE: req.body.amountVE,
         });
 
         res.status(201).json({
@@ -140,7 +142,7 @@ async function connect() {
 }
 connect();
 
-// '192.168.178.22'
-app.listen(process.env.PORT,'172.16.31.25', () => {
+//'172.16.31.25',
+app.listen(process.env.PORT, () => {
     console.log(`App running on port ${port}`);
 });

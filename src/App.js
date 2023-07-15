@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import Item from './components/Item';
 import Navigation from './components/Navigation';
 import Description from './components/Description';
+import Modal from './components/Modal';
+// import Footer from './components/Footer';
 
 import styles from './App.module.css';
 
@@ -24,9 +26,10 @@ function App() {
 
     const [show, setShow] = useState(false);
 
+    const [modalShow, setModalShow] = useState(false);
 
-    const url = 'http://172.16.31.25:3001/api/v1/items';
-    // http://192.168.178.22:3000/api/v1/items/
+    //http://172.16.31.25:3001/api/v1/items/
+    const url = 'http://127.0.0.1:3001/api/v1/items/';
 
     //SORTING DATA
     const alphanumericSorting = (alphanumericSortingObj) => {
@@ -187,6 +190,8 @@ function App() {
             setRenderedList(toOrder);
         }
         if (type === 'ordered') {
+            // const slicedOrdered = ordered.slice(0, 10);
+            // setRenderedList(slicedOrdered);
             setRenderedList(ordered);
         }
         setListLoaded(true);
@@ -308,6 +313,34 @@ function App() {
         setShow(true);
     };
 
+    const setModalHandler = (modalState) => {
+        setModalShow(modalState);
+    };
+
+    const handleModalInput = async (modalInput) => {
+        console.log(modalInput);
+        // Modify API so for every array value there is a reserved empty field for "storage", "initials", "comment" and "delivered"
+        // Once "delivered" is true, the item can be extracted and added to the "delivered"-section
+        // Save on Click on Delivered? the current obj and log it here via state save
+        // Send logged object and modalInput to API
+        // API searches for obj and inside all paras need to be correct, and appends to array current modalInput
+
+        // try {
+        //     const response = await fetch(url, {
+        //         method: 'PATCH',
+        //         headers: {
+        //             Accept: 'application/json',
+        //             'Content-Type': 'application/json',
+        //         },
+        //         body: JSON.stringify(modalInput),
+        //     });
+        //     const content = await response.json();
+        //     setNotificationStatus(content.status);
+        // } catch (err) {
+        //     console.log(err);
+        // }
+    };
+
     useEffect(() => {
         const timer = setTimeout(() => {
             setShow(false);
@@ -423,6 +456,12 @@ function App() {
                     )}
                 </div>
             )}
+            {modalShow && (
+                <Modal
+                    modal={setModalHandler}
+                    deliveredNotes={handleModalInput}
+                />
+            )}
 
             <div className={styles.window}>
                 <Navigation
@@ -439,6 +478,7 @@ function App() {
                                     data={renderedList[i]}
                                     key={`${data.id}${index}`}
                                     mode={mode}
+                                    modal={setModalHandler}
                                     index={index}
                                     add={addAmountHandler}
                                     remove={removeAmountHandler}
@@ -452,11 +492,14 @@ function App() {
                                 data={renderedList[i]}
                                 key={data.id}
                                 mode={mode}
+                                modal={setModalHandler}
                                 add={addAmountHandler}
                                 remove={removeAmountHandler}
                             />
                         ))}
                 </div>
+                {/* Footer only for "Ordered". Needs to cut list based on latest orders */}
+                {/* <Footer></Footer> */}
             </div>
         </div>
     );

@@ -5,6 +5,7 @@ const Description = (props) => {
     const AllItems = () => {
         return (
             <React.Fragment>
+                <p className={styles.column}>Item</p>
                 <p className={`${styles.flex}`}>Exact Code</p>
                 <p className={`${styles.flex}`}></p>
             </React.Fragment>
@@ -14,6 +15,7 @@ const Description = (props) => {
     const ToOrder = () => {
         return (
             <React.Fragment>
+                <p className={styles.column}>Item</p>
                 <p className={`${styles.flex}`}>Exact Code</p>
                 <p className={`${styles.flex}`} title="VE = Volumen-Einheiten">
                     VE
@@ -29,18 +31,15 @@ const Description = (props) => {
     const Ordered = () => {
         return (
             <React.Fragment>
-                <p className={`${styles.empty}`}></p>
+                <p className={styles.column}>Item</p>
                 <p className={`${styles.flex}`}>Exact Code</p>
-                <p className={`${styles.empty2}`}></p>
-                <p className={`${styles.flex}`}>Date</p>
-                <p className={`${styles.empty3}`}></p>
                 <p className={`${styles.flex}`} title="VE = Volumen-Einheiten">
                     VE
                 </p>
-                <p className={`${styles.empty4}`}></p>
                 <p className={`${styles.flex}`} title="PC = Pieces">
                     PC
                 </p>
+                <p className={`${styles.flex}`}>Date</p>
                 <p className={`${styles.flex}`}>Delivered?</p>
             </React.Fragment>
         );
@@ -49,6 +48,7 @@ const Description = (props) => {
     const Delivered = () => {
         return (
             <React.Fragment>
+                <p className={styles.column}>Item</p>
                 <p className={`${styles.column} ${styles.flex}`}>Exact Code</p>
                 <p className={`${styles.column} ${styles.flex}`}>Ordered</p>
                 <p className={`${styles.column} ${styles.flex}`}>Delivered</p>
@@ -70,7 +70,6 @@ const Description = (props) => {
 
     return (
         <div className={styles.row}>
-            <p className={styles.column}>Item</p>
             {props.mode === 'allItems' ? <AllItems /> : ''}
             {props.mode === 'toOrder' ? <ToOrder /> : ''}
             {props.mode === 'ordered' ? <Ordered /> : ''}

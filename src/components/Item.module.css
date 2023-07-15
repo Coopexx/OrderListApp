@@ -53,7 +53,6 @@ form {
     flex: 1;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 button {
@@ -68,8 +67,8 @@ button {
     font-weight: 300;
 }
 
-.VE {
-    padding-left: 5px;
+.buttonSubmit {
+    margin-left: 2rem;
 }
 
 .add {
@@ -77,14 +76,12 @@ button {
     height: 25px;
 }
 
-.buttonSubmit {
+.buttonOrderedDiv {
+    flex: 1;
     display: flex;
-    align-items: center;
-    margin-left: 2rem;
+    justify-content: left;
 }
 
-.buttonSubmitOrdered {
-    display: flex;
-    align-items: center;
-    margin-right: 3.5rem;
+.buttonOrdered {
+    margin-left: 1.5rem;
 }
