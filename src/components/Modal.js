@@ -8,11 +8,16 @@ const Modal = (props) => {
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
-        props.deliveredNotes([
-            event.target[0].value,
-            event.target[1].value,
-            event.target[2].value,
-        ]);
+        if (
+            event.target[1].value.length > 0 &&
+            event.target[2].value.length > 0
+        ) {
+            props.deliveredNotes([
+                event.target[0].value,
+                event.target[1].value,
+                event.target[2].value,
+            ]);
+        }
     };
 
     return (
@@ -35,7 +40,7 @@ const Modal = (props) => {
                 </svg>
                 <form className={styles.textfield} onSubmit={formSubmitHandler}>
                     <p>Where is the item stored?</p>
-                    <select className={styles.dropdown}>
+                    <select className={`${styles.dropdown} ${styles.default}`}>
                         <option selected="selected">RT</option>
                         <option>4°C</option>
                         <option>-20°C</option>
@@ -44,7 +49,7 @@ const Modal = (props) => {
                     <p>Your initials</p>
                     <input
                         placeholder="HT"
-                        className={styles.initals}
+                        className={`${styles.initals} ${styles.default}`}
                         maxlength="2"
                     ></input>
                     <p>Comment</p>
@@ -53,7 +58,7 @@ const Modal = (props) => {
                         cols="40"
                         rows="4"
                         maxlength="200"
-                        className={styles.comment}
+                        className={`${styles.comment} ${styles.default}`}
                     ></textarea>
                     <button className={styles.buttonSubmit} type="submit">
                         Submit

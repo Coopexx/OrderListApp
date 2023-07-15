@@ -81,6 +81,8 @@ const Item = (props) => {
                             ref={inputRef}
                             type="number"
                             min="0"
+                            placeholder="0"
+                            max="99"
                         ></input>
                         <select className={styles.select} ref={selectionRef}>
                             <option defaultValue="VE" value="VE">
