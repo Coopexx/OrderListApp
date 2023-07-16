@@ -53,7 +53,6 @@ const postItem = async (req, res) => {};
 //PATCH ITEM
 const patchItem = async (req, res) => {
     try {
-        console.log(req.body);
         const updatedItemVE = await Item.findByIdAndUpdate(req.body._id, {
             amountVE: req.body.amountVE,
             amountPC: req.body.amountPC,
@@ -63,13 +62,23 @@ const patchItem = async (req, res) => {
             amountVE: req.body.amountVE,
         });
 
-        // const updatedHistory = await Item.findOneAndUpate('history');
-        // iterate over history array to find matching id and then update
+        const updatedHistory = await Item.updateOne(
+            { _id: req.body._id, 'history.orderId': req.body.orderId },
+            {
+                $set: {
+                    'history.$.delivered': req.body.delivered,
+                    'history.$.comment': req.body.comment,
+                    'history.$.initials': req.body.initials,
+                    'history.$.storage': req.body.storage,
+                },
+            }
+        );
 
         res.status(201).json({
             status: 'success',
             itemVE: updatedItemVE,
             itemPC: updatedItemPC,
+            history: updatedHistory,
         });
     } catch (err) {
         res.status(400).json({

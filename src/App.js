@@ -12,6 +12,7 @@ function App() {
     const [allItems, setAllItems] = useState({}); //allItems
     const [toOrder, setToOrder] = useState({}); //toOrder
     const [ordered, setOrdered] = useState({}); //ordered
+    const [delivered, setDelivered] = useState({}); //delivered
 
     const [renderedList, setRenderedList] = useState({});
     const [listLoaded, setListLoaded] = useState(false);
@@ -71,6 +72,46 @@ function App() {
         });
         return orderedObj;
     };
+
+    // const sortDelivered = (data) => {
+    //     const orderedObj = data.filter((dataObj) => {
+    //         if (dataObj.history.length > 0) {
+    //             return true;
+    //         } else {
+    //             return false;
+    //         }
+    //     });
+    //     return orderedObj;
+    // };
+
+    // const filterDelivered = (data) => {
+    //     console.log(data);
+    //     // const orderedObj = data.filter((dataObj) => {
+    //     //     if (dataObj.history.length > 0) {
+    //     //         return true;
+    //     //     } else {
+    //     //         return false;
+    //     //     }
+    //     // });
+    //     // return orderedObj;
+    //     let filtered = [];
+    //     for (let i = 0; i <= data.history.length; i++) {
+    //         // dataObj.history.delivered === true;
+    //         console.log(data.history[i]);
+    //         filtered.push(data.history[i]);
+    //     }
+
+    //     if (filtered.length !== 0) {
+    //         const filteredObj = {
+    //             _id: data.id,
+    //             code: data.code,
+    //             name: data.name,
+    //             history: filtered,
+    //         };
+    //         console.log(filteredObj);
+    //         return filteredObj;
+    //     }
+    // };
 
     const filterHandler = (searchString, type) => {
         if (type === 'allItems') {
@@ -185,6 +226,9 @@ function App() {
         setAllItems(data);
         setToOrder(sortToOrder(data));
         setOrdered(sortOrdered(data));
+        // filter allItems so only items are left that have a history and the delivered prop is true
+        // setDelivered(filterDelivered(sortDelivered(data)));
+        // console.log(delivered);
         if (type === 'allItems') {
             setRenderedList(data);
         }
@@ -195,6 +239,9 @@ function App() {
             // const slicedOrdered = ordered.slice(0, 10);
             // setRenderedList(slicedOrdered);
             setRenderedList(ordered);
+        }
+        if (type === 'delivered') {
+            setRenderedList(delivered);
         }
         setListLoaded(true);
     }
@@ -328,13 +375,6 @@ function App() {
         orderedCurrent.initials = modalInput[1];
         orderedCurrent.comment = modalInput[2];
         orderedCurrent.delivered = true;
-        console.log(orderedCurrent);
-
-        // Modify API so for every array value there is a reserved empty field for "storage", "initials", "comment", "delivered", newly created order_identifier
-        // Once "delivered" is true, the item can be extracted and added to the "delivered"-section
-        // Save on Click on Delivered? the current obj and log it here via state save
-        // Send logged object and modalInput to API
-        // API searches for obj and appends to array current modalInput
 
         try {
             const response = await fetch(url, {

@@ -13,8 +13,6 @@ const Item = (props) => {
 
     //CRUD OPERATIONS
     const orderItemHandler = () => {
-        const id = uniqueId();
-
         props.remove(
             {
                 _id: props.data.id,
@@ -23,7 +21,7 @@ const Item = (props) => {
                 amountVE: props.data.amountVE,
                 amountPC: props.data.amountPC,
                 history: {
-                    id: id,
+                    orderId: uniqueId(),
                     timestamp: new Date(),
                     amountVE: props.data.amountVE,
                     amountPC: props.data.amountPC,
@@ -79,7 +77,10 @@ const Item = (props) => {
 
     const setModalHandler = () => {
         props.modal(true);
-        props.orderedItemData(props.data.history[props.index]);
+        props.orderedItemData({
+            _id: props.data.id,
+            orderId: props.data.history[props.index].orderId,
+        });
     };
 
     //CONDITONAL RENDERING
