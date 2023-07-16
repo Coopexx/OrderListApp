@@ -28,6 +28,8 @@ function App() {
 
     const [modalShow, setModalShow] = useState(false);
 
+    const [orderedCurrent, setOrderedCurrent] = useState('');
+
     //http://172.16.31.25:3001/api/v1/items/
     const url = 'http://127.0.0.1:3001/api/v1/items/';
 
@@ -317,28 +319,37 @@ function App() {
         setModalShow(modalState);
     };
 
+    const saveOrderedItemDataHandler = (orderedItemData) => {
+        setOrderedCurrent(orderedItemData);
+    };
+
     const handleModalInput = async (modalInput) => {
-        console.log(modalInput);
-        // Modify API so for every array value there is a reserved empty field for "storage", "initials", "comment" and "delivered"
+        orderedCurrent.storage = modalInput[0];
+        orderedCurrent.initials = modalInput[1];
+        orderedCurrent.comment = modalInput[2];
+        orderedCurrent.delivered = true;
+        console.log(orderedCurrent);
+
+        // Modify API so for every array value there is a reserved empty field for "storage", "initials", "comment", "delivered", newly created order_identifier
         // Once "delivered" is true, the item can be extracted and added to the "delivered"-section
         // Save on Click on Delivered? the current obj and log it here via state save
         // Send logged object and modalInput to API
-        // API searches for obj and inside all paras need to be correct, and appends to array current modalInput
+        // API searches for obj and appends to array current modalInput
 
-        // try {
-        //     const response = await fetch(url, {
-        //         method: 'PATCH',
-        //         headers: {
-        //             Accept: 'application/json',
-        //             'Content-Type': 'application/json',
-        //         },
-        //         body: JSON.stringify(modalInput),
-        //     });
-        //     const content = await response.json();
-        //     setNotificationStatus(content.status);
-        // } catch (err) {
-        //     console.log(err);
-        // }
+        try {
+            const response = await fetch(url, {
+                method: 'PATCH',
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(orderedCurrent),
+            });
+            const content = await response.json();
+            setNotificationStatus(content.status);
+        } catch (err) {
+            console.log(err);
+        }
     };
 
     useEffect(() => {
@@ -482,6 +493,7 @@ function App() {
                                     index={index}
                                     add={addAmountHandler}
                                     remove={removeAmountHandler}
+                                    orderedItemData={saveOrderedItemDataHandler}
                                 />
                             ));
                         })}

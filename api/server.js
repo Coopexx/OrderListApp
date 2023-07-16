@@ -63,6 +63,9 @@ const patchItem = async (req, res) => {
             amountVE: req.body.amountVE,
         });
 
+        // const updatedHistory = await Item.findOneAndUpate('history');
+        // iterate over history array to find matching id and then update
+
         res.status(201).json({
             status: 'success',
             itemVE: updatedItemVE,

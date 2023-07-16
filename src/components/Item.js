@@ -5,8 +5,16 @@ const Item = (props) => {
     const inputRef = useRef(null);
     const selectionRef = useRef(null);
 
+    const uniqueId = () => {
+        const dateString = Date.now().toString(36);
+        const randomness = Math.random().toString(36).substr(2);
+        return dateString + randomness;
+    };
+
     //CRUD OPERATIONS
     const orderItemHandler = () => {
+        const id = uniqueId();
+
         props.remove(
             {
                 _id: props.data.id,
@@ -15,9 +23,14 @@ const Item = (props) => {
                 amountVE: props.data.amountVE,
                 amountPC: props.data.amountPC,
                 history: {
+                    id: id,
                     timestamp: new Date(),
                     amountVE: props.data.amountVE,
                     amountPC: props.data.amountPC,
+                    storage: '',
+                    initials: '',
+                    comment: '',
+                    delivered: false,
                 },
             },
             'order'
@@ -66,6 +79,7 @@ const Item = (props) => {
 
     const setModalHandler = () => {
         props.modal(true);
+        props.orderedItemData(props.data.history[props.index]);
     };
 
     //CONDITONAL RENDERING
@@ -82,7 +96,6 @@ const Item = (props) => {
                             type="number"
                             min="0"
                             placeholder="0"
-                            max="99"
                         ></input>
                         <select className={styles.select} ref={selectionRef}>
                             <option defaultValue="VE" value="VE">
@@ -146,8 +159,12 @@ const Item = (props) => {
             <div className={styles.row}>
                 <p className={styles.biggerFlex}>{props.data.name}</p>
                 <p className={styles.otherItems}>{props.data.code}</p>
-                <p className={styles.otherItems}>{props.data.amountVE}</p>
-                <p className={styles.otherItems}>{props.data.amountPC}</p>
+                <p className={styles.otherItems}>
+                    {props.data.history[props.index].amountVE || 0}
+                </p>
+                <p className={styles.otherItems}>
+                    {props.data.history[props.index].amountPC || 0}
+                </p>
                 <p className={styles.otherItems}>
                     {props.data.history[props.index].timestamp.slice(0, 10)}
                 </p>
