@@ -406,6 +406,10 @@ function App() {
 
     return (
         <div className={styles.background}>
+            <div className={styles.note}>
+                Currently page refreshes can be necessary to update the item
+                list
+            </div>
             {show && (
                 <div className={styles.notification}>
                     <p className={styles.notificationTagHeadline}>

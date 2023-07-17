@@ -111,3 +111,11 @@
     width: 15px;
     height: 15px;
 }
+
+.note {
+    position: absolute;
+    top: 0;
+    transform: translate(0, -50%);
+    margin-top: 2rem;
+    color: red;
+}
