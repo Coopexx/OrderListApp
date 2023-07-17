@@ -113,6 +113,7 @@ const Navigation = (props) => {
                     <form onSubmit={formSubmitHandler}>
                         <input
                             onChange={filterChangeHandler}
+                            placeholder="ITEM, CODE"
                             value={filter}
                         ></input>
                     </form>

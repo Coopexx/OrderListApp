@@ -70,6 +70,7 @@ const patchItem = async (req, res) => {
                     'history.$.comment': req.body.comment,
                     'history.$.initials': req.body.initials,
                     'history.$.storage': req.body.storage,
+                    'history.$.timestampDelivered': req.body.timestampDelivered,
                 },
             }
         );

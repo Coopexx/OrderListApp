@@ -16,7 +16,9 @@ const Modal = (props) => {
                 event.target[0].value,
                 event.target[1].value,
                 event.target[2].value,
+                new Date(),
             ]);
+            props.modal(false);
         }
     };
 
@@ -57,7 +59,7 @@ const Modal = (props) => {
                         placeholder="Detailed storage location, color of box, important notes, etc."
                         cols="40"
                         rows="4"
-                        maxlength="200"
+                        maxlength="100"
                         className={`${styles.comment} ${styles.default}`}
                     ></textarea>
                     <button className={styles.buttonSubmit} type="submit">

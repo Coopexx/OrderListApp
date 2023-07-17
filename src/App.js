@@ -70,75 +70,51 @@ function App() {
                 return false;
             }
         });
-        return orderedObj;
+
+        const filteredObj = [];
+
+        for (const data in orderedObj) {
+            if (orderedObj[data].history.length > 0) {
+                for (let i = 0; i < orderedObj[data].history.length; i++) {
+                    if (orderedObj[data].history[i].delivered === false) {
+                        filteredObj.push({
+                            name: orderedObj[data].name,
+                            code: orderedObj[data].code,
+                            amountVE: orderedObj[data].amountVE,
+                            amountPC: orderedObj[data].amountPC,
+                            id: orderedObj[data].id,
+                            history: [orderedObj[data].history[i]],
+                        });
+                    }
+                }
+            }
+        }
+
+        return filteredObj;
     };
 
-    // const sortDelivered = (data) => {
-    //     const orderedObj = data.filter((dataObj) => {
-    //         if (dataObj.history.length > 0) {
-    //             return true;
-    //         } else {
-    //             return false;
-    //         }
-    //     });
-    //     return orderedObj;
-    // };
-
-    // const filterDelivered = (data) => {
-    //     console.log(data);
-    //     // const orderedObj = data.filter((dataObj) => {
-    //     //     if (dataObj.history.length > 0) {
-    //     //         return true;
-    //     //     } else {
-    //     //         return false;
-    //     //     }
-    //     // });
-    //     // return orderedObj;
-    //     let filtered = [];
-    //     for (let i = 0; i <= data.history.length; i++) {
-    //         // dataObj.history.delivered === true;
-    //         console.log(data.history[i]);
-    //         filtered.push(data.history[i]);
-    //     }
-
-    //     if (filtered.length !== 0) {
-    //         const filteredObj = {
-    //             _id: data.id,
-    //             code: data.code,
-    //             name: data.name,
-    //             history: filtered,
-    //         };
-    //         console.log(filteredObj);
-    //         return filteredObj;
-    //     }
-    // };
+    const sortDelivered = (dataObj) => {
+        const filteredData = [];
+        for (const data in dataObj) {
+            if (dataObj[data].history.length > 0) {
+                for (let i = 0; i < dataObj[data].history.length; i++) {
+                    if (dataObj[data].history[i].delivered === true) {
+                        filteredData.push({
+                            name: dataObj[data].name,
+                            code: dataObj[data].code,
+                            id: dataObj[data].id,
+                            history: dataObj[data].history[i],
+                        });
+                    }
+                }
+            }
+        }
+        return filteredData;
+    };
 
     const filterHandler = (searchString, type) => {
         if (type === 'allItems') {
             const filteredList = allItems.filter((data) => {
-                if (
-                    data.name
-                        .toLowerCase()
-                        .replace(/\s/g, '')
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
-                }
-                if (
-                    data.code
-                        .toLowerCase()
-                        .replace(/\s/g, '')
-                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
-                ) {
-                    return true;
-                } else {
-                    return false;
-                }
-            });
-            setRenderedList(filteredList);
-        }
-        if (type === 'toOrder') {
-            const filteredList = toOrder.filter((data) => {
                 if (
                     data.name
                         .toLowerCase()
@@ -206,6 +182,29 @@ function App() {
             });
             setRenderedList(filteredList);
         }
+        if (type === 'delivered') {
+            const filteredList = delivered.filter((data) => {
+                if (
+                    data.name
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                }
+                if (
+                    data.code
+                        .toLowerCase()
+                        .replace(/\s/g, '')
+                        .includes(searchString.toLowerCase().replace(/\s/g, ''))
+                ) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            setRenderedList(filteredList);
+        }
     };
 
     //FETCH DATA
@@ -226,9 +225,9 @@ function App() {
         setAllItems(data);
         setToOrder(sortToOrder(data));
         setOrdered(sortOrdered(data));
-        // filter allItems so only items are left that have a history and the delivered prop is true
-        // setDelivered(filterDelivered(sortDelivered(data)));
-        // console.log(delivered);
+        const filteredDelivered = sortDelivered(data);
+        setDelivered(filteredDelivered);
+
         if (type === 'allItems') {
             setRenderedList(data);
         }
@@ -261,19 +260,17 @@ function App() {
         }
         if (type === 'ordered') {
             fetchItemsHandler('ordered');
-            setRenderedList(ordered);
             setCheckOrdered(true);
         }
         if (type === 'delivered') {
-            fetchItemsHandler('allItems');
-            setRenderedList(allItems);
+            fetchItemsHandler('delivered');
+            setRenderedList(delivered);
             setCheckOrdered(false);
         }
     };
 
     //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj, type) => {
-        console.log(dataObj);
         setNotificationItem(dataObj);
         setNotificationType('add');
         if (type === 'VE') {
@@ -359,6 +356,7 @@ function App() {
         });
         setToOrder(updatedToOrder);
         setRenderedList(updatedToOrder);
+
         setShow(true);
     };
 
@@ -374,6 +372,7 @@ function App() {
         orderedCurrent.storage = modalInput[0];
         orderedCurrent.initials = modalInput[1];
         orderedCurrent.comment = modalInput[2];
+        orderedCurrent.timestampDelivered = modalInput[3];
         orderedCurrent.delivered = true;
 
         try {

@@ -49,21 +49,18 @@ const Description = (props) => {
         return (
             <React.Fragment>
                 <p className={styles.column}>Item</p>
-                <p className={`${styles.column} ${styles.flex}`}>Exact Code</p>
-                <p className={`${styles.column} ${styles.flex}`}>Ordered</p>
-                <p className={`${styles.column} ${styles.flex}`}>Delivered</p>
-                <p
-                    className={`${styles.column} ${styles.flex}`}
-                    title="VE = Volumen-Einheiten"
-                >
+                <p className={`${styles.biggerFlex}`}>Exact Code</p>
+                <p className={`${styles.flex}`} title="VE = Volumen-Einheiten">
                     VE
                 </p>
-                <p
-                    className={`${styles.column} ${styles.flex}`}
-                    title="PC = Pieces"
-                >
+                <p className={`${styles.flex}`} title="PC = Pieces">
                     PC
                 </p>
+                <p className={`${styles.biggerFlex}`}>Ordered</p>
+                <p className={`${styles.biggerFlex}`}>Delivered</p>
+                <p className={`${styles.biggerFlex}`}>Initials</p>
+                <p className={`${styles.biggerFlex}`}>Storage</p>
+                <p className={`${styles.column}`}>Comment</p>
             </React.Fragment>
         );
     };

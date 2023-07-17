@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import styles from './Item.module.css';
 
 const Item = (props) => {
@@ -12,7 +12,8 @@ const Item = (props) => {
     };
 
     //CRUD OPERATIONS
-    const orderItemHandler = () => {
+    const orderItemHandler = (event) => {
+        event.preventDefault();
         props.remove(
             {
                 _id: props.data.id,
@@ -22,9 +23,9 @@ const Item = (props) => {
                 amountPC: props.data.amountPC,
                 history: {
                     orderId: uniqueId(),
-                    timestamp: new Date(),
-                    amountVE: props.data.amountVE,
-                    amountPC: props.data.amountPC,
+                    timestampOrdered: new Date(),
+                    amountVE: props.data.amountVE || 0,
+                    amountPC: props.data.amountPC || 0,
                     storage: '',
                     initials: '',
                     comment: '',
@@ -34,7 +35,8 @@ const Item = (props) => {
             'order'
         );
     };
-    const removeItemHandler = () => {
+    const removeItemHandler = (event) => {
+        event.preventDefault();
         props.remove(
             {
                 _id: props.data.id,
@@ -75,7 +77,8 @@ const Item = (props) => {
         }
     };
 
-    const setModalHandler = () => {
+    const setModalHandler = (event) => {
+        event.preventDefault();
         props.modal(true);
         props.orderedItemData({
             _id: props.data.id,
@@ -167,7 +170,10 @@ const Item = (props) => {
                     {props.data.history[props.index].amountPC || 0}
                 </p>
                 <p className={styles.otherItems}>
-                    {props.data.history[props.index].timestamp.slice(0, 10)}
+                    {props.data.history[props.index].timestampOrdered.slice(
+                        0,
+                        10
+                    )}
                 </p>
                 <div className={styles.buttonOrderedDiv}>
                     <button
@@ -189,6 +195,36 @@ const Item = (props) => {
             </div>
         );
     };
+
+    const Delivered = () => {
+        return (
+            <div className={styles.row}>
+                <p className={styles.biggerFlex}>{props.data.name}</p>
+                <p className={styles.mediumFlex}>{props.data.code}</p>
+                <p className={styles.otherItems}>
+                    {props.data.history.amountVE}
+                </p>
+                <p className={styles.otherItems}>
+                    {props.data.history.amountPC}
+                </p>
+                <p className={styles.mediumFlex}>
+                    {props.data.history.timestampOrdered.slice(0, 10)}
+                </p>
+                <p className={styles.mediumFlex}>
+                    {props.data.history.timestampDelivered.slice(0, 10)}
+                </p>
+                <p className={styles.mediumFlex}>
+                    {props.data.history.initials}
+                </p>
+                <p className={styles.mediumFlex}>
+                    {props.data.history.storage}
+                </p>
+                <p className={styles.biggerFlex}>
+                    {props.data.history.comment}
+                </p>
+            </div>
+        );
+    };
     return (
         <React.Fragment>
             {props.mode === 'allItems' ? <AllItems /> : ''}
@@ -198,6 +234,7 @@ const Item = (props) => {
             ) : (
                 ''
             )}
+            {props.mode === 'delivered' ? <Delivered /> : ''}
         </React.Fragment>
     );
 };

@@ -21,3 +21,8 @@
     width: 25px;
     height: 25px;
 }
+
+.biggerFlex {
+    flex: 2;
+    text-align: left;
+}
