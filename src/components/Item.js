@@ -100,14 +100,15 @@ const Item = (props) => {
                             type="number"
                             min="0"
                             placeholder="0"
+                            title='Amount'
                         ></input>
-                        <select className={styles.select} ref={selectionRef}>
+                        <select className={styles.select} ref={selectionRef} title='VE = Verpackungs-Einheiten; PC = Pieces'>
                             <option defaultValue="VE" value="VE">
                                 VE
                             </option>
                             <option value="PC">PC</option>
                         </select>
-                        <button type="submit" className={styles.buttonSubmit}>
+                        <button type="submit" className={styles.buttonSubmit} title='Add to "toOrder"'>
                             <svg className={styles.add} viewBox="0 0 32 32">
                                 <g fill="#3cb043">
                                     <path d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z"></path>
@@ -128,7 +129,7 @@ const Item = (props) => {
                 <p className={styles.otherItems}>{props.data.amountVE}</p>
                 <p className={styles.otherItems}>{props.data.amountPC}</p>
                 <div className={styles.buttonDiv}>
-                    <button onClick={orderItemHandler}>
+                    <button onClick={orderItemHandler} title='Order item'>
                         <svg
                             className={styles.svg}
                             fill="#3cb043"
@@ -140,7 +141,7 @@ const Item = (props) => {
                             </g>
                         </svg>
                     </button>
-                    <button onClick={removeItemHandler}>
+                    <button onClick={removeItemHandler} title='Remove from "toOrder"'>
                         <svg
                             className={styles.svg}
                             fill="#EA0B00"
@@ -179,6 +180,7 @@ const Item = (props) => {
                     <button
                         onClick={setModalHandler}
                         className={styles.buttonOrdered}
+                        title='Mark item as "delivered"'
                     >
                         <svg
                             className={styles.svg}

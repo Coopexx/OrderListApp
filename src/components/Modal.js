@@ -42,7 +42,7 @@ const Modal = (props) => {
                 </svg>
                 <form className={styles.textfield} onSubmit={formSubmitHandler}>
                     <p>Where is the item stored?</p>
-                    <select className={`${styles.dropdown} ${styles.default}`}>
+                    <select className={`${styles.dropdown} ${styles.default}`} title='RT = Room Temperature'>
                         <option selected="selected">RT</option>
                         <option>4°C</option>
                         <option>-20°C</option>

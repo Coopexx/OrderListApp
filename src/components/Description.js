@@ -17,7 +17,7 @@ const Description = (props) => {
             <React.Fragment>
                 <p className={styles.column}>Item</p>
                 <p className={`${styles.flex}`}>Exact Code</p>
-                <p className={`${styles.flex}`} title="VE = Volumen-Einheiten">
+                <p className={`${styles.flex}`} title="VE = Verpackungs-Einheiten">
                     VE
                 </p>
                 <p className={`${styles.flex}`} title="PC = Pieces">
@@ -33,7 +33,7 @@ const Description = (props) => {
             <React.Fragment>
                 <p className={styles.column}>Item</p>
                 <p className={`${styles.flex}`}>Exact Code</p>
-                <p className={`${styles.flex}`} title="VE = Volumen-Einheiten">
+                <p className={`${styles.flex}`} title="VE = Verpackungs-Einheiten">
                     VE
                 </p>
                 <p className={`${styles.flex}`} title="PC = Pieces">
@@ -50,7 +50,7 @@ const Description = (props) => {
             <React.Fragment>
                 <p className={styles.column}>Item</p>
                 <p className={`${styles.biggerFlex}`}>Exact Code</p>
-                <p className={`${styles.flex}`} title="VE = Volumen-Einheiten">
+                <p className={`${styles.flex}`} title="VE = Verpackungs-Einheiten">
                     VE
                 </p>
                 <p className={`${styles.flex}`} title="PC = Pieces">
