@@ -31,8 +31,8 @@ function App() {
 
     const [orderedCurrent, setOrderedCurrent] = useState('');
 
-    //http://127.0.0.1:3001/api/v1/items/
-    const url = 'http://172.16.31.100:3001/api/v1/items/';
+    //http://172.16.31.100:3001/api/v1/items/
+    const url = 'http://127.0.0.1:3001/api/v1/items/';
 
     //SORTING DATA
     const alphanumericSorting = (alphanumericSortingObj) => {
@@ -260,6 +260,7 @@ function App() {
         }
         if (type === 'ordered') {
             fetchItemsHandler('ordered');
+            setRenderedList(ordered);
             setCheckOrdered(true);
         }
         if (type === 'delivered') {
@@ -346,6 +347,19 @@ function App() {
             } catch (err) {
                 console.log(err);
             }
+
+            const updatedOrdered = [];
+            dataObj.history.timestampOrdered =
+                dataObj.history.timestampOrdered.toISOString();
+            updatedOrdered.push(...ordered, {
+                id: dataObj._id,
+                name: dataObj.name,
+                code: dataObj.code,
+                amountVE: dataObj.amountVE,
+                amountPC: dataObj.amountPC,
+                history: [dataObj.history],
+            });
+            setOrdered(updatedOrdered);
         }
         const updatedToOrder = toOrder.filter((item) => {
             if (item.id === dataObj._id) {
@@ -389,6 +403,37 @@ function App() {
         } catch (err) {
             console.log(err);
         }
+
+        const updatedDelivered = [];
+
+        updatedDelivered.push(...delivered, {
+            id: orderedCurrent._id,
+            code: orderedCurrent.code,
+            name: orderedCurrent.name,
+            history: {
+                amountPC: orderedCurrent.amountPC,
+                amountVE: orderedCurrent.amountVE,
+                comment: orderedCurrent.comment,
+                delivered: orderedCurrent.delivered,
+                intials: orderedCurrent.initials,
+                orderId: orderedCurrent.orderId,
+                storage: orderedCurrent.storage,
+                timestampDelivered:
+                    orderedCurrent.timestampDelivered.toISOString(),
+                timestampOrdered: orderedCurrent.timestampOrdered,
+            },
+        });
+
+        const updatedOrdered = ordered.filter((item) => {
+            if (item.history[0].orderId === orderedCurrent.orderId) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+        setOrdered(updatedOrdered);
+        setRenderedList(updatedOrdered);
+        setDelivered(updatedDelivered);
     };
 
     useEffect(() => {
@@ -406,9 +451,6 @@ function App() {
 
     return (
         <div className={styles.background}>
-            <div className={styles.note}>
-                Important Note: Reload List By Double-Clicking Section Header
-            </div>
             {show && (
                 <div className={styles.notification}>
                     <p className={styles.notificationTagHeadline}>
