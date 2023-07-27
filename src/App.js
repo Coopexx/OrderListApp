@@ -384,7 +384,7 @@ function App() {
 
     const handleModalInput = async (modalInput) => {
         orderedCurrent.storage = modalInput[0];
-        orderedCurrent.initials = modalInput[1];
+        orderedCurrent.initials = modalInput[1].toUpperCase();
         orderedCurrent.comment = modalInput[2];
         orderedCurrent.timestampDelivered = modalInput[3];
         orderedCurrent.delivered = true;
@@ -431,7 +431,6 @@ function App() {
                 return true;
             }
         });
-        setOrdered(updatedOrdered);
         setRenderedList(updatedOrdered);
         setDelivered(updatedDelivered);
     };
