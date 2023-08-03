@@ -104,6 +104,7 @@ function App() {
                             code: dataObj[data].code,
                             id: dataObj[data].id,
                             history: dataObj[data].history[i],
+                            orderId: dataObj[data].history[i].orderId,
                         });
                     }
                 }
@@ -585,7 +586,7 @@ function App() {
                         renderedList.map((data, i) => (
                             <Item
                                 data={renderedList[i]}
-                                key={data.id}
+                                key={`${data.id}${Math.random()}`}
                                 mode={mode}
                                 modal={setModalHandler}
                                 add={addAmountHandler}
