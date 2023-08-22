@@ -31,8 +31,8 @@ function App() {
 
     const [orderedCurrent, setOrderedCurrent] = useState('');
 
-    //http://127.0.0.1:3001/api/v1/items/
-    const url = 'http://172.16.31.100:3001/api/v1/items/';
+    //http://172.16.31.100:3001/api/v1/items/
+    const url = 'http://127.0.0.1:3001/api/v1/items/';
 
     //SORTING DATA
     const alphanumericSorting = (alphanumericSortingObj) => {
@@ -271,6 +271,27 @@ function App() {
         }
     };
 
+    const updateToOrder = (dataObj, identifier) => {
+        const updatedToOrder = toOrder.filter((item) => {
+            if (item.id === dataObj._id) {
+                return false;
+            } else {
+                return true;
+            }
+        });
+        if (identifier === 'add') {
+            updatedToOrder.push({
+                id: dataObj._id,
+                name: dataObj.name,
+                code: dataObj.code,
+                amountVE: dataObj.amountVE,
+                amountPC: dataObj.amountPC,
+            });
+        }
+        setToOrder(updatedToOrder);
+        setRenderedList(updatedToOrder);
+    };
+
     //POSTING & UPDATING DATA
     const addAmountHandler = async (dataObj, type) => {
         setNotificationItem(dataObj);
@@ -290,6 +311,9 @@ function App() {
             } catch (err) {
                 console.log(err);
             }
+            modeHandler('allItems');
+            fetchItemsHandler('allItems');
+            setShow(true);
         }
         if (type === 'PC') {
             try {
@@ -306,10 +330,27 @@ function App() {
             } catch (err) {
                 console.log(err);
             }
+            modeHandler('allItems');
+            fetchItemsHandler('allItems');
+            setShow(true);
         }
-        modeHandler('allItems');
-        fetchItemsHandler('allItems');
-        setShow(true);
+        if (type === 'both') {
+            try {
+                const response = await fetch(url, {
+                    method: 'PATCH',
+                    headers: {
+                        Accept: 'application/json',
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(dataObj),
+                });
+                const content = await response.json();
+                console.log(content);
+            } catch (err) {
+                console.log(err);
+            }
+            updateToOrder(dataObj, 'add');
+        }
     };
 
     const removeAmountHandler = async (dataObj, type) => {
@@ -330,6 +371,7 @@ function App() {
             } catch (err) {
                 console.log(err);
             }
+            updateToOrder(dataObj, 'delete');
         }
         if (type === 'order') {
             setNotificationItem(dataObj);
@@ -361,17 +403,8 @@ function App() {
                 history: [dataObj.history],
             });
             setOrdered(updatedOrdered);
+            updateToOrder(dataObj, 'delete');
         }
-        const updatedToOrder = toOrder.filter((item) => {
-            if (item.id === dataObj._id) {
-                return false;
-            } else {
-                return true;
-            }
-        });
-        setToOrder(updatedToOrder);
-        setRenderedList(updatedToOrder);
-
         setShow(true);
     };
 

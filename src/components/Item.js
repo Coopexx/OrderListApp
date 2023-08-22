@@ -1,9 +1,13 @@
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from './Item.module.css';
 
 const Item = (props) => {
     const inputRef = useRef(null);
+    const inputRefAmountVE = useRef(null);
+    const inputRefAmountPC = useRef(null);
     const selectionRef = useRef(null);
+
+    const [changeAmount, setChangeAmount] = useState(false);
 
     const uniqueId = () => {
         const dateString = Date.now().toString(36);
@@ -47,6 +51,56 @@ const Item = (props) => {
             },
             'delete'
         );
+    };
+
+    const editItemHandler = (event) => {
+        event.preventDefault();
+        setChangeAmount(!changeAmount);
+        if (changeAmount) {
+            const refAmountVE = Number(inputRefAmountVE.current.value);
+            const refAmountPC = Number(inputRefAmountPC.current.value);
+            //if statements don't work properly
+            if (
+                refAmountVE !== props.data.amountVE &&
+                refAmountPC !== props.data.amountPC
+            ) {
+                console.log('VE + PC');
+                props.add(
+                    {
+                        _id: props.data.id,
+                        name: props.data.name,
+                        code: props.data.code,
+                        amountVE: refAmountVE,
+                        amountPC: refAmountPC,
+                    },
+                    'both'
+                );
+            } else if (refAmountVE !== props.data.amountVE) {
+                console.log('VE');
+                props.add(
+                    {
+                        _id: props.data.id,
+                        name: props.data.name,
+                        code: props.data.code,
+                        amountVE: refAmountVE,
+                        amountPC: props.data.amountPC,
+                    },
+                    'both'
+                );
+            } else if (refAmountPC !== props.data.amountPC) {
+                console.log('PC');
+                props.add(
+                    {
+                        _id: props.data.id,
+                        name: props.data.name,
+                        code: props.data.code,
+                        amountVE: props.data.amountVE,
+                        amountPC: refAmountPC,
+                    },
+                    'both'
+                );
+            }
+        }
     };
 
     const formSubmitHandler = (event) => {
@@ -140,37 +194,92 @@ const Item = (props) => {
             <div className={styles.row}>
                 <p className={styles.biggerFlex}>{props.data.name}</p>
                 <p className={styles.otherItems}>{props.data.code}</p>
-                <p className={styles.otherItems}>{props.data.amountVE}</p>
-                <p className={styles.otherItems}>{props.data.amountPC}</p>
+                {changeAmount && (
+                    <React.Fragment>
+                        <div className={styles.otherItems}>
+                            <input
+                                className={styles.input}
+                                ref={inputRefAmountVE}
+                                type="number"
+                                min="0"
+                                placeholder={props.data.amountVE}
+                                title="Amount"
+                            ></input>
+                        </div>
+                        <div className={styles.otherItems}>
+                            <input
+                                className={styles.input}
+                                ref={inputRefAmountPC}
+                                type="number"
+                                min="0"
+                                placeholder={props.data.amountPC}
+                                title="Amount"
+                            ></input>
+                        </div>
+                    </React.Fragment>
+                )}
+                {!changeAmount && (
+                    <React.Fragment>
+                        <p className={styles.otherItems}>
+                            {props.data.amountVE}
+                        </p>
+                        <p className={styles.otherItems}>
+                            {props.data.amountPC}
+                        </p>
+                    </React.Fragment>
+                )}
+
                 <div className={styles.buttonDiv}>
-                    <button onClick={orderItemHandler} title="Order item">
+                    {!changeAmount && (
+                        <React.Fragment>
+                            <button
+                                onClick={orderItemHandler}
+                                title="Order item"
+                            >
+                                <svg
+                                    className={styles.svg}
+                                    fill="#3cb043"
+                                    viewBox="0 0 32 32"
+                                >
+                                    <g id="SVGRepo_iconCarrier">
+                                        {' '}
+                                        <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+                                    </g>
+                                </svg>
+                            </button>
+                        </React.Fragment>
+                    )}
+                    <button onClick={editItemHandler} title="Edit from order">
                         <svg
                             className={styles.svg}
-                            fill="#3cb043"
+                            fill="#FA8128"
                             viewBox="0 0 32 32"
                         >
-                            <g id="SVGRepo_iconCarrier">
-                                {' '}
-                                <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+                            <g id="icon-pencil" viewBox="0 0 32 32">
+                                <path d="M27 0c2.761 0 5 2.239 5 5 0 1.126-0.372 2.164-1 3l-2 2-7-7 2-2c0.836-0.628 1.874-1 3-1zM2 23l-2 9 9-2 18.5-18.5-7-7-18.5 18.5zM22.362 11.362l-14 14-1.724-1.724 14-14 1.724 1.724z"></path>
                             </g>
                         </svg>
                     </button>
-                    <button
-                        onClick={removeItemHandler}
-                        title='Remove from "toOrder"'
-                    >
-                        <svg
-                            className={styles.svg}
-                            fill="#EA0B00"
-                            viewBox="0 0 32 32"
-                        >
-                            <g id="SVGRepo_iconCarrier">
-                                {' '}
-                                <path d="M4 10v20c0 1.1 0.9 2 2 2h18c1.1 0 2-0.9 2-2v-20h-22zM10 28h-2v-14h2v14zM14 28h-2v-14h2v14zM18 28h-2v-14h2v14zM22 28h-2v-14h2v14z"></path>
-                                <path d="M26.5 4h-6.5v-2.5c0-0.825-0.675-1.5-1.5-1.5h-7c-0.825 0-1.5 0.675-1.5 1.5v2.5h-6.5c-0.825 0-1.5 0.675-1.5 1.5v2.5h26v-2.5c0-0.825-0.675-1.5-1.5-1.5zM18 4h-6v-1.975h6v1.975z"></path>
-                            </g>
-                        </svg>
-                    </button>
+                    {!changeAmount && (
+                        <React.Fragment>
+                            <button
+                                onClick={removeItemHandler}
+                                title='Remove from "toOrder"'
+                            >
+                                <svg
+                                    className={styles.svg}
+                                    fill="#EA0B00"
+                                    viewBox="0 0 32 32"
+                                >
+                                    <g id="SVGRepo_iconCarrier">
+                                        {' '}
+                                        <path d="M4 10v20c0 1.1 0.9 2 2 2h18c1.1 0 2-0.9 2-2v-20h-22zM10 28h-2v-14h2v14zM14 28h-2v-14h2v14zM18 28h-2v-14h2v14zM22 28h-2v-14h2v14z"></path>
+                                        <path d="M26.5 4h-6.5v-2.5c0-0.825-0.675-1.5-1.5-1.5h-7c-0.825 0-1.5 0.675-1.5 1.5v2.5h-6.5c-0.825 0-1.5 0.675-1.5 1.5v2.5h26v-2.5c0-0.825-0.675-1.5-1.5-1.5zM18 4h-6v-1.975h6v1.975z"></path>
+                                    </g>
+                                </svg>
+                            </button>
+                        </React.Fragment>
+                    )}
                 </div>
             </div>
         );

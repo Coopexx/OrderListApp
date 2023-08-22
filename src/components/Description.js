@@ -45,7 +45,7 @@ const Description = (props) => {
                 <p className={`${styles.flex}`} title="PC = Pieces">
                     PC
                 </p>
-                <p className={`${styles.flex}`}>Date</p>
+                <p className={`${styles.flex}`}>Date Ordered</p>
                 <p className={`${styles.flex}`}>Delivered?</p>
             </React.Fragment>
         );
@@ -65,8 +65,8 @@ const Description = (props) => {
                 <p className={`${styles.flex}`} title="PC = Pieces">
                     PC
                 </p>
-                <p className={`${styles.biggerFlex}`}>Ordered</p>
-                <p className={`${styles.biggerFlex}`}>Delivered</p>
+                <p className={`${styles.biggerFlex}`}>Date Ordered</p>
+                <p className={`${styles.biggerFlex}`}>Date Delivered</p>
                 <p className={`${styles.biggerFlex}`}>Initials</p>
                 <p className={`${styles.biggerFlex}`}>Storage</p>
                 <p className={`${styles.column}`}>Comment</p>

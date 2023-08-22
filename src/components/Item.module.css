@@ -5,7 +5,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type='number'] {
+.input[type='number'] {
     width: 2rem;
     margin-right: 0.5rem;
     text-align: center;
