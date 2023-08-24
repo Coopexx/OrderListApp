@@ -52,7 +52,7 @@ const Modal = (props) => {
                     <input
                         placeholder="HT"
                         className={`${styles.initals} ${styles.default}`}
-                        maxlength="2"
+                        maxlength="3"
                     ></input>
                     <p>Comment</p>
                     <textarea
