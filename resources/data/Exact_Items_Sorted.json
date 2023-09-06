@@ -890,14 +890,21 @@
     },
     {
       "code": "LM042-01",
-      "name": "Centrifugation Tube (15 ml)",
+      "name": "Centrifugation Tube (15 ml) (Falcon)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME022-01",
+      "name": "GlutaMAX",
       "amountVE": "0",
       "amountPC": "0",
       "history": []
     },
     {
       "code": "LM042-02",
-      "name": "Centrifugation Tube (50 ml)",
+      "name": "Centrifugation Tube (50 ml) (Falcon)",
       "amountVE": "0",
       "amountPC": "0",
       "history": []
