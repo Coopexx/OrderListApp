@@ -861,6 +861,20 @@
       "history": []
     },
     {
+      "code": "ME016-04",
+      "name": "CryoStor CS10",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME001-09",
+      "name": "RPMI 1640 with HEPES, L-Gln., NaHC, phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
       "code": "LM041-03",
       "name": "Serologische Pipette 2 ml",
       "amountVE": "0",
