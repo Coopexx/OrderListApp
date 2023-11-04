@@ -627,9 +627,9 @@ function App() {
                             />
                         ))}
                 </div>
-                {/* Footer only for "Ordered". Needs to cut list based on latest orders */}
-                {/* <Footer></Footer> */}
+                
             </div>
+            <p className={styles.copyright}>Created By Hendrik Treuner, 2023</p> 
         </div>
     );
 }
