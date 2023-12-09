@@ -861,11 +861,33 @@
         "history": []
     },
     {
+<<<<<<< HEAD
         "code": "LM041-02",
         "name": "Serologische Pipette 25 ml",
         "amountVE": "0",
         "amountPC": "0",
         "history": []
+=======
+      "code": "ME016-04",
+      "name": "CryoStor CS10",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME001-09",
+      "name": "RPMI 1640 with HEPES, L-Gln., NaHC, phenol red",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM041-03",
+      "name": "Serologische Pipette 2 ml",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+>>>>>>> a201329d9e87a185124533ba53bce683ce9032fc
     },
     {
         "code": "LM041-03",
@@ -889,6 +911,7 @@
         "history": []
     },
     {
+<<<<<<< HEAD
         "code": "LM041-06",
         "name": "Serologische Pipette 1 ml",
         "amountVE": "0",
@@ -901,6 +924,27 @@
         "amountVE": "0",
         "amountPC": "0",
         "history": []
+=======
+      "code": "LM042-01",
+      "name": "Centrifugation Tube (15 ml) (Falcon)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "ME022-01",
+      "name": "GlutaMAX",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+    },
+    {
+      "code": "LM042-02",
+      "name": "Centrifugation Tube (50 ml) (Falcon)",
+      "amountVE": "0",
+      "amountPC": "0",
+      "history": []
+>>>>>>> a201329d9e87a185124533ba53bce683ce9032fc
     },
     {
         "code": "LM042-02",
