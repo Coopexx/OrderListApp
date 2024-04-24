@@ -33,5 +33,3 @@ FrontEnd - React.js
 ## License & Legal Terms
 
 The project runs under the MIT license.
-This is a product developed with and for @acCELLerate GmbH.
-Created by Hendrik Treuner
